@@ -1,0 +1,19 @@
+{
+  "name": "goodfood",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "repository": "https://github.com/heroku/node-js-getting-started.git",
+  "author": "Anatoliy <anatoliypuss5@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
