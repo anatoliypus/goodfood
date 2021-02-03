@@ -45,7 +45,7 @@ async function processAllProducts(data) {
     fs.writeFile(path.join(__dirname, 'productsPage.txt'), data, (e) => {
         if (e) throw new Error;
     });
-    const python = spawn('python', ['parseProducts.py']);
+    const python = spawn('python', ['parsers/parseProducts.py']);
     return await new Promise((resolve) => {
         python.stdout.on('data', (res) => {
             resolve(res.toString());
@@ -58,7 +58,7 @@ async function processProductCard(data) {
     fs.writeFile(path.join(__dirname, 'productCard.txt'), data, (e) => {
         if (e) throw new Error;
     });
-    const python = spawn('python', ['parseProductCard.py']);
+    const python = spawn('python', ['parsers/parseProductCard.py']);
     return await new Promise((resolve) => {
         python.stdout.on('data', (res) => {
             resolve(res.toString());

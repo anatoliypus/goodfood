@@ -2503,11 +2503,11 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
   <div class="advertizing__aside-info-widget">
     <ul class="breadcrumbs">
       <li><a href="https://eda.ru/media">Идеи</a></li>
-      <li><a href="https://eda.ru/media/opit">Опыт</a></li>
+      <li><a href="https://eda.ru/media/vnesezonnye-recepty">Внесезонные рецепты</a></li>
     </ul>
-    <h3><a class="title" href="https://eda.ru/media/opit/cherstvyy-hleb-uvyadshaya-zelen-i-potekshie-yagody">Черствый хлеб, увядшая зелень и потекшие ягоды</a></h3>
+    <h3><a class="title" href="https://eda.ru/media/vnesezonnye-recepty/ryba-v-duhovke">Рыба в духовке</a></h3>
     <p class="lead">
-      Что делать с оставшейся после праздника едой
+      Как запечь целиком осетра, семгу, карпа, камбалу и других рыб
     </p>
   </div>
   <div class="js-advertizing__observer">
@@ -2612,11 +2612,11 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
 
 
 
-      <div class="horizontal-tile__item-specifications random-class-930777e8-f395-485e-9007-306d4107c046">
+      <div class="horizontal-tile__item-specifications random-class-9a244e6d-bdf9-4eb2-9bc5-8e45e2cdf442">
         <div class="inline-dropdown js-toggle-class"
              data-toggle-class-options='{
                 "toggleClass": "inline-dropdown_active",
-                "toggleObj": "random-class-930777e8-f395-485e-9007-306d4107c046"
+                "toggleObj": "random-class-9a244e6d-bdf9-4eb2-9bc5-8e45e2cdf442"
               }'>
           6 ингредиентов
           <svg class="inline-dropdown__icon">
@@ -2870,11 +2870,11 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
 
 
 
-      <div class="horizontal-tile__item-specifications random-class-5503ab11-fe5a-4d7f-bfe8-ceb05b9a4591">
+      <div class="horizontal-tile__item-specifications random-class-7485586a-98d2-4818-aab7-54b71b80544b">
         <div class="inline-dropdown js-toggle-class"
              data-toggle-class-options='{
                 "toggleClass": "inline-dropdown_active",
-                "toggleObj": "random-class-5503ab11-fe5a-4d7f-bfe8-ceb05b9a4591"
+                "toggleObj": "random-class-7485586a-98d2-4818-aab7-54b71b80544b"
               }'>
           5 ингредиентов
           <svg class="inline-dropdown__icon">
@@ -3126,11 +3126,11 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
 
 
 
-      <div class="horizontal-tile__item-specifications random-class-fb392bd8-2ddf-4371-8a4e-b615538aa4c5">
+      <div class="horizontal-tile__item-specifications random-class-cc70d949-1b96-4c98-87fd-ea2bdd5a774e">
         <div class="inline-dropdown js-toggle-class"
              data-toggle-class-options='{
                 "toggleClass": "inline-dropdown_active",
-                "toggleObj": "random-class-fb392bd8-2ddf-4371-8a4e-b615538aa4c5"
+                "toggleObj": "random-class-cc70d949-1b96-4c98-87fd-ea2bdd5a774e"
               }'>
           12 ингредиентов
           <svg class="inline-dropdown__icon">
@@ -3444,11 +3444,11 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
 
 
 
-      <div class="horizontal-tile__item-specifications random-class-3f5cbd41-0628-465b-8d6c-29f6ff799185">
+      <div class="horizontal-tile__item-specifications random-class-0bbd19e5-e6b5-4ad7-9cc9-add678c19820">
         <div class="inline-dropdown js-toggle-class"
              data-toggle-class-options='{
                 "toggleClass": "inline-dropdown_active",
-                "toggleObj": "random-class-3f5cbd41-0628-465b-8d6c-29f6ff799185"
+                "toggleObj": "random-class-0bbd19e5-e6b5-4ad7-9cc9-add678c19820"
               }'>
           10 ингредиентов
           <svg class="inline-dropdown__icon">
@@ -3742,11 +3742,11 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
 
 
 
-      <div class="horizontal-tile__item-specifications random-class-4b781015-6c32-4184-9371-f6de0d308b0a">
+      <div class="horizontal-tile__item-specifications random-class-3e624fc6-ba4a-497b-a32c-94cc40501f26">
         <div class="inline-dropdown js-toggle-class"
              data-toggle-class-options='{
                 "toggleClass": "inline-dropdown_active",
-                "toggleObj": "random-class-4b781015-6c32-4184-9371-f6de0d308b0a"
+                "toggleObj": "random-class-3e624fc6-ba4a-497b-a32c-94cc40501f26"
               }'>
           6 ингредиентов
           <svg class="inline-dropdown__icon">
@@ -3999,11 +3999,11 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
 
 
 
-      <div class="horizontal-tile__item-specifications random-class-63950795-4bad-4580-8992-15cce8a5f4b2">
+      <div class="horizontal-tile__item-specifications random-class-f92e382a-a98a-4bf9-8b82-75efd0b41ce0">
         <div class="inline-dropdown js-toggle-class"
              data-toggle-class-options='{
                 "toggleClass": "inline-dropdown_active",
-                "toggleObj": "random-class-63950795-4bad-4580-8992-15cce8a5f4b2"
+                "toggleObj": "random-class-f92e382a-a98a-4bf9-8b82-75efd0b41ce0"
               }'>
           6 ингредиентов
           <svg class="inline-dropdown__icon">
@@ -4257,11 +4257,11 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
 
 
 
-      <div class="horizontal-tile__item-specifications random-class-a977b05c-b50d-4465-9dd2-01ac5bcbdff1">
+      <div class="horizontal-tile__item-specifications random-class-f1611e70-634c-4237-a0e5-7aab720a0504">
         <div class="inline-dropdown js-toggle-class"
              data-toggle-class-options='{
                 "toggleClass": "inline-dropdown_active",
-                "toggleObj": "random-class-a977b05c-b50d-4465-9dd2-01ac5bcbdff1"
+                "toggleObj": "random-class-f1611e70-634c-4237-a0e5-7aab720a0504"
               }'>
           8 ингредиентов
           <svg class="inline-dropdown__icon">
@@ -4475,13 +4475,6 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
     <li class="list-title">
       <span class="text">спецпроекты</span>
     </li>
-      <li class="list-item js-click-link" data-href="https://eda.ru/school/pastry?utm_source=site&amp;utm_medium=banner_sp&amp;utm_campaign=kozhanov">
-        <img class="cover" src="https://eda.ru/img/eda/c322x168i/s2.eda.ru/StaticContent/Photos/170227165112/200921200400/p_O.jpg" srcset="https://eda.ru/img/eda/c644x336i/s2.eda.ru/StaticContent/Photos/170227165112/200921200400/p_O.jpg 2x">
-        <div class="item-content">
-          
-          <h3 class="title"><a href="https://eda.ru/school/pastry?utm_source=site&amp;utm_medium=banner_sp&amp;utm_campaign=kozhanov">Базовый кондитерский курс</a></h3>
-        </div>
-      </li>
       <li class="list-item js-click-link" data-href="https://eda.ru/specialproject/10-novogodnih-idey-s-kuricey?utm_source=site&amp;utm_medium=banner_sp&amp;utm_campaign=petelinka">
         <img class="cover" src="https://eda.ru/img/eda/c322x168i/s1.eda.ru/StaticContent/Photos/170220181326/201229121328/p_O.png" srcset="https://eda.ru/img/eda/c644x336i/s1.eda.ru/StaticContent/Photos/170220181326/201229121328/p_O.png 2x">
         <div class="item-content">
@@ -4489,11 +4482,18 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
           <h3 class="title"><a href="https://eda.ru/specialproject/10-novogodnih-idey-s-kuricey?utm_source=site&amp;utm_medium=banner_sp&amp;utm_campaign=petelinka">10 новогодних рецептов с курицей</a></h3>
         </div>
       </li>
-      <li class="list-item js-click-link" data-href="https://eda.ru/school/modern?utm_source=site&amp;utm_medium=banner_sp&amp;utm_campaign=tikhonov">
-        <img class="cover" src="https://eda.ru/img/eda/c322x168i/s2.eda.ru/StaticContent/Photos/130713154821/190722164418/p_O.png" srcset="https://eda.ru/img/eda/c644x336i/s2.eda.ru/StaticContent/Photos/130713154821/190722164418/p_O.png 2x">
+      <li class="list-item js-click-link" data-href="https://eda.ru/school/pastry?utm_source=site&amp;utm_medium=banner_sp&amp;utm_campaign=kozhanov">
+        <img class="cover" src="https://eda.ru/img/eda/c322x168i/s2.eda.ru/StaticContent/Photos/170227165112/200921200400/p_O.jpg" srcset="https://eda.ru/img/eda/c644x336i/s2.eda.ru/StaticContent/Photos/170227165112/200921200400/p_O.jpg 2x">
         <div class="item-content">
           
-          <h3 class="title"><a href="https://eda.ru/school/modern?utm_source=site&amp;utm_medium=banner_sp&amp;utm_campaign=tikhonov">Современная домашняя кухня</a></h3>
+          <h3 class="title"><a href="https://eda.ru/school/pastry?utm_source=site&amp;utm_medium=banner_sp&amp;utm_campaign=kozhanov">Базовый кондитерский курс</a></h3>
+        </div>
+      </li>
+      <li class="list-item js-click-link" data-href="https://eda.ru/specialproject/gold_1000?utm_source=site&amp;utm_medium=banner_sp&amp;utm_campaign=gold_1000">
+        <img class="cover" src="https://eda.ru/img/eda/c322x168i/s1.eda.ru/StaticContent/Photos/110801145243/170309131447/p_O.jpg" srcset="https://eda.ru/img/eda/c644x336i/s1.eda.ru/StaticContent/Photos/110801145243/170309131447/p_O.jpg 2x">
+        <div class="item-content">
+          
+          <h3 class="title"><a href="https://eda.ru/specialproject/gold_1000?utm_source=site&amp;utm_medium=banner_sp&amp;utm_campaign=gold_1000">Лучшие рецепты мира</a></h3>
         </div>
       </li>
   </ul>
@@ -4567,11 +4567,11 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
 
 
 
-      <div class="horizontal-tile__item-specifications random-class-c1274d19-b1a1-4dc3-b8b1-8210476514ed">
+      <div class="horizontal-tile__item-specifications random-class-da61682d-876a-42b7-8632-327d6ab6d197">
         <div class="inline-dropdown js-toggle-class"
              data-toggle-class-options='{
                 "toggleClass": "inline-dropdown_active",
-                "toggleObj": "random-class-c1274d19-b1a1-4dc3-b8b1-8210476514ed"
+                "toggleObj": "random-class-da61682d-876a-42b7-8632-327d6ab6d197"
               }'>
           9 ингредиентов
           <svg class="inline-dropdown__icon">
@@ -4855,11 +4855,11 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
 
 
 
-      <div class="horizontal-tile__item-specifications random-class-b927419c-cc45-410a-8ce0-6052c460a227">
+      <div class="horizontal-tile__item-specifications random-class-8d59f5bd-9989-44f4-8f16-a56faa0c37d5">
         <div class="inline-dropdown js-toggle-class"
              data-toggle-class-options='{
                 "toggleClass": "inline-dropdown_active",
-                "toggleObj": "random-class-b927419c-cc45-410a-8ce0-6052c460a227"
+                "toggleObj": "random-class-8d59f5bd-9989-44f4-8f16-a56faa0c37d5"
               }'>
           7 ингредиентов
           <svg class="inline-dropdown__icon">
@@ -5109,11 +5109,11 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
 
 
 
-      <div class="horizontal-tile__item-specifications random-class-d0409d57-01e4-4da8-9de5-8d7026cb1549">
+      <div class="horizontal-tile__item-specifications random-class-2dfb33bf-bf94-47ad-8e40-8056d45a41cc">
         <div class="inline-dropdown js-toggle-class"
              data-toggle-class-options='{
                 "toggleClass": "inline-dropdown_active",
-                "toggleObj": "random-class-d0409d57-01e4-4da8-9de5-8d7026cb1549"
+                "toggleObj": "random-class-2dfb33bf-bf94-47ad-8e40-8056d45a41cc"
               }'>
           6 ингредиентов
           <svg class="inline-dropdown__icon">
@@ -5353,11 +5353,11 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
 
 
 
-      <div class="horizontal-tile__item-specifications random-class-e3db76a7-7b00-4506-bf2e-348a82393499">
+      <div class="horizontal-tile__item-specifications random-class-06d726ff-af30-4f6d-b2c4-a657169c95e1">
         <div class="inline-dropdown js-toggle-class"
              data-toggle-class-options='{
                 "toggleClass": "inline-dropdown_active",
-                "toggleObj": "random-class-e3db76a7-7b00-4506-bf2e-348a82393499"
+                "toggleObj": "random-class-06d726ff-af30-4f6d-b2c4-a657169c95e1"
               }'>
           11 ингредиентов
           <svg class="inline-dropdown__icon">
@@ -5647,11 +5647,11 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
 
 
 
-      <div class="horizontal-tile__item-specifications random-class-7d6ea69f-63d3-4802-8dab-6f3fe3c8fb2d">
+      <div class="horizontal-tile__item-specifications random-class-25f89c3e-e421-49a6-9230-71119daa0949">
         <div class="inline-dropdown js-toggle-class"
              data-toggle-class-options='{
                 "toggleClass": "inline-dropdown_active",
-                "toggleObj": "random-class-7d6ea69f-63d3-4802-8dab-6f3fe3c8fb2d"
+                "toggleObj": "random-class-25f89c3e-e421-49a6-9230-71119daa0949"
               }'>
           12 ингредиентов
           <svg class="inline-dropdown__icon">
@@ -5965,11 +5965,11 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
 
 
 
-      <div class="horizontal-tile__item-specifications random-class-626f3211-c13d-4f82-9719-88afe4a02730">
+      <div class="horizontal-tile__item-specifications random-class-20f07139-491e-46c6-ab22-ed5c2525d7e1">
         <div class="inline-dropdown js-toggle-class"
              data-toggle-class-options='{
                 "toggleClass": "inline-dropdown_active",
-                "toggleObj": "random-class-626f3211-c13d-4f82-9719-88afe4a02730"
+                "toggleObj": "random-class-20f07139-491e-46c6-ab22-ed5c2525d7e1"
               }'>
           12 ингредиентов
           <svg class="inline-dropdown__icon">
@@ -6269,11 +6269,11 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
 
 
 
-      <div class="horizontal-tile__item-specifications random-class-d5e01712-b69e-48e8-a122-8af0ea5e3fc7">
+      <div class="horizontal-tile__item-specifications random-class-3a84285f-72bf-40f4-a04b-9eabc4d56b8e">
         <div class="inline-dropdown js-toggle-class"
              data-toggle-class-options='{
                 "toggleClass": "inline-dropdown_active",
-                "toggleObj": "random-class-d5e01712-b69e-48e8-a122-8af0ea5e3fc7"
+                "toggleObj": "random-class-3a84285f-72bf-40f4-a04b-9eabc4d56b8e"
               }'>
           9 ингредиентов
           <svg class="inline-dropdown__icon">
