@@ -1,7 +1,8 @@
 from bs4 import BeautifulSoup
 import json
+import sys
 
-f = open('productsPage.txt', 'r')
+f = open(sys.argv[1], 'r')
 data = f.read()
 soup = BeautifulSoup(data, 'html.parser')
 collection = []

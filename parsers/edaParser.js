@@ -5,8 +5,11 @@ import path from 'path';
 import chalk from 'chalk';
 
 const url = 'https://eda.ru/recepty';
-const __dirname = path.resolve(); // установка пути текущей директории в константу
 const pagesAmount = 1; // кол-во страниц для парсинга
+const tempFile = 'parsers/temp.txt';
+const __dirname = path.resolve();
+const parseProductsFileName = 'parsers/parseEdaProducts.py';
+const parseProductCardFileName = 'parsers/parseEdaProductCard.py';
 
 export default async function getEdaRuRecepies() {
     let collection = [];
@@ -35,6 +38,10 @@ export default async function getEdaRuRecepies() {
         }
     }
 
+    fs.unlink(path.join(__dirname, tempFile), (e) => {
+        if (e) throw new Error;
+    });
+
     console.log(chalk.green('Parsing done!'));
 
     return collection
@@ -42,10 +49,10 @@ export default async function getEdaRuRecepies() {
 
 // создает процесс с питоном, парсит страницу с продуктами
 async function processAllProducts(data) {
-    fs.writeFile(path.join(__dirname, 'productsPage.txt'), data, (e) => {
+    fs.writeFile(path.join(__dirname, tempFile), data, (e) => {
         if (e) throw new Error;
     });
-    const python = spawn('python', ['parsers/parseProducts.py']);
+    const python = spawn('python', [parseProductsFileName, tempFile]);
     return await new Promise((resolve) => {
         python.stdout.on('data', (res) => {
             resolve(res.toString());
@@ -55,10 +62,10 @@ async function processAllProducts(data) {
 
 // создает процесс с питоном, парсит карточку продукта
 async function processProductCard(data) {
-    fs.writeFile(path.join(__dirname, 'productCard.txt'), data, (e) => {
+    fs.writeFile(path.join(__dirname, tempFile), data, (e) => {
         if (e) throw new Error;
     });
-    const python = spawn('python', ['parsers/parseProductCard.py']);
+    const python = spawn('python', [parseProductCardFileName, tempFile]);
     return await new Promise((resolve) => {
         python.stdout.on('data', (res) => {
             resolve(res.toString());

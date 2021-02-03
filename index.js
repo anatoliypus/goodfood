@@ -3,6 +3,7 @@ import path from 'path';
 import getEdaRuRecepies from './parsers/edaParser.js';
 import chalk from 'chalk';
 import fs from 'fs';
+import checkEdaRAmount from './parsers/checkEdaRAmount.js';
 
 const PORT = process.env.PORT || 5000;
 const app = express();
@@ -25,6 +26,11 @@ app.get('/api/get', (req, res) => {
         if (e) throw new Error;
         res.send(data);
     });
+});
+
+app.get('/api/check', async (req, res) => {
+    const data = await checkEdaRAmount();
+    res.send(data);
 });
 
 app.get('/test', (req, res) => {
