@@ -1,13 +1,13 @@
 import express from 'express';
 import path from 'path';
-import getEdaRuRecepies from './edaParser.js';
+import getEdaRuRecepies from './parsers/edaParser.js';
 import chalk from 'chalk';
 import fs from 'fs';
 
 const PORT = process.env.PORT || 5000;
 const app = express();
 const __dirname = path.resolve();
-const dataFile = 'data.txt';
+const dataFile = 'data/data.txt';
 
 app.set('views', 'public');
 app.set('view engine', 'ejs');
@@ -24,7 +24,7 @@ app.get('/api/get', (req, res) => {
     fs.readFile(path.join(__dirname, dataFile), 'utf-8', (e, data) => {
         if (e) throw new Error;
         res.send(data);
-    })
+    });
 });
 
 app.get('/test', (req, res) => {

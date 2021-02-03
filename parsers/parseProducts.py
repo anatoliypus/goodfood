@@ -4,7 +4,6 @@ import json
 f = open('productsPage.txt', 'r')
 data = f.read()
 soup = BeautifulSoup(data, 'html.parser')
-
 collection = []
 
 for el in soup.find_all('div', class_='horizontal-tile__content'):
