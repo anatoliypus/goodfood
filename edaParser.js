@@ -19,7 +19,7 @@ export default async function getEdaRuRecepies() {
         collection = collection.concat(JSON.parse(result))
     }
 
-    console.log(chalk.bgGreen.blackBright('Succesfully parsed all products, parsing ingredients...'));
+    console.log(chalk.green('Succesfully parsed all products, parsing ingredients...'));
 
     // проходит по всем полученным продуктам, достает ингредиенты и шаги по приготовлению
     for (let i = 0; i < collection.length; i++) {
@@ -35,7 +35,7 @@ export default async function getEdaRuRecepies() {
         }
     }
 
-    console.log(chalk.bgGreen.blackBright('Parsing done!'));
+    console.log(chalk.green('Parsing done!'));
 
     return collection
 }

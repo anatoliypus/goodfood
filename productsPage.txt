@@ -45,7 +45,7 @@
   <link rel="manifest" href="/manifest.json">
   
 
-  <title>47400 рецептов салатов, супов и других блюд на все случаи на сайте &#171;Еда&#187;</title>
+  <title>47404 рецепта салатов, супов и других блюд на все случаи на сайте &#171;Еда&#187;</title>
     <meta name="description" lang="ru" content="Салаты, супы, выпечка и другие рецепты в удобном каталоге с фотографиями. &#171;Еда&#187;" />
     <link rel="canonical" href="https://eda.ru/recepty" />
     <link rel="next" href="https://eda.ru/recepty?page=2">
@@ -2238,22 +2238,22 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
               <ul class="tags-list js-update-ingredients js-filter-top">
                 <li class="tags-list_item _inline">
                   <a
-                    data-href="https://eda.ru/recepty/ingredienty/13851"
-                    data-object-id="13851"
-                    class='tag  js-updated-page__linked-tag'
-                    href="https://eda.ru/recepty/ingredienty/13851"
-                  >
-                    <span class="tag-name">Гребешки</span>
-                  </a>
-                </li>
-                <li class="tags-list_item _inline">
-                  <a
                     data-href="https://eda.ru/recepty/ingredienty/13480"
                     data-object-id="13480"
                     class='tag  js-updated-page__linked-tag'
                     href="https://eda.ru/recepty/ingredienty/13480"
                   >
                     <span class="tag-name">Свинина</span>
+                  </a>
+                </li>
+                <li class="tags-list_item _inline">
+                  <a
+                    data-href="https://eda.ru/recepty/ingredienty/13851"
+                    data-object-id="13851"
+                    class='tag  js-updated-page__linked-tag'
+                    href="https://eda.ru/recepty/ingredienty/13851"
+                  >
+                    <span class="tag-name">Гребешки</span>
                   </a>
                 </li>
                 <li class="tags-list_item _inline">
@@ -2268,22 +2268,22 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
                 </li>
                 <li class="tags-list_item _inline">
                   <a
-                    data-href="https://eda.ru/recepty/ingredienty/14685"
-                    data-object-id="14685"
-                    class='tag  js-updated-page__linked-tag'
-                    href="https://eda.ru/recepty/ingredienty/14685"
-                  >
-                    <span class="tag-name">Тесто фило</span>
-                  </a>
-                </li>
-                <li class="tags-list_item _inline">
-                  <a
                     data-href="https://eda.ru/recepty/ingredienty/13571"
                     data-object-id="13571"
                     class='tag  js-updated-page__linked-tag'
                     href="https://eda.ru/recepty/ingredienty/13571"
                   >
                     <span class="tag-name">Филе индейки</span>
+                  </a>
+                </li>
+                <li class="tags-list_item _inline">
+                  <a
+                    data-href="https://eda.ru/recepty/ingredienty/14685"
+                    data-object-id="14685"
+                    class='tag  js-updated-page__linked-tag'
+                    href="https://eda.ru/recepty/ingredienty/14685"
+                  >
+                    <span class="tag-name">Тесто фило</span>
                   </a>
                 </li>
               </ul>
@@ -2418,16 +2418,6 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
       <ul class="tags-list js-update-ingredients">
         <li class="tags-list__item tags-list__item_recipe-catalog">
           <a
-            data-href="https://eda.ru/recepty/ingredienty/13851"
-            data-object-id="13851"
-            data-immediate-update="true"
-            class='tag  js-updated-page__linked-tag'
-            href="https://eda.ru/recepty/ingredienty/13851"
-          >
-            <span class="tag-name">Гребешки</span>
-          </a>
-        </li>        <li class="tags-list__item tags-list__item_recipe-catalog">
-          <a
             data-href="https://eda.ru/recepty/ingredienty/13480"
             data-object-id="13480"
             data-immediate-update="true"
@@ -2435,6 +2425,16 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
             href="https://eda.ru/recepty/ingredienty/13480"
           >
             <span class="tag-name">Свинина</span>
+          </a>
+        </li>        <li class="tags-list__item tags-list__item_recipe-catalog">
+          <a
+            data-href="https://eda.ru/recepty/ingredienty/13851"
+            data-object-id="13851"
+            data-immediate-update="true"
+            class='tag  js-updated-page__linked-tag'
+            href="https://eda.ru/recepty/ingredienty/13851"
+          >
+            <span class="tag-name">Гребешки</span>
           </a>
         </li>        <li class="tags-list__item tags-list__item_recipe-catalog">
           <a
@@ -2448,16 +2448,6 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
           </a>
         </li>        <li class="tags-list__item tags-list__item_recipe-catalog">
           <a
-            data-href="https://eda.ru/recepty/ingredienty/14685"
-            data-object-id="14685"
-            data-immediate-update="true"
-            class='tag  js-updated-page__linked-tag'
-            href="https://eda.ru/recepty/ingredienty/14685"
-          >
-            <span class="tag-name">Тесто фило</span>
-          </a>
-        </li>        <li class="tags-list__item tags-list__item_recipe-catalog">
-          <a
             data-href="https://eda.ru/recepty/ingredienty/13571"
             data-object-id="13571"
             data-immediate-update="true"
@@ -2466,11 +2456,21 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
           >
             <span class="tag-name">Филе индейки</span>
           </a>
+        </li>        <li class="tags-list__item tags-list__item_recipe-catalog">
+          <a
+            data-href="https://eda.ru/recepty/ingredienty/14685"
+            data-object-id="14685"
+            data-immediate-update="true"
+            class='tag  js-updated-page__linked-tag'
+            href="https://eda.ru/recepty/ingredienty/14685"
+          >
+            <span class="tag-name">Тесто фило</span>
+          </a>
         </li>      </ul>
       <div class="tag-selector__additional-block">
           <p class="tag-selector__recipe-count">
             Найдено
-            <span class="tag-selector__recipe-count js-updated-page__recipeCount">47400 рецептов</span>
+            <span class="tag-selector__recipe-count js-updated-page__recipeCount">47404 рецепта</span>
           </p>
 
         <div class="sorting-block">
@@ -2505,9 +2505,9 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
       <li><a href="https://eda.ru/media">Идеи</a></li>
       <li><a href="https://eda.ru/media/vopros">Вопрос</a></li>
     </ul>
-    <h3><a class="title" href="https://eda.ru/media/vopros/kak-zavtrakat-s-alkogolem">Как завтракать с алкоголем?</a></h3>
+    <h3><a class="title" href="https://eda.ru/media/vopros/kak-za-nedelyu-podgotovitsya-k-novomu-godu">Как за неделю подготовиться к Новому году </a></h3>
     <p class="lead">
-      ...и делать это красиво — рассказывают шеф, винный энтузиаст и бармен
+      Подробный тайм-менеджмент, который поможет все успеть 
     </p>
   </div>
   <div class="js-advertizing__observer">
@@ -2519,11 +2519,11 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
   </div>
   <div class="advertizing__aside-info-widget _last">
     <ul class="breadcrumbs">
-      <li><a href="https://eda.ru/media/biblioteka">Библиотека</a></li>
+      <li><a href="https://eda.ru/media/vnesezonnye-recepty">Внесезонные рецепты</a></li>
     </ul>
-    <h3><a class="title" href="https://eda.ru/media/biblioteka/esh-vkusno-zhivi-dolgo-bud-schastliv-anny-shpak">«Ешь вкусно, живи долго, будь счастлив» Анны Шпак</a></h3>
+    <h3><a class="title" href="https://eda.ru/media/vnesezonnye-recepty/recepty-s-ananasom">Рецепты с ананасом</a></h3>
     <p class="lead">
-      Сборник с простыми рецептами, которые понравятся всем
+      Как приготовить салат, супы, свинину в кисло-сладком соусе и смузи
     </p>
   </div>
 
@@ -2543,6 +2543,264 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
           <div class="js-updated-page__content js-load-more-content">
 
 
+
+
+
+
+<div class="tile-list__horizontal-tile horizontal-tile js-portions-count-parent js-bookmark__obj">
+  <div class="clearfix">
+    <div class="horizontal-tile__preview " data-label-image=''>
+
+
+      <div class='horizontal-tile__item-link js-click-link '
+           data-href="/recepty/vypechka-deserty/brauni-brownie-20955">
+
+        <div class='horizontal-tile__cover-video'>
+            <div class="svg-container">
+              <svg>
+                <use xlink:href="#play"/>
+              </svg>
+            </div>
+            <div class="horizontal-tile__video-duration">
+              04:23
+            </div>
+        </div>
+          <div class="lazy-load-container js-lazy-loading" data-title="Брауни (brownie)" data-alt="Брауни (brownie)" data-src="https://eda.ru/img/eda/c285x285i/s1.eda.ru/StaticContent/Photos/120131082911/130725174021/p_O.jpg">
+            <svg xmlns="http://www.w3.org/2000/svg" class="horizontal-tile__preview-image js-lazy-loading-svg"
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 width="180" height="180"
+                 viewBox="0 0 180 180">
+              <filter id="blur" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feGaussianBlur stdDeviation="10 10" edgeMode="duplicate" />
+                <feComponentTransfer>
+                  <feFuncA type="discrete" tableValues="1 1" />
+                </feComponentTransfer>
+              </filter>
+              <image filter="url(#blur)"
+                     xlink:href="https://eda.ru/img/eda/c20x20i/s1.eda.ru/StaticContent/Photos/120131082911/130725174021/p_O.jpg"
+                     x="0" y="0"
+                     height="100%" width="100%"/>
+            </svg>
+          </div>
+
+      </div>
+    </div>
+    <div class="horizontal-tile__content">
+
+      <ul class="breadcrumbs">
+          <li><a href="https://eda.ru/recepty/poshagovye-recepty"><span>Пошаговые рецепты</span></a></li>
+          <li><a href="https://eda.ru/recepty/vypechka-deserty"><span>Выпечка и десерты</span></a></li>
+          <li><a href="https://eda.ru/recepty/amerikanskaya-kuhnya"><span>Американская кухня</span></a></li>
+      </ul>
+
+      <h3 class="horizontal-tile__item-title item-title">
+        <a href="/recepty/vypechka-deserty/brauni-brownie-20955">
+          <span>
+            Брауни (brownie)
+          </span>
+        </a>
+                <a href="https://eda.ru/recepty/afishaeda">
+          <svg class="item-title__special item-title__special_logo">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use>
+          </svg>
+        </a>
+      </h3>
+
+      <div class="horizontal-tile__author">
+        Автор: <span class="horizontal-tile__author-link js-click-link" data-href="https://eda.ru/avtory/692617" content="Anastasia Sheveleva">Anastasia Sheveleva</span>
+      </div>
+
+
+
+      <div class="horizontal-tile__item-specifications random-class-3d4bbfcd-19f6-4406-bd8a-8434135c33ba">
+        <div class="inline-dropdown js-toggle-class"
+             data-toggle-class-options='{
+                "toggleClass": "inline-dropdown_active",
+                "toggleObj": "random-class-3d4bbfcd-19f6-4406-bd8a-8434135c33ba"
+              }'>
+          6 ингредиентов
+          <svg class="inline-dropdown__icon">
+            <use xlink:href="#sv" />
+          </svg>
+        </div>
+        <span class="portions-counter">
+          <svg>
+            <use xlink:href="#portion" />
+          </svg>
+          <span class="js-portions-count-print">
+            6 порций
+          </span>
+        </span>
+          <span class="prep-time">
+            <svg>
+              <use xlink:href="#timer" />
+            </svg>
+            40 минут
+
+          </span>
+
+        <div class="inline-dropdown__dropdown">
+          <div class="inline-dropdown__dropdown-pad">
+
+            <div class="ingredients-list ingredients-list_mini">
+
+
+<div class="ingredients-list__header">
+  <p class="ingredients-list__title g-h6">Ингредиенты</p>
+  <div class="ingredients-list__portions-control portions-control print-invisible">
+    <span class="portions-control__hint">порции</span>
+    <span class="portions-control__minus js-minus">
+      <svg>
+        <use xlink:href="#minus"/>
+      </svg>
+    </span>
+    <input class="portions-control__count g-h6 js-portions-count js-tooltip" data-recipe-id="20955" type="number" inputmode="numeric" value=6 title="Количество порций может быть в пределах от 1 до 12">
+    <span class="portions-control__plus js-plus">
+      <svg>
+        <use xlink:href="#plus"/>
+      </svg>
+    </span>
+  </div>
+</div>
+<div class="ingredients-list__content" cellpadding="0" cellspacing="0">
+  <p class="ingredients-list__content-item content-item js-cart-ingredients" data-ingredient-object='{"id": 14797, "name": "Темный шоколад", "amount": "100 г"}'>
+    <span class="content-item__name tooltip">
+      <span class="js-tooltip js-tooltip-ingredient"
+            data-url="/Ingredient/RecipePreview"
+            data-id="14797">
+        Темный шоколад
+      </span>
+    </span>
+    <span class="content-item__measure js-ingredient-measure-amount" data-id="14797">100 г</span>
+  </p>
+  <p class="ingredients-list__content-item content-item js-cart-ingredients" data-ingredient-object='{"id": 13412, "name": "Сливочное масло", "amount": "180 г"}'>
+    <span class="content-item__name tooltip">
+      <span class="js-tooltip js-tooltip-ingredient"
+            data-url="/Ingredient/RecipePreview"
+            data-id="13412">
+        Сливочное масло
+      </span>
+    </span>
+    <span class="content-item__measure js-ingredient-measure-amount" data-id="13412">180 г</span>
+  </p>
+  <p class="ingredients-list__content-item content-item js-cart-ingredients" data-ingredient-object='{"id": 14339, "name": "Коричневый сахар", "amount": "200 г"}'>
+    <span class="content-item__name tooltip">
+      <span class="js-tooltip js-tooltip-ingredient"
+            data-url="/Ingredient/RecipePreview"
+            data-id="14339">
+        Коричневый сахар
+      </span>
+    </span>
+    <span class="content-item__measure js-ingredient-measure-amount" data-id="14339">200 г</span>
+  </p>
+  <p class="ingredients-list__content-item content-item js-cart-ingredients" data-ingredient-object='{"id": 13418, "name": "Куриное яйцо", "amount": "4 штуки"}'>
+    <span class="content-item__name tooltip">
+      <span class="js-tooltip js-tooltip-ingredient"
+            data-url="/Ingredient/RecipePreview"
+            data-id="13418">
+        Куриное яйцо
+      </span>
+    </span>
+    <span class="content-item__measure js-ingredient-measure-amount" data-id="13418">4 штуки</span>
+  </p>
+  <p class="ingredients-list__content-item content-item js-cart-ingredients" data-ingredient-object='{"id": 13458, "name": "Пшеничная мука", "amount": "100 г"}'>
+    <span class="content-item__name tooltip">
+      <span class="js-tooltip js-tooltip-ingredient"
+            data-url="/Ingredient/RecipePreview"
+            data-id="13458">
+        Пшеничная мука
+      </span>
+    </span>
+    <span class="content-item__measure js-ingredient-measure-amount" data-id="13458">100 г</span>
+  </p>
+  <p class="ingredients-list__content-item content-item js-cart-ingredients" data-ingredient-object='{"id": 13580, "name": "Грецкие орехи", "amount": "100 г"}'>
+    <span class="content-item__name tooltip">
+      <span class="js-tooltip js-tooltip-ingredient"
+            data-url="/Ingredient/RecipePreview"
+            data-id="13580">
+        Грецкие орехи
+      </span>
+    </span>
+    <span class="content-item__measure js-ingredient-measure-amount" data-id="13580">100 г</span>
+  </p>
+</div>
+
+
+
+
+
+              <a class="ingredients-list__link" href="/recepty/vypechka-deserty/brauni-brownie-20955">перейти на страницу рецепта</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="horizontal-tile__bottom-content">
+    <div class="horizontal-tile__bottom-content-item horizontal-tile__bottom-content-item_right">
+      <div class="widget-list__totals">
+        <span class="widget-list__favorite-count tooltip js-tooltip" title="Добавили в избранное">
+            <svg>
+              <use xlink:href="#bookmarks-min"/>
+            </svg>
+            <span class="js-bookmark__counter">26804</span>
+          </span>
+        <span class="widget-list__like-count">
+          <svg>
+            <use xlink:href="#like-min"/>
+          </svg>
+          <span>3072</span>
+        </span>
+        <span class="widget-list__like-count widget-list__like-count_dislike">
+          <svg>
+            <use xlink:href="#like-min"/>
+          </svg>
+          <span>250</span>
+        </span>
+      </div>
+    </div>
+    <div class="horizontal-tile__bottom-content-item">
+      <div class="select-dropdown select-dropdown_inline js-bookmark js-select-dropdown">
+      <input class="select-dropdown__toggle-trigger js-bookmark__menus-trigger js-tigger-checkbox js-tooltip" type="checkbox" data-qtip-title="Добавить в книгу рецептов" />
+      <div class="select-dropdown__toggle-box">
+        <div class="icon">
+          <svg>
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#sv"></use>
+          </svg>
+        </div>
+      </div>
+      <div class="select-dropdown__trigger">
+        <span class="default-value bookmark__text-add">Добавить в книгу рецептов</span>
+        <span class="default-value bookmark__text-remove">Добавлен в книгу рецептов</span>
+      </div>
+      <div class="select-dropdown__preloader-wrap">
+        <div class="preloader">
+          <svg>
+            <use xlink:href="#preloader" />
+          </svg>
+        </div>
+      </div>
+      <div class='bookmark js-tooltip js-bookmark__label '
+           data-qtip-title="В избранном у <span class='js-bookmark__counter'>26804</span> пользователей"
+           data-href="recepty/vypechka-deserty/brauni-brownie-20955"
+           data-id="20955"
+           data-in='False'
+           data-add-url="https://eda.ru/Favorite/AddToFavorite?classID=1&amp;objectID=20955&amp;favoriteType=Cookbook"
+           data-remove-url="https://eda.ru/Favorite/RemoveFromFavorite?classID=1&amp;objectID=20955&amp;favoriteType=Cookbook">
+        <div class="icon">
+          <svg>
+            <use xlink:href="#bookmarks-min" />
+          </svg>
+        </div>
+      </div>
+    </div>
+    </div>
+
+  </div>
+
+
+</div>
 
 
 
@@ -2612,11 +2870,11 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
 
 
 
-      <div class="horizontal-tile__item-specifications random-class-b7fe7b6b-fcd6-484e-80b6-37443dbfac1b">
+      <div class="horizontal-tile__item-specifications random-class-e06ad8f7-d26c-4673-af8a-cfb6e696355f">
         <div class="inline-dropdown js-toggle-class"
              data-toggle-class-options='{
                 "toggleClass": "inline-dropdown_active",
-                "toggleObj": "random-class-b7fe7b6b-fcd6-484e-80b6-37443dbfac1b"
+                "toggleObj": "random-class-e06ad8f7-d26c-4673-af8a-cfb6e696355f"
               }'>
           5 ингредиентов
           <svg class="inline-dropdown__icon">
@@ -2734,7 +2992,7 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
             <svg>
               <use xlink:href="#bookmarks-min"/>
             </svg>
-            <span class="js-bookmark__counter">26552</span>
+            <span class="js-bookmark__counter">26554</span>
           </span>
         <span class="widget-list__like-count">
           <svg>
@@ -2772,7 +3030,7 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
         </div>
       </div>
       <div class='bookmark js-tooltip js-bookmark__label '
-           data-qtip-title="В избранном у <span class='js-bookmark__counter'>26552</span> пользователей"
+           data-qtip-title="В избранном у <span class='js-bookmark__counter'>26554</span> пользователей"
            data-href="recepty/zavtraki/sirniki-iz-tvoroga-18506"
            data-id="18506"
            data-in='False'
@@ -2790,6 +3048,28 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
   </div>
 
 
+</div>
+
+<div class="advertizing__super-footer js-advertizing__observer " id="superfooter" data-load-more-trigger="superFooterInit"></div>
+<div class="special-projects special-projects_2-items print-invisible">
+  <ul class="special-projects__list">
+    <li class="list-title">
+      <span class="text">спецпроекты</span>
+    </li>
+
+    <li class="list-item js-click-link" data-href="https://eda.ru/specialproject/10-novogodnih-idey-s-kuricey?utm_source=site&amp;utm_medium=banner_sp&amp;utm_campaign=petelinka">
+      <img class="cover" src="https://eda.ru/img/eda/c305x168i/s1.eda.ru/StaticContent/Photos/170220181326/201229121328/p_O.png" srcset="https://eda.ru/img/eda/c610x336i/s1.eda.ru/StaticContent/Photos/170220181326/201229121328/p_O.png 2x">
+      <div class="item-content">
+        <h3 class="title"><a href="https://eda.ru/specialproject/10-novogodnih-idey-s-kuricey?utm_source=site&amp;utm_medium=banner_sp&amp;utm_campaign=petelinka">10 новогодних рецептов с курицей</a></h3>
+      </div>
+    </li>
+    <li class="list-item js-click-link" data-href="https://eda.ru/school/pastry?utm_source=site&amp;utm_medium=banner_sp&amp;utm_campaign=kozhanov">
+      <img class="cover" src="https://eda.ru/img/eda/c305x168i/s2.eda.ru/StaticContent/Photos/170227165112/200921200400/p_O.jpg" srcset="https://eda.ru/img/eda/c610x336i/s2.eda.ru/StaticContent/Photos/170227165112/200921200400/p_O.jpg 2x">
+      <div class="item-content">
+        <h3 class="title"><a href="https://eda.ru/school/pastry?utm_source=site&amp;utm_medium=banner_sp&amp;utm_campaign=kozhanov">Базовый кондитерский курс</a></h3>
+      </div>
+    </li>
+  </ul>
 </div>
 
 
@@ -2846,11 +3126,11 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
 
 
 
-      <div class="horizontal-tile__item-specifications random-class-47d0890d-8d29-4275-a7be-ab683351cad4">
+      <div class="horizontal-tile__item-specifications random-class-c8e3df58-456a-408e-b9cd-66bc9c02c7d3">
         <div class="inline-dropdown js-toggle-class"
              data-toggle-class-options='{
                 "toggleClass": "inline-dropdown_active",
-                "toggleObj": "random-class-47d0890d-8d29-4275-a7be-ab683351cad4"
+                "toggleObj": "random-class-c8e3df58-456a-408e-b9cd-66bc9c02c7d3"
               }'>
           12 ингредиентов
           <svg class="inline-dropdown__icon">
@@ -3038,7 +3318,7 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
             <svg>
               <use xlink:href="#bookmarks-min"/>
             </svg>
-            <span class="js-bookmark__counter">26314</span>
+            <span class="js-bookmark__counter">26316</span>
           </span>
         <span class="widget-list__like-count">
           <svg>
@@ -3076,7 +3356,7 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
         </div>
       </div>
       <div class='bookmark js-tooltip js-bookmark__label '
-           data-qtip-title="В избранном у <span class='js-bookmark__counter'>26314</span> пользователей"
+           data-qtip-title="В избранном у <span class='js-bookmark__counter'>26316</span> пользователей"
            data-href="recepty/supy/sirnij-sup-po-francuzski-s-kuricej-32614"
            data-id="32614"
            data-in='False'
@@ -3094,28 +3374,6 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
   </div>
 
 
-</div>
-
-<div class="advertizing__super-footer js-advertizing__observer " id="superfooter" data-load-more-trigger="superFooterInit"></div>
-<div class="special-projects special-projects_2-items print-invisible">
-  <ul class="special-projects__list">
-    <li class="list-title">
-      <span class="text">спецпроекты</span>
-    </li>
-
-    <li class="list-item js-click-link" data-href="https://eda.ru/specialproject/10-novogodnih-idey-s-kuricey?utm_source=site&amp;utm_medium=banner_sp&amp;utm_campaign=petelinka">
-      <img class="cover" src="https://eda.ru/img/eda/c305x168i/s1.eda.ru/StaticContent/Photos/170220181326/201229121328/p_O.png" srcset="https://eda.ru/img/eda/c610x336i/s1.eda.ru/StaticContent/Photos/170220181326/201229121328/p_O.png 2x">
-      <div class="item-content">
-        <h3 class="title"><a href="https://eda.ru/specialproject/10-novogodnih-idey-s-kuricey?utm_source=site&amp;utm_medium=banner_sp&amp;utm_campaign=petelinka">10 новогодних рецептов с курицей</a></h3>
-      </div>
-    </li>
-    <li class="list-item js-click-link" data-href="https://eda.ru/school/pastry?utm_source=site&amp;utm_medium=banner_sp&amp;utm_campaign=kozhanov">
-      <img class="cover" src="https://eda.ru/img/eda/c305x168i/s2.eda.ru/StaticContent/Photos/170227165112/200921200400/p_O.jpg" srcset="https://eda.ru/img/eda/c610x336i/s2.eda.ru/StaticContent/Photos/170227165112/200921200400/p_O.jpg 2x">
-      <div class="item-content">
-        <h3 class="title"><a href="https://eda.ru/school/pastry?utm_source=site&amp;utm_medium=banner_sp&amp;utm_campaign=kozhanov">Базовый кондитерский курс</a></h3>
-      </div>
-    </li>
-  </ul>
 </div>
 
 
@@ -3186,11 +3444,11 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
 
 
 
-      <div class="horizontal-tile__item-specifications random-class-ac4d410d-5c69-4850-a279-4c8e585b3b7b">
+      <div class="horizontal-tile__item-specifications random-class-7f1556bc-ca30-400e-ad0e-7177ea3c6f19">
         <div class="inline-dropdown js-toggle-class"
              data-toggle-class-options='{
                 "toggleClass": "inline-dropdown_active",
-                "toggleObj": "random-class-ac4d410d-5c69-4850-a279-4c8e585b3b7b"
+                "toggleObj": "random-class-7f1556bc-ca30-400e-ad0e-7177ea3c6f19"
               }'>
           10 ингредиентов
           <svg class="inline-dropdown__icon">
@@ -3358,7 +3616,7 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
             <svg>
               <use xlink:href="#bookmarks-min"/>
             </svg>
-            <span class="js-bookmark__counter">22680</span>
+            <span class="js-bookmark__counter">22684</span>
           </span>
         <span class="widget-list__like-count">
           <svg>
@@ -3396,7 +3654,7 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
         </div>
       </div>
       <div class='bookmark js-tooltip js-bookmark__label '
-           data-qtip-title="В избранном у <span class='js-bookmark__counter'>22680</span> пользователей"
+           data-qtip-title="В избранном у <span class='js-bookmark__counter'>22684</span> пользователей"
            data-href="recepty/pasta-picca/spagetti-karbonara-s-krasnym-lukom-17614"
            data-id="17614"
            data-in='False'
@@ -3484,11 +3742,11 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
 
 
 
-      <div class="horizontal-tile__item-specifications random-class-081008b4-e2e2-4445-b2b1-95e507cc829f">
+      <div class="horizontal-tile__item-specifications random-class-d4450d35-27b9-474c-a097-97d257e7fb54">
         <div class="inline-dropdown js-toggle-class"
              data-toggle-class-options='{
                 "toggleClass": "inline-dropdown_active",
-                "toggleObj": "random-class-081008b4-e2e2-4445-b2b1-95e507cc829f"
+                "toggleObj": "random-class-d4450d35-27b9-474c-a097-97d257e7fb54"
               }'>
           6 ингредиентов
           <svg class="inline-dropdown__icon">
@@ -3616,7 +3874,7 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
             <svg>
               <use xlink:href="#bookmarks-min"/>
             </svg>
-            <span class="js-bookmark__counter">20049</span>
+            <span class="js-bookmark__counter">20048</span>
           </span>
         <span class="widget-list__like-count">
           <svg>
@@ -3654,7 +3912,7 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
         </div>
       </div>
       <div class='bookmark js-tooltip js-bookmark__label '
-           data-qtip-title="В избранном у <span class='js-bookmark__counter'>20049</span> пользователей"
+           data-qtip-title="В избранном у <span class='js-bookmark__counter'>20048</span> пользователей"
            data-href="recepty/vypechka-deserty/klassicheskaja-sharlotka-21916"
            data-id="21916"
            data-in='False'
@@ -3741,11 +3999,11 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
 
 
 
-      <div class="horizontal-tile__item-specifications random-class-305b49b0-cda2-4d69-8231-32c27a803e6e">
+      <div class="horizontal-tile__item-specifications random-class-ac7ccf17-dd60-4d10-b0f2-e49f8812ff29">
         <div class="inline-dropdown js-toggle-class"
              data-toggle-class-options='{
                 "toggleClass": "inline-dropdown_active",
-                "toggleObj": "random-class-305b49b0-cda2-4d69-8231-32c27a803e6e"
+                "toggleObj": "random-class-ac7ccf17-dd60-4d10-b0f2-e49f8812ff29"
               }'>
           6 ингредиентов
           <svg class="inline-dropdown__icon">
@@ -3873,7 +4131,7 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
             <svg>
               <use xlink:href="#bookmarks-min"/>
             </svg>
-            <span class="js-bookmark__counter">15856</span>
+            <span class="js-bookmark__counter">15857</span>
           </span>
         <span class="widget-list__like-count">
           <svg>
@@ -3911,7 +4169,7 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
         </div>
       </div>
       <div class='bookmark js-tooltip js-bookmark__label '
-           data-qtip-title="В избранном у <span class='js-bookmark__counter'>15856</span> пользователей"
+           data-qtip-title="В избранном у <span class='js-bookmark__counter'>15857</span> пользователей"
            data-href="recepty/vypechka-deserty/tonkie-blini-na-moloke-16014"
            data-id="16014"
            data-in='False'
@@ -3999,11 +4257,11 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
 
 
 
-      <div class="horizontal-tile__item-specifications random-class-03f8f3ab-795e-4714-a318-e130cc348e6b">
+      <div class="horizontal-tile__item-specifications random-class-5a7f8ed3-dca5-4a18-b664-37c48507c808">
         <div class="inline-dropdown js-toggle-class"
              data-toggle-class-options='{
                 "toggleClass": "inline-dropdown_active",
-                "toggleObj": "random-class-03f8f3ab-795e-4714-a318-e130cc348e6b"
+                "toggleObj": "random-class-5a7f8ed3-dca5-4a18-b664-37c48507c808"
               }'>
           8 ингредиентов
           <svg class="inline-dropdown__icon">
@@ -4151,7 +4409,7 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
             <svg>
               <use xlink:href="#bookmarks-min"/>
             </svg>
-            <span class="js-bookmark__counter">19821</span>
+            <span class="js-bookmark__counter">19820</span>
           </span>
         <span class="widget-list__like-count">
           <svg>
@@ -4163,7 +4421,7 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
           <svg>
             <use xlink:href="#like-min"/>
           </svg>
-          <span>164</span>
+          <span>165</span>
         </span>
       </div>
     </div>
@@ -4189,7 +4447,7 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
         </div>
       </div>
       <div class='bookmark js-tooltip js-bookmark__label '
-           data-qtip-title="В избранном у <span class='js-bookmark__counter'>19821</span> пользователей"
+           data-qtip-title="В избранном у <span class='js-bookmark__counter'>19820</span> пользователей"
            data-href="recepty/pasta-picca/lazanja-klassicheskaja-s-mjasom-31799"
            data-id="31799"
            data-in='False'
@@ -4207,6 +4465,38 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
   </div>
 
 
+</div>
+                <div class="banners-pad__stop-line js-responsive-banner-relative__stop-line">-----------</div>
+<div class="advertizing__parallax js-advertizing__observer" id="parallax">
+</div>
+
+<div class="special-projects print-invisible">
+  <ul class="special-projects__list">
+    <li class="list-title">
+      <span class="text">спецпроекты</span>
+    </li>
+      <li class="list-item js-click-link" data-href="https://eda.ru/specialproject/10-novogodnih-idey-s-kuricey?utm_source=site&amp;utm_medium=banner_sp&amp;utm_campaign=petelinka">
+        <img class="cover" src="https://eda.ru/img/eda/c322x168i/s1.eda.ru/StaticContent/Photos/170220181326/201229121328/p_O.png" srcset="https://eda.ru/img/eda/c644x336i/s1.eda.ru/StaticContent/Photos/170220181326/201229121328/p_O.png 2x">
+        <div class="item-content">
+          
+          <h3 class="title"><a href="https://eda.ru/specialproject/10-novogodnih-idey-s-kuricey?utm_source=site&amp;utm_medium=banner_sp&amp;utm_campaign=petelinka">10 новогодних рецептов с курицей</a></h3>
+        </div>
+      </li>
+      <li class="list-item js-click-link" data-href="https://eda.ru/school/pastry?utm_source=site&amp;utm_medium=banner_sp&amp;utm_campaign=kozhanov">
+        <img class="cover" src="https://eda.ru/img/eda/c322x168i/s2.eda.ru/StaticContent/Photos/170227165112/200921200400/p_O.jpg" srcset="https://eda.ru/img/eda/c644x336i/s2.eda.ru/StaticContent/Photos/170227165112/200921200400/p_O.jpg 2x">
+        <div class="item-content">
+          
+          <h3 class="title"><a href="https://eda.ru/school/pastry?utm_source=site&amp;utm_medium=banner_sp&amp;utm_campaign=kozhanov">Базовый кондитерский курс</a></h3>
+        </div>
+      </li>
+      <li class="list-item js-click-link" data-href="https://eda.ru/school/modern?utm_source=site&amp;utm_medium=banner_sp&amp;utm_campaign=tikhonov">
+        <img class="cover" src="https://eda.ru/img/eda/c322x168i/s2.eda.ru/StaticContent/Photos/130713154821/190722164418/p_O.png" srcset="https://eda.ru/img/eda/c644x336i/s2.eda.ru/StaticContent/Photos/130713154821/190722164418/p_O.png 2x">
+        <div class="item-content">
+          
+          <h3 class="title"><a href="https://eda.ru/school/modern?utm_source=site&amp;utm_medium=banner_sp&amp;utm_campaign=tikhonov">Современная домашняя кухня</a></h3>
+        </div>
+      </li>
+  </ul>
 </div>
 
 
@@ -4277,11 +4567,11 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
 
 
 
-      <div class="horizontal-tile__item-specifications random-class-aa0d42bd-d160-49c3-88aa-82f7df26ecff">
+      <div class="horizontal-tile__item-specifications random-class-ea355ff0-1be2-4175-9738-620ab9bffbcc">
         <div class="inline-dropdown js-toggle-class"
              data-toggle-class-options='{
                 "toggleClass": "inline-dropdown_active",
-                "toggleObj": "random-class-aa0d42bd-d160-49c3-88aa-82f7df26ecff"
+                "toggleObj": "random-class-ea355ff0-1be2-4175-9738-620ab9bffbcc"
               }'>
           9 ингредиентов
           <svg class="inline-dropdown__icon">
@@ -4439,7 +4729,7 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
             <svg>
               <use xlink:href="#bookmarks-min"/>
             </svg>
-            <span class="js-bookmark__counter">16458</span>
+            <span class="js-bookmark__counter">16461</span>
           </span>
         <span class="widget-list__like-count">
           <svg>
@@ -4477,7 +4767,7 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
         </div>
       </div>
       <div class='bookmark js-tooltip js-bookmark__label '
-           data-qtip-title="В избранном у <span class='js-bookmark__counter'>16458</span> пользователей"
+           data-qtip-title="В избранном у <span class='js-bookmark__counter'>16461</span> пользователей"
            data-href="recepty/vypechka-deserty/amerikanskij-tikvennij-pirog-s-koricej-18811"
            data-id="18811"
            data-in='False'
@@ -4495,38 +4785,6 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
   </div>
 
 
-</div>
-                <div class="banners-pad__stop-line js-responsive-banner-relative__stop-line">-----------</div>
-<div class="advertizing__parallax js-advertizing__observer" id="parallax">
-</div>
-
-<div class="special-projects print-invisible">
-  <ul class="special-projects__list">
-    <li class="list-title">
-      <span class="text">спецпроекты</span>
-    </li>
-      <li class="list-item js-click-link" data-href="https://eda.ru/specialproject/10-novogodnih-idey-s-kuricey?utm_source=site&amp;utm_medium=banner_sp&amp;utm_campaign=petelinka">
-        <img class="cover" src="https://eda.ru/img/eda/c322x168i/s1.eda.ru/StaticContent/Photos/170220181326/201229121328/p_O.png" srcset="https://eda.ru/img/eda/c644x336i/s1.eda.ru/StaticContent/Photos/170220181326/201229121328/p_O.png 2x">
-        <div class="item-content">
-          
-          <h3 class="title"><a href="https://eda.ru/specialproject/10-novogodnih-idey-s-kuricey?utm_source=site&amp;utm_medium=banner_sp&amp;utm_campaign=petelinka">10 новогодних рецептов с курицей</a></h3>
-        </div>
-      </li>
-      <li class="list-item js-click-link" data-href="https://eda.ru/school/pastry?utm_source=site&amp;utm_medium=banner_sp&amp;utm_campaign=kozhanov">
-        <img class="cover" src="https://eda.ru/img/eda/c322x168i/s2.eda.ru/StaticContent/Photos/170227165112/200921200400/p_O.jpg" srcset="https://eda.ru/img/eda/c644x336i/s2.eda.ru/StaticContent/Photos/170227165112/200921200400/p_O.jpg 2x">
-        <div class="item-content">
-          
-          <h3 class="title"><a href="https://eda.ru/school/pastry?utm_source=site&amp;utm_medium=banner_sp&amp;utm_campaign=kozhanov">Базовый кондитерский курс</a></h3>
-        </div>
-      </li>
-      <li class="list-item js-click-link" data-href="https://eda.ru/school/zimin?utm_source=site&amp;utm_medium=banner_sp&amp;utm_campaign=zimin">
-        <img class="cover" src="https://eda.ru/img/eda/c322x168i/s2.eda.ru/StaticContent/Photos/170227165112/200921201034/p_O.jpg" srcset="https://eda.ru/img/eda/c644x336i/s2.eda.ru/StaticContent/Photos/170227165112/200921201034/p_O.jpg 2x">
-        <div class="item-content">
-          
-          <h3 class="title"><a href="https://eda.ru/school/zimin?utm_source=site&amp;utm_medium=banner_sp&amp;utm_campaign=zimin">Прокачай поварские навыки</a></h3>
-        </div>
-      </li>
-  </ul>
 </div>
 
 
@@ -4597,11 +4855,11 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
 
 
 
-      <div class="horizontal-tile__item-specifications random-class-a8be5ec3-ada6-4807-9f1b-07254c589840">
+      <div class="horizontal-tile__item-specifications random-class-62bbd3bd-2ed9-4f7d-a09c-edf67a480ee5">
         <div class="inline-dropdown js-toggle-class"
              data-toggle-class-options='{
                 "toggleClass": "inline-dropdown_active",
-                "toggleObj": "random-class-a8be5ec3-ada6-4807-9f1b-07254c589840"
+                "toggleObj": "random-class-62bbd3bd-2ed9-4f7d-a09c-edf67a480ee5"
               }'>
           7 ингредиентов
           <svg class="inline-dropdown__icon">
@@ -4799,6 +5057,274 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
 
 
       <div class='horizontal-tile__item-link js-click-link '
+           data-href="/recepty/zavtraki/ojakodon-japonskij-omlet-s-risom-kuricej-28425">
+
+        <div class='horizontal-tile__cover-video'>
+            <div class="svg-container">
+              <svg>
+                <use xlink:href="#play"/>
+              </svg>
+            </div>
+            <div class="horizontal-tile__video-duration">
+              05:23
+            </div>
+        </div>
+          <div class="lazy-load-container js-lazy-loading" data-title="Оякодон (японский омлет с рисом и курицей)" data-alt="Оякодон (японский омлет с рисом и курицей)" data-src="https://eda.ru/img/eda/c285x285i/s1.eda.ru/StaticContent/Photos/130713154821/130723190525/p_O.jpg">
+            <svg xmlns="http://www.w3.org/2000/svg" class="horizontal-tile__preview-image js-lazy-loading-svg"
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 width="180" height="180"
+                 viewBox="0 0 180 180">
+              <filter id="blur" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feGaussianBlur stdDeviation="10 10" edgeMode="duplicate" />
+                <feComponentTransfer>
+                  <feFuncA type="discrete" tableValues="1 1" />
+                </feComponentTransfer>
+              </filter>
+              <image filter="url(#blur)"
+                     xlink:href="https://eda.ru/img/eda/c20x20i/s1.eda.ru/StaticContent/Photos/130713154821/130723190525/p_O.jpg"
+                     x="0" y="0"
+                     height="100%" width="100%"/>
+            </svg>
+          </div>
+
+      </div>
+    </div>
+    <div class="horizontal-tile__content">
+
+      <ul class="breadcrumbs">
+          <li><a href="https://eda.ru/recepty/poshagovye-recepty"><span>Пошаговые рецепты</span></a></li>
+          <li><a href="https://eda.ru/recepty/zavtraki"><span>Завтраки</span></a></li>
+          <li><a href="https://eda.ru/recepty/yaponskaya-kuhnya"><span>Японская кухня</span></a></li>
+      </ul>
+
+      <h3 class="horizontal-tile__item-title item-title">
+        <a href="/recepty/zavtraki/ojakodon-japonskij-omlet-s-risom-kuricej-28425">
+          <span>
+            Оякодон (японский омлет с&nbsp;рисом и&nbsp;курицей)
+          </span>
+        </a>
+                <a href="https://eda.ru/recepty/afishaeda">
+          <svg class="item-title__special item-title__special_logo">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use>
+          </svg>
+        </a>
+      </h3>
+
+      <div class="horizontal-tile__author">
+        Автор: <span class="horizontal-tile__author-link js-click-link" data-href="https://eda.ru/avtory/815257" content="Андрей Терехин">Андрей Терехин</span>
+      </div>
+
+
+
+      <div class="horizontal-tile__item-specifications random-class-79585ded-c4ef-4a2c-9bfe-643cb72abeb7">
+        <div class="inline-dropdown js-toggle-class"
+             data-toggle-class-options='{
+                "toggleClass": "inline-dropdown_active",
+                "toggleObj": "random-class-79585ded-c4ef-4a2c-9bfe-643cb72abeb7"
+              }'>
+          7 ингредиентов
+          <svg class="inline-dropdown__icon">
+            <use xlink:href="#sv" />
+          </svg>
+        </div>
+        <span class="portions-counter">
+          <svg>
+            <use xlink:href="#portion" />
+          </svg>
+          <span class="js-portions-count-print">
+            1 порция
+          </span>
+        </span>
+          <span class="prep-time">
+            <svg>
+              <use xlink:href="#timer" />
+            </svg>
+            30 минут
+
+          </span>
+
+        <div class="inline-dropdown__dropdown">
+          <div class="inline-dropdown__dropdown-pad">
+
+            <div class="ingredients-list ingredients-list_mini">
+
+
+<div class="ingredients-list__header">
+  <p class="ingredients-list__title g-h6">Ингредиенты</p>
+  <div class="ingredients-list__portions-control portions-control print-invisible">
+    <span class="portions-control__hint">порции</span>
+    <span class="portions-control__minus js-minus">
+      <svg>
+        <use xlink:href="#minus"/>
+      </svg>
+    </span>
+    <input class="portions-control__count g-h6 js-portions-count js-tooltip" data-recipe-id="28425" type="number" inputmode="numeric" value=1 title="Количество порций может быть в пределах от 1 до 12">
+    <span class="portions-control__plus js-plus">
+      <svg>
+        <use xlink:href="#plus"/>
+      </svg>
+    </span>
+  </div>
+</div>
+<div class="ingredients-list__content" cellpadding="0" cellspacing="0">
+  <p class="ingredients-list__content-item content-item js-cart-ingredients" data-ingredient-object='{"id": 13413, "name": "Репчатый лук", "amount": "1 головка"}'>
+    <span class="content-item__name tooltip">
+      <span class="js-tooltip js-tooltip-ingredient"
+            data-url="/Ingredient/RecipePreview"
+            data-id="13413">
+        Репчатый лук
+      </span>
+    </span>
+    <span class="content-item__measure js-ingredient-measure-amount" data-id="13413">1 головка</span>
+  </p>
+  <p class="ingredients-list__content-item content-item js-cart-ingredients" data-ingredient-object='{"id": 13544, "name": "Куриное филе", "amount": "300 г"}'>
+    <span class="content-item__name tooltip">
+      <span class="js-tooltip js-tooltip-ingredient"
+            data-url="/Ingredient/RecipePreview"
+            data-id="13544">
+        Куриное филе
+      </span>
+    </span>
+    <span class="content-item__measure js-ingredient-measure-amount" data-id="13544">300 г</span>
+  </p>
+  <p class="ingredients-list__content-item content-item js-cart-ingredients" data-ingredient-object='{"id": 13435, "name": "Рис", "amount": "&frac12; стакана"}'>
+    <span class="content-item__name tooltip">
+      <span class="js-tooltip js-tooltip-ingredient"
+            data-url="/Ingredient/RecipePreview"
+            data-id="13435">
+        Рис
+      </span>
+    </span>
+    <span class="content-item__measure js-ingredient-measure-amount" data-id="13435">&frac12; стакана</span>
+  </p>
+  <p class="ingredients-list__content-item content-item js-cart-ingredients" data-ingredient-object='{"id": 13418, "name": "Куриное яйцо", "amount": "3 штуки"}'>
+    <span class="content-item__name tooltip">
+      <span class="js-tooltip js-tooltip-ingredient"
+            data-url="/Ingredient/RecipePreview"
+            data-id="13418">
+        Куриное яйцо
+      </span>
+    </span>
+    <span class="content-item__measure js-ingredient-measure-amount" data-id="13418">3 штуки</span>
+  </p>
+  <p class="ingredients-list__content-item content-item js-cart-ingredients" data-ingredient-object='{"id": 13570, "name": "Соевый соус", "amount": "6 столовых ложек"}'>
+    <span class="content-item__name tooltip">
+      <span class="js-tooltip js-tooltip-ingredient"
+            data-url="/Ingredient/RecipePreview"
+            data-id="13570">
+        Соевый соус
+      </span>
+    </span>
+    <span class="content-item__measure js-ingredient-measure-amount" data-id="13570">6 столовых ложек</span>
+  </p>
+  <p class="ingredients-list__content-item content-item js-cart-ingredients" data-ingredient-object='{"id": 13410, "name": "Сахар", "amount": "2 столовые ложки"}'>
+    <span class="content-item__name tooltip">
+      <span class="js-tooltip js-tooltip-ingredient"
+            data-url="/Ingredient/RecipePreview"
+            data-id="13410">
+        Сахар
+      </span>
+    </span>
+    <span class="content-item__measure js-ingredient-measure-amount" data-id="13410">2 столовые ложки</span>
+  </p>
+  <p class="ingredients-list__content-item content-item js-cart-ingredients" data-ingredient-object='{"id": 13535, "name": "Зеленый лук", "amount": "20 г"}'>
+    <span class="content-item__name tooltip">
+      <span class="js-tooltip js-tooltip-ingredient"
+            data-url="/Ingredient/RecipePreview"
+            data-id="13535">
+        Зеленый лук
+      </span>
+    </span>
+    <span class="content-item__measure js-ingredient-measure-amount" data-id="13535">20 г</span>
+  </p>
+</div>
+
+
+
+
+
+              <a class="ingredients-list__link" href="/recepty/zavtraki/ojakodon-japonskij-omlet-s-risom-kuricej-28425">перейти на страницу рецепта</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="horizontal-tile__bottom-content">
+    <div class="horizontal-tile__bottom-content-item horizontal-tile__bottom-content-item_right">
+      <div class="widget-list__totals">
+        <span class="widget-list__favorite-count tooltip js-tooltip" title="Добавили в избранное">
+            <svg>
+              <use xlink:href="#bookmarks-min"/>
+            </svg>
+            <span class="js-bookmark__counter">13524</span>
+          </span>
+        <span class="widget-list__like-count">
+          <svg>
+            <use xlink:href="#like-min"/>
+          </svg>
+          <span>1003</span>
+        </span>
+        <span class="widget-list__like-count widget-list__like-count_dislike">
+          <svg>
+            <use xlink:href="#like-min"/>
+          </svg>
+          <span>100</span>
+        </span>
+      </div>
+    </div>
+    <div class="horizontal-tile__bottom-content-item">
+      <div class="select-dropdown select-dropdown_inline js-bookmark js-select-dropdown">
+      <input class="select-dropdown__toggle-trigger js-bookmark__menus-trigger js-tigger-checkbox js-tooltip" type="checkbox" data-qtip-title="Добавить в книгу рецептов" />
+      <div class="select-dropdown__toggle-box">
+        <div class="icon">
+          <svg>
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#sv"></use>
+          </svg>
+        </div>
+      </div>
+      <div class="select-dropdown__trigger">
+        <span class="default-value bookmark__text-add">Добавить в книгу рецептов</span>
+        <span class="default-value bookmark__text-remove">Добавлен в книгу рецептов</span>
+      </div>
+      <div class="select-dropdown__preloader-wrap">
+        <div class="preloader">
+          <svg>
+            <use xlink:href="#preloader" />
+          </svg>
+        </div>
+      </div>
+      <div class='bookmark js-tooltip js-bookmark__label '
+           data-qtip-title="В избранном у <span class='js-bookmark__counter'>13524</span> пользователей"
+           data-href="recepty/zavtraki/ojakodon-japonskij-omlet-s-risom-kuricej-28425"
+           data-id="28425"
+           data-in='False'
+           data-add-url="https://eda.ru/Favorite/AddToFavorite?classID=1&amp;objectID=28425&amp;favoriteType=Cookbook"
+           data-remove-url="https://eda.ru/Favorite/RemoveFromFavorite?classID=1&amp;objectID=28425&amp;favoriteType=Cookbook">
+        <div class="icon">
+          <svg>
+            <use xlink:href="#bookmarks-min" />
+          </svg>
+        </div>
+      </div>
+    </div>
+    </div>
+
+  </div>
+
+
+</div>
+
+
+
+
+<div class="tile-list__horizontal-tile horizontal-tile js-portions-count-parent js-bookmark__obj">
+  <div class="clearfix">
+    <div class="horizontal-tile__preview " data-label-image=''>
+
+
+      <div class='horizontal-tile__item-link js-click-link '
            data-href="/recepty/vypechka-deserty/brauni-s-temnim-shokoladom-28338">
 
         <div class='horizontal-tile__cover'>
@@ -4844,11 +5370,11 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
 
 
 
-      <div class="horizontal-tile__item-specifications random-class-f3a6924e-bde8-40ec-8140-7405acef3adb">
+      <div class="horizontal-tile__item-specifications random-class-27a5293f-b8e6-4d8c-924f-8020baf9523e">
         <div class="inline-dropdown js-toggle-class"
              data-toggle-class-options='{
                 "toggleClass": "inline-dropdown_active",
-                "toggleObj": "random-class-f3a6924e-bde8-40ec-8140-7405acef3adb"
+                "toggleObj": "random-class-27a5293f-b8e6-4d8c-924f-8020baf9523e"
               }'>
           6 ингредиентов
           <svg class="inline-dropdown__icon">
@@ -4976,7 +5502,7 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
             <svg>
               <use xlink:href="#bookmarks-min"/>
             </svg>
-            <span class="js-bookmark__counter">8504</span>
+            <span class="js-bookmark__counter">8505</span>
           </span>
         <span class="widget-list__like-count">
           <svg>
@@ -5014,7 +5540,7 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
         </div>
       </div>
       <div class='bookmark js-tooltip js-bookmark__label '
-           data-qtip-title="В избранном у <span class='js-bookmark__counter'>8504</span> пользователей"
+           data-qtip-title="В избранном у <span class='js-bookmark__counter'>8505</span> пользователей"
            data-href="recepty/vypechka-deserty/brauni-s-temnim-shokoladom-28338"
            data-id="28338"
            data-in='False'
@@ -5088,11 +5614,11 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
 
 
 
-      <div class="horizontal-tile__item-specifications random-class-9a05f904-42a2-440f-94fe-91240e92de59">
+      <div class="horizontal-tile__item-specifications random-class-5cf7caf6-4f8c-46b5-9e0b-982399726eaf">
         <div class="inline-dropdown js-toggle-class"
              data-toggle-class-options='{
                 "toggleClass": "inline-dropdown_active",
-                "toggleObj": "random-class-9a05f904-42a2-440f-94fe-91240e92de59"
+                "toggleObj": "random-class-5cf7caf6-4f8c-46b5-9e0b-982399726eaf"
               }'>
           6 ингредиентов
           <svg class="inline-dropdown__icon">
@@ -5213,7 +5739,7 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
             <svg>
               <use xlink:href="#bookmarks-min"/>
             </svg>
-            <span class="js-bookmark__counter">6737</span>
+            <span class="js-bookmark__counter">6738</span>
           </span>
         <span class="widget-list__like-count">
           <svg>
@@ -5251,12 +5777,313 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
         </div>
       </div>
       <div class='bookmark js-tooltip js-bookmark__label '
-           data-qtip-title="В избранном у <span class='js-bookmark__counter'>6737</span> пользователей"
+           data-qtip-title="В избранном у <span class='js-bookmark__counter'>6738</span> пользователей"
            data-href="recepty/vypechka-deserty/sharlotka-tradicionnaja-21158"
            data-id="21158"
            data-in='False'
            data-add-url="https://eda.ru/Favorite/AddToFavorite?classID=1&amp;objectID=21158&amp;favoriteType=Cookbook"
            data-remove-url="https://eda.ru/Favorite/RemoveFromFavorite?classID=1&amp;objectID=21158&amp;favoriteType=Cookbook">
+        <div class="icon">
+          <svg>
+            <use xlink:href="#bookmarks-min" />
+          </svg>
+        </div>
+      </div>
+    </div>
+    </div>
+
+  </div>
+
+
+</div>
+
+
+
+
+<div class="tile-list__horizontal-tile horizontal-tile js-portions-count-parent js-bookmark__obj">
+  <div class="clearfix">
+    <div class="horizontal-tile__preview " data-label-image=''>
+
+
+      <div class='horizontal-tile__item-link js-click-link '
+           data-href="/recepty/supy/tomatnij-sup-iz-moreproduktov-25076">
+
+        <div class='horizontal-tile__cover'>
+        </div>
+          <div class="lazy-load-container js-lazy-loading" data-title="Томатный суп из  морепродуктов" data-alt="Томатный суп из  морепродуктов" data-src="https://eda.ru/img/eda/c285x285i/s1.eda.ru/StaticContent/Photos/120214131925/120214132229/p_O.jpg">
+            <svg xmlns="http://www.w3.org/2000/svg" class="horizontal-tile__preview-image js-lazy-loading-svg"
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 width="180" height="180"
+                 viewBox="0 0 180 180">
+              <filter id="blur" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feGaussianBlur stdDeviation="10 10" edgeMode="duplicate" />
+                <feComponentTransfer>
+                  <feFuncA type="discrete" tableValues="1 1" />
+                </feComponentTransfer>
+              </filter>
+              <image filter="url(#blur)"
+                     xlink:href="https://eda.ru/img/eda/c20x20i/s1.eda.ru/StaticContent/Photos/120214131925/120214132229/p_O.jpg"
+                     x="0" y="0"
+                     height="100%" width="100%"/>
+            </svg>
+          </div>
+
+      </div>
+    </div>
+    <div class="horizontal-tile__content">
+
+      <ul class="breadcrumbs">
+          <li><a href="https://eda.ru/recepty/poshagovye-recepty"><span>Пошаговые рецепты</span></a></li>
+          <li><a href="https://eda.ru/recepty/supy"><span>Супы</span></a></li>
+          <li><a href="https://eda.ru/recepty/indoneziyskaya-kuhnya"><span>Индонезийская кухня</span></a></li>
+          <li><a href="https://eda.ru/recepty/nizkokaloriynaya-eda"><span>Низкокалорийная еда</span></a></li>
+      </ul>
+
+      <h3 class="horizontal-tile__item-title item-title">
+        <a href="/recepty/supy/tomatnij-sup-iz-moreproduktov-25076">
+          <span>
+            Томатный суп из&nbsp;морепродуктов
+          </span>
+        </a>
+                <a href="https://eda.ru/recepty/afishaeda">
+          <svg class="item-title__special item-title__special_logo">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use>
+          </svg>
+        </a>
+      </h3>
+
+      <div class="horizontal-tile__author">
+        Автор: <span class="horizontal-tile__author-link js-click-link" data-href="https://eda.ru/avtory/710911" content="Ульяна Мэй">Ульяна Мэй</span>
+      </div>
+
+
+
+      <div class="horizontal-tile__item-specifications random-class-7b8a60de-cff2-4f4f-aaa8-941547458a3f">
+        <div class="inline-dropdown js-toggle-class"
+             data-toggle-class-options='{
+                "toggleClass": "inline-dropdown_active",
+                "toggleObj": "random-class-7b8a60de-cff2-4f4f-aaa8-941547458a3f"
+              }'>
+          11 ингредиентов
+          <svg class="inline-dropdown__icon">
+            <use xlink:href="#sv" />
+          </svg>
+        </div>
+        <span class="portions-counter">
+          <svg>
+            <use xlink:href="#portion" />
+          </svg>
+          <span class="js-portions-count-print">
+            5 порций
+          </span>
+        </span>
+          <span class="prep-time">
+            <svg>
+              <use xlink:href="#timer" />
+            </svg>
+            30 минут
+
+          </span>
+
+        <div class="inline-dropdown__dropdown">
+          <div class="inline-dropdown__dropdown-pad">
+
+            <div class="ingredients-list ingredients-list_mini">
+
+
+<div class="ingredients-list__header">
+  <p class="ingredients-list__title g-h6">Ингредиенты</p>
+  <div class="ingredients-list__portions-control portions-control print-invisible">
+    <span class="portions-control__hint">порции</span>
+    <span class="portions-control__minus js-minus">
+      <svg>
+        <use xlink:href="#minus"/>
+      </svg>
+    </span>
+    <input class="portions-control__count g-h6 js-portions-count js-tooltip" data-recipe-id="25076" type="number" inputmode="numeric" value=5 title="Количество порций может быть в пределах от 1 до 12">
+    <span class="portions-control__plus js-plus">
+      <svg>
+        <use xlink:href="#plus"/>
+      </svg>
+    </span>
+  </div>
+</div>
+<div class="ingredients-list__content" cellpadding="0" cellspacing="0">
+  <p class="ingredients-list__content-item content-item js-cart-ingredients" data-ingredient-object='{"id": 14300, "name": "Коктейль из морепродуктов", "amount": "250 г"}'>
+    <span class="content-item__name tooltip">
+      <span class="js-tooltip js-tooltip-ingredient"
+            data-url="/Ingredient/RecipePreview"
+            data-id="14300">
+        Коктейль из морепродуктов
+      </span>
+    </span>
+    <span class="content-item__measure js-ingredient-measure-amount" data-id="14300">250 г</span>
+  </p>
+  <p class="ingredients-list__content-item content-item js-cart-ingredients" data-ingredient-object='{"id": 13413, "name": "Репчатый лук", "amount": "1 головка"}'>
+    <span class="content-item__name tooltip">
+      <span class="js-tooltip js-tooltip-ingredient"
+            data-url="/Ingredient/RecipePreview"
+            data-id="13413">
+        Репчатый лук
+      </span>
+    </span>
+    <span class="content-item__measure js-ingredient-measure-amount" data-id="13413">1 головка</span>
+  </p>
+  <p class="ingredients-list__content-item content-item js-cart-ingredients" data-ingredient-object='{"id": 13430, "name": "Чеснок", "amount": "3 зубчика"}'>
+    <span class="content-item__name tooltip">
+      <span class="js-tooltip js-tooltip-ingredient"
+            data-url="/Ingredient/RecipePreview"
+            data-id="13430">
+        Чеснок
+      </span>
+    </span>
+    <span class="content-item__measure js-ingredient-measure-amount" data-id="13430">3 зубчика</span>
+  </p>
+  <p class="ingredients-list__content-item content-item js-cart-ingredients" data-ingredient-object='{"id": 15864, "name": "Сладкий перец", "amount": "1 штука"}'>
+    <span class="content-item__name tooltip">
+      <span class="js-tooltip js-tooltip-ingredient"
+            data-url="/Ingredient/RecipePreview"
+            data-id="15864">
+        Сладкий перец
+      </span>
+    </span>
+    <span class="content-item__measure js-ingredient-measure-amount" data-id="15864">1 штука</span>
+  </p>
+  <p class="ingredients-list__content-item content-item js-cart-ingredients" data-ingredient-object='{"id": 13439, "name": "Помидоры", "amount": "1 штука"}'>
+    <span class="content-item__name tooltip">
+      <span class="js-tooltip js-tooltip-ingredient"
+            data-url="/Ingredient/RecipePreview"
+            data-id="13439">
+        Помидоры
+      </span>
+    </span>
+    <span class="content-item__measure js-ingredient-measure-amount" data-id="13439">1 штука</span>
+  </p>
+  <p class="ingredients-list__content-item content-item js-cart-ingredients" data-ingredient-object='{"id": 13687, "name": "Томатный сок", "amount": "350 мл"}'>
+    <span class="content-item__name tooltip">
+      <span class="js-tooltip js-tooltip-ingredient"
+            data-url="/Ingredient/RecipePreview"
+            data-id="13687">
+        Томатный сок
+      </span>
+    </span>
+    <span class="content-item__measure js-ingredient-measure-amount" data-id="13687">350 мл</span>
+  </p>
+  <p class="ingredients-list__content-item content-item js-cart-ingredients" data-ingredient-object='{"id": 13679, "name": "Шафран", "amount": "1 чайная ложка"}'>
+    <span class="content-item__name tooltip">
+      <span class="js-tooltip js-tooltip-ingredient"
+            data-url="/Ingredient/RecipePreview"
+            data-id="13679">
+        Шафран
+      </span>
+    </span>
+    <span class="content-item__measure js-ingredient-measure-amount" data-id="13679">1 чайная ложка</span>
+  </p>
+  <p class="ingredients-list__content-item content-item js-cart-ingredients" data-ingredient-object='{"id": 15040, "name": "Сушеный базилик", "amount": "1 чайная ложка"}'>
+    <span class="content-item__name tooltip">
+      <span class="js-tooltip js-tooltip-ingredient"
+            data-url="/Ingredient/RecipePreview"
+            data-id="15040">
+        Сушеный базилик
+      </span>
+    </span>
+    <span class="content-item__measure js-ingredient-measure-amount" data-id="15040">1 чайная ложка</span>
+  </p>
+  <p class="ingredients-list__content-item content-item js-cart-ingredients" data-ingredient-object='{"id": 14473, "name": "Прованские травы", "amount": "1 чайная ложка"}'>
+    <span class="content-item__name tooltip">
+      <span class="js-tooltip js-tooltip-ingredient"
+            data-url="/Ingredient/RecipePreview"
+            data-id="14473">
+        Прованские травы
+      </span>
+    </span>
+    <span class="content-item__measure js-ingredient-measure-amount" data-id="14473">1 чайная ложка</span>
+  </p>
+  <p class="ingredients-list__content-item content-item js-cart-ingredients" data-ingredient-object='{"id": 13482, "name": "Лимонный сок", "amount": "1 столовая ложка"}'>
+    <span class="content-item__name tooltip">
+      <span class="js-tooltip js-tooltip-ingredient"
+            data-url="/Ingredient/RecipePreview"
+            data-id="13482">
+        Лимонный сок
+      </span>
+    </span>
+    <span class="content-item__measure js-ingredient-measure-amount" data-id="13482">1 столовая ложка</span>
+  </p>
+  <p class="ingredients-list__content-item content-item js-cart-ingredients" data-ingredient-object='{"id": 13418, "name": "Куриное яйцо", "amount": "2 штуки"}'>
+    <span class="content-item__name tooltip">
+      <span class="js-tooltip js-tooltip-ingredient"
+            data-url="/Ingredient/RecipePreview"
+            data-id="13418">
+        Куриное яйцо
+      </span>
+    </span>
+    <span class="content-item__measure js-ingredient-measure-amount" data-id="13418">2 штуки</span>
+  </p>
+</div>
+
+
+
+
+
+              <a class="ingredients-list__link" href="/recepty/supy/tomatnij-sup-iz-moreproduktov-25076">перейти на страницу рецепта</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="horizontal-tile__bottom-content">
+    <div class="horizontal-tile__bottom-content-item horizontal-tile__bottom-content-item_right">
+      <div class="widget-list__totals">
+        <span class="widget-list__favorite-count tooltip js-tooltip" title="Добавили в избранное">
+            <svg>
+              <use xlink:href="#bookmarks-min"/>
+            </svg>
+            <span class="js-bookmark__counter">9976</span>
+          </span>
+        <span class="widget-list__like-count">
+          <svg>
+            <use xlink:href="#like-min"/>
+          </svg>
+          <span>835</span>
+        </span>
+        <span class="widget-list__like-count widget-list__like-count_dislike">
+          <svg>
+            <use xlink:href="#like-min"/>
+          </svg>
+          <span>108</span>
+        </span>
+      </div>
+    </div>
+    <div class="horizontal-tile__bottom-content-item">
+      <div class="select-dropdown select-dropdown_inline js-bookmark js-select-dropdown">
+      <input class="select-dropdown__toggle-trigger js-bookmark__menus-trigger js-tigger-checkbox js-tooltip" type="checkbox" data-qtip-title="Добавить в книгу рецептов" />
+      <div class="select-dropdown__toggle-box">
+        <div class="icon">
+          <svg>
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#sv"></use>
+          </svg>
+        </div>
+      </div>
+      <div class="select-dropdown__trigger">
+        <span class="default-value bookmark__text-add">Добавить в книгу рецептов</span>
+        <span class="default-value bookmark__text-remove">Добавлен в книгу рецептов</span>
+      </div>
+      <div class="select-dropdown__preloader-wrap">
+        <div class="preloader">
+          <svg>
+            <use xlink:href="#preloader" />
+          </svg>
+        </div>
+      </div>
+      <div class='bookmark js-tooltip js-bookmark__label '
+           data-qtip-title="В избранном у <span class='js-bookmark__counter'>9976</span> пользователей"
+           data-href="recepty/supy/tomatnij-sup-iz-moreproduktov-25076"
+           data-id="25076"
+           data-in='False'
+           data-add-url="https://eda.ru/Favorite/AddToFavorite?classID=1&amp;objectID=25076&amp;favoriteType=Cookbook"
+           data-remove-url="https://eda.ru/Favorite/RemoveFromFavorite?classID=1&amp;objectID=25076&amp;favoriteType=Cookbook">
         <div class="icon">
           <svg>
             <use xlink:href="#bookmarks-min" />
@@ -5325,11 +6152,11 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
 
 
 
-      <div class="horizontal-tile__item-specifications random-class-a2539a12-df00-4def-ac7d-e752bd5aadf2">
+      <div class="horizontal-tile__item-specifications random-class-748a2e69-63ee-4350-be5f-8e37c7e6f917">
         <div class="inline-dropdown js-toggle-class"
              data-toggle-class-options='{
                 "toggleClass": "inline-dropdown_active",
-                "toggleObj": "random-class-a2539a12-df00-4def-ac7d-e752bd5aadf2"
+                "toggleObj": "random-class-748a2e69-63ee-4350-be5f-8e37c7e6f917"
               }'>
           12 ингредиентов
           <svg class="inline-dropdown__icon">
@@ -5517,7 +6344,7 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
             <svg>
               <use xlink:href="#bookmarks-min"/>
             </svg>
-            <span class="js-bookmark__counter">9079</span>
+            <span class="js-bookmark__counter">9081</span>
           </span>
         <span class="widget-list__like-count">
           <svg>
@@ -5555,868 +6382,12 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
         </div>
       </div>
       <div class='bookmark js-tooltip js-bookmark__label '
-           data-qtip-title="В избранном у <span class='js-bookmark__counter'>9079</span> пользователей"
+           data-qtip-title="В избранном у <span class='js-bookmark__counter'>9081</span> пользователей"
            data-href="recepty/salaty/klassicheskij-grecheskij-salat-horiatiki-21993"
            data-id="21993"
            data-in='False'
            data-add-url="https://eda.ru/Favorite/AddToFavorite?classID=1&amp;objectID=21993&amp;favoriteType=Cookbook"
            data-remove-url="https://eda.ru/Favorite/RemoveFromFavorite?classID=1&amp;objectID=21993&amp;favoriteType=Cookbook">
-        <div class="icon">
-          <svg>
-            <use xlink:href="#bookmarks-min" />
-          </svg>
-        </div>
-      </div>
-    </div>
-    </div>
-
-  </div>
-
-
-</div>
-
-
-
-
-<div class="tile-list__horizontal-tile horizontal-tile js-portions-count-parent js-bookmark__obj">
-  <div class="clearfix">
-    <div class="horizontal-tile__preview " data-label-image=''>
-
-
-      <div class='horizontal-tile__item-link js-click-link '
-           data-href="/recepty/supy/krem-sup-iz-tikvi-16754">
-
-        <div class='horizontal-tile__cover-video'>
-            <div class="svg-container">
-              <svg>
-                <use xlink:href="#play"/>
-              </svg>
-            </div>
-            <div class="horizontal-tile__video-duration">
-              00:54
-            </div>
-        </div>
-          <div class="lazy-load-container js-lazy-loading" data-title="Крем-суп из тыквы" data-alt="Крем-суп из тыквы" data-src="https://eda.ru/img/eda/c285x285i/s1.eda.ru/StaticContent/Photos/110801145439/170310001934/p_O.jpg">
-            <svg xmlns="http://www.w3.org/2000/svg" class="horizontal-tile__preview-image js-lazy-loading-svg"
-                 xmlns:xlink="http://www.w3.org/1999/xlink"
-                 width="180" height="180"
-                 viewBox="0 0 180 180">
-              <filter id="blur" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                <feGaussianBlur stdDeviation="10 10" edgeMode="duplicate" />
-                <feComponentTransfer>
-                  <feFuncA type="discrete" tableValues="1 1" />
-                </feComponentTransfer>
-              </filter>
-              <image filter="url(#blur)"
-                     xlink:href="https://eda.ru/img/eda/c20x20i/s1.eda.ru/StaticContent/Photos/110801145439/170310001934/p_O.jpg"
-                     x="0" y="0"
-                     height="100%" width="100%"/>
-            </svg>
-          </div>
-
-      </div>
-    </div>
-    <div class="horizontal-tile__content">
-
-      <ul class="breadcrumbs">
-          <li><a href="https://eda.ru/recepty/poshagovye-recepty"><span>Пошаговые рецепты</span></a></li>
-          <li><a href="https://eda.ru/recepty/supy"><span>Супы</span></a></li>
-          <li><a href="https://eda.ru/recepty/francuzskaya-kuhnya"><span>Французская кухня</span></a></li>
-      </ul>
-
-      <h3 class="horizontal-tile__item-title item-title">
-        <a href="/recepty/supy/krem-sup-iz-tikvi-16754">
-          <span>
-            Крем-суп из&nbsp;тыквы
-          </span>
-        </a>
-                <a href="https://eda.ru/recepty/afishaeda">
-          <svg class="item-title__special item-title__special_logo">
-            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use>
-          </svg>
-        </a>
-      </h3>
-
-      <div class="horizontal-tile__author">
-        Автор: <span class="horizontal-tile__author-link js-click-link" data-href="https://eda.ru/avtory/191559" content="Алексей Зимин">Алексей Зимин</span>
-      </div>
-
-
-
-      <div class="horizontal-tile__item-specifications random-class-0f5cd43e-9518-4732-818a-39bc2994bbdd">
-        <div class="inline-dropdown js-toggle-class"
-             data-toggle-class-options='{
-                "toggleClass": "inline-dropdown_active",
-                "toggleObj": "random-class-0f5cd43e-9518-4732-818a-39bc2994bbdd"
-              }'>
-          12 ингредиентов
-          <svg class="inline-dropdown__icon">
-            <use xlink:href="#sv" />
-          </svg>
-        </div>
-        <span class="portions-counter">
-          <svg>
-            <use xlink:href="#portion" />
-          </svg>
-          <span class="js-portions-count-print">
-            6 порций
-          </span>
-        </span>
-          <span class="prep-time">
-            <svg>
-              <use xlink:href="#timer" />
-            </svg>
-            15 минут
-
-          </span>
-
-        <div class="inline-dropdown__dropdown">
-          <div class="inline-dropdown__dropdown-pad">
-
-            <div class="ingredients-list ingredients-list_mini">
-
-
-<div class="ingredients-list__header">
-  <p class="ingredients-list__title g-h6">Ингредиенты</p>
-  <div class="ingredients-list__portions-control portions-control print-invisible">
-    <span class="portions-control__hint">порции</span>
-    <span class="portions-control__minus js-minus">
-      <svg>
-        <use xlink:href="#minus"/>
-      </svg>
-    </span>
-    <input class="portions-control__count g-h6 js-portions-count js-tooltip" data-recipe-id="16754" type="number" inputmode="numeric" value=6 title="Количество порций может быть в пределах от 1 до 12">
-    <span class="portions-control__plus js-plus">
-      <svg>
-        <use xlink:href="#plus"/>
-      </svg>
-    </span>
-  </div>
-</div>
-<div class="ingredients-list__content" cellpadding="0" cellspacing="0">
-  <p class="ingredients-list__content-item content-item js-cart-ingredients" data-ingredient-object='{"id": 13420, "name": "Молотый черный перец", "amount": "по вкусу"}'>
-    <span class="content-item__name tooltip">
-      <span class="js-tooltip js-tooltip-ingredient"
-            data-url="/Ingredient/RecipePreview"
-            data-id="13420">
-        Молотый черный перец
-      </span>
-    </span>
-    <span class="content-item__measure js-ingredient-measure-amount" data-id="13420">по вкусу</span>
-  </p>
-  <p class="ingredients-list__content-item content-item js-cart-ingredients" data-ingredient-object='{"id": 13421, "name": "Соль", "amount": "по вкусу"}'>
-    <span class="content-item__name tooltip">
-      <span class="js-tooltip js-tooltip-ingredient"
-            data-url="/Ingredient/RecipePreview"
-            data-id="13421">
-        Соль
-      </span>
-    </span>
-    <span class="content-item__measure js-ingredient-measure-amount" data-id="13421">по вкусу</span>
-  </p>
-  <p class="ingredients-list__content-item content-item js-cart-ingredients" data-ingredient-object='{"id": 13833, "name": "Очищенные семена тыквы", "amount": "50 г"}'>
-    <span class="content-item__name tooltip">
-      <span class="js-tooltip js-tooltip-ingredient"
-            data-url="/Ingredient/RecipePreview"
-            data-id="13833">
-        Очищенные семена тыквы
-      </span>
-    </span>
-    <span class="content-item__measure js-ingredient-measure-amount" data-id="13833">50 г</span>
-  </p>
-  <p class="ingredients-list__content-item content-item js-cart-ingredients" data-ingredient-object='{"id": 13410, "name": "Сахар", "amount": "2 столовые ложки"}'>
-    <span class="content-item__name tooltip">
-      <span class="js-tooltip js-tooltip-ingredient"
-            data-url="/Ingredient/RecipePreview"
-            data-id="13410">
-        Сахар
-      </span>
-    </span>
-    <span class="content-item__measure js-ingredient-measure-amount" data-id="13410">2 столовые ложки</span>
-  </p>
-  <p class="ingredients-list__content-item content-item js-cart-ingredients" data-ingredient-object='{"id": 13424, "name": "Петрушка", "amount": "20 г"}'>
-    <span class="content-item__name tooltip">
-      <span class="js-tooltip js-tooltip-ingredient"
-            data-url="/Ingredient/RecipePreview"
-            data-id="13424">
-        Петрушка
-      </span>
-    </span>
-    <span class="content-item__measure js-ingredient-measure-amount" data-id="13424">20 г</span>
-  </p>
-  <p class="ingredients-list__content-item content-item js-cart-ingredients" data-ingredient-object='{"id": 13474, "name": "Сливки", "amount": "200 мл"}'>
-    <span class="content-item__name tooltip">
-      <span class="js-tooltip js-tooltip-ingredient"
-            data-url="/Ingredient/RecipePreview"
-            data-id="13474">
-        Сливки
-      </span>
-    </span>
-    <span class="content-item__measure js-ingredient-measure-amount" data-id="13474">200 мл</span>
-  </p>
-  <p class="ingredients-list__content-item content-item js-cart-ingredients" data-ingredient-object='{"id": 13648, "name": "Бренди", "amount": "50 мл"}'>
-    <span class="content-item__name tooltip">
-      <span class="js-tooltip js-tooltip-ingredient"
-            data-url="/Ingredient/RecipePreview"
-            data-id="13648">
-        Бренди
-      </span>
-    </span>
-    <span class="content-item__measure js-ingredient-measure-amount" data-id="13648">50 мл</span>
-  </p>
-  <p class="ingredients-list__content-item content-item js-cart-ingredients" data-ingredient-object='{"id": 13412, "name": "Сливочное масло", "amount": "100 г"}'>
-    <span class="content-item__name tooltip">
-      <span class="js-tooltip js-tooltip-ingredient"
-            data-url="/Ingredient/RecipePreview"
-            data-id="13412">
-        Сливочное масло
-      </span>
-    </span>
-    <span class="content-item__measure js-ingredient-measure-amount" data-id="13412">100 г</span>
-  </p>
-  <p class="ingredients-list__content-item content-item js-cart-ingredients" data-ingredient-object='{"id": 13430, "name": "Чеснок", "amount": "6 зубчиков"}'>
-    <span class="content-item__name tooltip">
-      <span class="js-tooltip js-tooltip-ingredient"
-            data-url="/Ingredient/RecipePreview"
-            data-id="13430">
-        Чеснок
-      </span>
-    </span>
-    <span class="content-item__measure js-ingredient-measure-amount" data-id="13430">6 зубчиков</span>
-  </p>
-  <p class="ingredients-list__content-item content-item js-cart-ingredients" data-ingredient-object='{"id": 13643, "name": "Красный лук", "amount": "1 головка"}'>
-    <span class="content-item__name tooltip">
-      <span class="js-tooltip js-tooltip-ingredient"
-            data-url="/Ingredient/RecipePreview"
-            data-id="13643">
-        Красный лук
-      </span>
-    </span>
-    <span class="content-item__measure js-ingredient-measure-amount" data-id="13643">1 головка</span>
-  </p>
-  <p class="ingredients-list__content-item content-item js-cart-ingredients" data-ingredient-object='{"id": 13774, "name": "Тыква", "amount": "1 кг"}'>
-    <span class="content-item__name tooltip">
-      <span class="js-tooltip js-tooltip-ingredient"
-            data-url="/Ingredient/RecipePreview"
-            data-id="13774">
-        Тыква
-      </span>
-    </span>
-    <span class="content-item__measure js-ingredient-measure-amount" data-id="13774">1 кг</span>
-  </p>
-  <p class="ingredients-list__content-item content-item js-cart-ingredients" data-ingredient-object='{"id": 13545, "name": "Куриный бульон", "amount": "1 л"}'>
-    <span class="content-item__name tooltip">
-      <span class="js-tooltip js-tooltip-ingredient"
-            data-url="/Ingredient/RecipePreview"
-            data-id="13545">
-        Куриный бульон
-      </span>
-    </span>
-    <span class="content-item__measure js-ingredient-measure-amount" data-id="13545">1 л</span>
-  </p>
-</div>
-
-
-
-
-
-              <a class="ingredients-list__link" href="/recepty/supy/krem-sup-iz-tikvi-16754">перейти на страницу рецепта</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-  <div class="horizontal-tile__bottom-content">
-    <div class="horizontal-tile__bottom-content-item horizontal-tile__bottom-content-item_right">
-      <div class="widget-list__totals">
-        <span class="widget-list__favorite-count tooltip js-tooltip" title="Добавили в избранное">
-            <svg>
-              <use xlink:href="#bookmarks-min"/>
-            </svg>
-            <span class="js-bookmark__counter">8980</span>
-          </span>
-        <span class="widget-list__like-count">
-          <svg>
-            <use xlink:href="#like-min"/>
-          </svg>
-          <span>808</span>
-        </span>
-        <span class="widget-list__like-count widget-list__like-count_dislike">
-          <svg>
-            <use xlink:href="#like-min"/>
-          </svg>
-          <span>50</span>
-        </span>
-      </div>
-    </div>
-    <div class="horizontal-tile__bottom-content-item">
-      <div class="select-dropdown select-dropdown_inline js-bookmark js-select-dropdown">
-      <input class="select-dropdown__toggle-trigger js-bookmark__menus-trigger js-tigger-checkbox js-tooltip" type="checkbox" data-qtip-title="Добавить в книгу рецептов" />
-      <div class="select-dropdown__toggle-box">
-        <div class="icon">
-          <svg>
-            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#sv"></use>
-          </svg>
-        </div>
-      </div>
-      <div class="select-dropdown__trigger">
-        <span class="default-value bookmark__text-add">Добавить в книгу рецептов</span>
-        <span class="default-value bookmark__text-remove">Добавлен в книгу рецептов</span>
-      </div>
-      <div class="select-dropdown__preloader-wrap">
-        <div class="preloader">
-          <svg>
-            <use xlink:href="#preloader" />
-          </svg>
-        </div>
-      </div>
-      <div class='bookmark js-tooltip js-bookmark__label '
-           data-qtip-title="В избранном у <span class='js-bookmark__counter'>8980</span> пользователей"
-           data-href="recepty/supy/krem-sup-iz-tikvi-16754"
-           data-id="16754"
-           data-in='False'
-           data-add-url="https://eda.ru/Favorite/AddToFavorite?classID=1&amp;objectID=16754&amp;favoriteType=Cookbook"
-           data-remove-url="https://eda.ru/Favorite/RemoveFromFavorite?classID=1&amp;objectID=16754&amp;favoriteType=Cookbook">
-        <div class="icon">
-          <svg>
-            <use xlink:href="#bookmarks-min" />
-          </svg>
-        </div>
-      </div>
-    </div>
-    </div>
-
-  </div>
-
-
-</div>
-
-
-
-
-<div class="tile-list__horizontal-tile horizontal-tile js-portions-count-parent js-bookmark__obj">
-  <div class="clearfix">
-    <div class="horizontal-tile__preview " data-label-image=''>
-
-
-      <div class='horizontal-tile__item-link js-click-link '
-           data-href="/recepty/vypechka-deserty/shokoladnie-maffini-s-kusochkami-shokolada-36024">
-
-        <div class='horizontal-tile__cover'>
-        </div>
-          <div class="lazy-load-container js-lazy-loading" data-title="Шоколадные маффины с кусочками шоколада" data-alt="Шоколадные маффины с кусочками шоколада" data-src="https://eda.ru/img/eda/c285x285i/s2.eda.ru/StaticContent/Photos/120131082327/170426185638/p_O.jpg">
-            <svg xmlns="http://www.w3.org/2000/svg" class="horizontal-tile__preview-image js-lazy-loading-svg"
-                 xmlns:xlink="http://www.w3.org/1999/xlink"
-                 width="180" height="180"
-                 viewBox="0 0 180 180">
-              <filter id="blur" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                <feGaussianBlur stdDeviation="10 10" edgeMode="duplicate" />
-                <feComponentTransfer>
-                  <feFuncA type="discrete" tableValues="1 1" />
-                </feComponentTransfer>
-              </filter>
-              <image filter="url(#blur)"
-                     xlink:href="https://eda.ru/img/eda/c20x20i/s2.eda.ru/StaticContent/Photos/120131082327/170426185638/p_O.jpg"
-                     x="0" y="0"
-                     height="100%" width="100%"/>
-            </svg>
-          </div>
-
-      </div>
-    </div>
-    <div class="horizontal-tile__content">
-
-      <ul class="breadcrumbs">
-          <li><a href="https://eda.ru/recepty/vypechka-deserty"><span>Выпечка и десерты</span></a></li>
-          <li><a href="https://eda.ru/recepty/francuzskaya-kuhnya"><span>Французская кухня</span></a></li>
-      </ul>
-
-      <h3 class="horizontal-tile__item-title item-title">
-        <a href="/recepty/vypechka-deserty/shokoladnie-maffini-s-kusochkami-shokolada-36024">
-          <span>
-            Шоколадные маффины с&nbsp;кусочками шоколада
-          </span>
-        </a>
-              </h3>
-
-      <div class="horizontal-tile__author">
-        Автор: <span class="horizontal-tile__author-link js-click-link" data-href="https://eda.ru/avtory/1011425" content="Евгения Алексеева">Евгения Алексеева</span>
-      </div>
-
-
-
-      <div class="horizontal-tile__item-specifications random-class-4fc52db5-738e-4c32-ae5e-b315f321a741">
-        <div class="inline-dropdown js-toggle-class"
-             data-toggle-class-options='{
-                "toggleClass": "inline-dropdown_active",
-                "toggleObj": "random-class-4fc52db5-738e-4c32-ae5e-b315f321a741"
-              }'>
-          8 ингредиентов
-          <svg class="inline-dropdown__icon">
-            <use xlink:href="#sv" />
-          </svg>
-        </div>
-        <span class="portions-counter">
-          <svg>
-            <use xlink:href="#portion" />
-          </svg>
-          <span class="js-portions-count-print">
-            12 порций
-          </span>
-        </span>
-          <span class="prep-time">
-            <svg>
-              <use xlink:href="#timer" />
-            </svg>
-            40 минут
-
-          </span>
-
-        <div class="inline-dropdown__dropdown">
-          <div class="inline-dropdown__dropdown-pad">
-
-            <div class="ingredients-list ingredients-list_mini">
-
-
-<div class="ingredients-list__header">
-  <p class="ingredients-list__title g-h6">Ингредиенты</p>
-  <div class="ingredients-list__portions-control portions-control print-invisible">
-    <span class="portions-control__hint">порции</span>
-    <span class="portions-control__minus js-minus">
-      <svg>
-        <use xlink:href="#minus"/>
-      </svg>
-    </span>
-    <input class="portions-control__count g-h6 js-portions-count js-tooltip" data-recipe-id="36024" type="number" inputmode="numeric" value=12 title="Количество порций может быть в пределах от 1 до 12">
-    <span class="portions-control__plus js-plus">
-      <svg>
-        <use xlink:href="#plus"/>
-      </svg>
-    </span>
-  </div>
-</div>
-<div class="ingredients-list__content" cellpadding="0" cellspacing="0">
-  <p class="ingredients-list__content-item content-item js-cart-ingredients" data-ingredient-object='{"id": 13410, "name": "Сахар", "amount": "60 г"}'>
-    <span class="content-item__name tooltip">
-      <span class="js-tooltip js-tooltip-ingredient"
-            data-url="/Ingredient/RecipePreview"
-            data-id="13410">
-        Сахар
-      </span>
-    </span>
-    <span class="content-item__measure js-ingredient-measure-amount" data-id="13410">60 г</span>
-  </p>
-  <p class="ingredients-list__content-item content-item js-cart-ingredients" data-ingredient-object='{"id": 13546, "name": "Какао", "amount": "1 столовая ложка"}'>
-    <span class="content-item__name tooltip">
-      <span class="js-tooltip js-tooltip-ingredient"
-            data-url="/Ingredient/RecipePreview"
-            data-id="13546">
-        Какао
-      </span>
-    </span>
-    <span class="content-item__measure js-ingredient-measure-amount" data-id="13546">1 столовая ложка</span>
-  </p>
-  <p class="ingredients-list__content-item content-item js-cart-ingredients" data-ingredient-object='{"id": 14094, "name": "Шоколад", "amount": "100 г"}'>
-    <span class="content-item__name tooltip">
-      <span class="js-tooltip js-tooltip-ingredient"
-            data-url="/Ingredient/RecipePreview"
-            data-id="14094">
-        Шоколад
-      </span>
-    </span>
-    <span class="content-item__measure js-ingredient-measure-amount" data-id="14094">100 г</span>
-  </p>
-  <p class="ingredients-list__content-item content-item js-cart-ingredients" data-ingredient-object='{"id": 13453, "name": "Молоко", "amount": "50 мл"}'>
-    <span class="content-item__name tooltip">
-      <span class="js-tooltip js-tooltip-ingredient"
-            data-url="/Ingredient/RecipePreview"
-            data-id="13453">
-        Молоко
-      </span>
-    </span>
-    <span class="content-item__measure js-ingredient-measure-amount" data-id="13453">50 мл</span>
-  </p>
-  <p class="ingredients-list__content-item content-item js-cart-ingredients" data-ingredient-object='{"id": 13458, "name": "Пшеничная мука", "amount": "120 г"}'>
-    <span class="content-item__name tooltip">
-      <span class="js-tooltip js-tooltip-ingredient"
-            data-url="/Ingredient/RecipePreview"
-            data-id="13458">
-        Пшеничная мука
-      </span>
-    </span>
-    <span class="content-item__measure js-ingredient-measure-amount" data-id="13458">120 г</span>
-  </p>
-  <p class="ingredients-list__content-item content-item js-cart-ingredients" data-ingredient-object='{"id": 13672, "name": "Разрыхлитель", "amount": "1 чайная ложка"}'>
-    <span class="content-item__name tooltip">
-      <span class="js-tooltip js-tooltip-ingredient"
-            data-url="/Ingredient/RecipePreview"
-            data-id="13672">
-        Разрыхлитель
-      </span>
-    </span>
-    <span class="content-item__measure js-ingredient-measure-amount" data-id="13672">1 чайная ложка</span>
-  </p>
-  <p class="ingredients-list__content-item content-item js-cart-ingredients" data-ingredient-object='{"id": 13418, "name": "Куриное яйцо", "amount": "1 штука"}'>
-    <span class="content-item__name tooltip">
-      <span class="js-tooltip js-tooltip-ingredient"
-            data-url="/Ingredient/RecipePreview"
-            data-id="13418">
-        Куриное яйцо
-      </span>
-    </span>
-    <span class="content-item__measure js-ingredient-measure-amount" data-id="13418">1 штука</span>
-  </p>
-  <p class="ingredients-list__content-item content-item js-cart-ingredients" data-ingredient-object='{"id": 13412, "name": "Сливочное масло", "amount": "70 г"}'>
-    <span class="content-item__name tooltip">
-      <span class="js-tooltip js-tooltip-ingredient"
-            data-url="/Ingredient/RecipePreview"
-            data-id="13412">
-        Сливочное масло
-      </span>
-    </span>
-    <span class="content-item__measure js-ingredient-measure-amount" data-id="13412">70 г</span>
-  </p>
-</div>
-
-
-
-
-
-              <a class="ingredients-list__link" href="/recepty/vypechka-deserty/shokoladnie-maffini-s-kusochkami-shokolada-36024">перейти на страницу рецепта</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-  <div class="horizontal-tile__bottom-content">
-    <div class="horizontal-tile__bottom-content-item horizontal-tile__bottom-content-item_right">
-      <div class="widget-list__totals">
-        <span class="widget-list__favorite-count tooltip js-tooltip" title="Добавили в избранное">
-            <svg>
-              <use xlink:href="#bookmarks-min"/>
-            </svg>
-            <span class="js-bookmark__counter">5778</span>
-          </span>
-        <span class="widget-list__like-count">
-          <svg>
-            <use xlink:href="#like-min"/>
-          </svg>
-          <span>712</span>
-        </span>
-        <span class="widget-list__like-count widget-list__like-count_dislike">
-          <svg>
-            <use xlink:href="#like-min"/>
-          </svg>
-          <span>79</span>
-        </span>
-      </div>
-    </div>
-    <div class="horizontal-tile__bottom-content-item">
-      <div class="select-dropdown select-dropdown_inline js-bookmark js-select-dropdown">
-      <input class="select-dropdown__toggle-trigger js-bookmark__menus-trigger js-tigger-checkbox js-tooltip" type="checkbox" data-qtip-title="Добавить в книгу рецептов" />
-      <div class="select-dropdown__toggle-box">
-        <div class="icon">
-          <svg>
-            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#sv"></use>
-          </svg>
-        </div>
-      </div>
-      <div class="select-dropdown__trigger">
-        <span class="default-value bookmark__text-add">Добавить в книгу рецептов</span>
-        <span class="default-value bookmark__text-remove">Добавлен в книгу рецептов</span>
-      </div>
-      <div class="select-dropdown__preloader-wrap">
-        <div class="preloader">
-          <svg>
-            <use xlink:href="#preloader" />
-          </svg>
-        </div>
-      </div>
-      <div class='bookmark js-tooltip js-bookmark__label '
-           data-qtip-title="В избранном у <span class='js-bookmark__counter'>5778</span> пользователей"
-           data-href="recepty/vypechka-deserty/shokoladnie-maffini-s-kusochkami-shokolada-36024"
-           data-id="36024"
-           data-in='False'
-           data-add-url="https://eda.ru/Favorite/AddToFavorite?classID=1&amp;objectID=36024&amp;favoriteType=Cookbook"
-           data-remove-url="https://eda.ru/Favorite/RemoveFromFavorite?classID=1&amp;objectID=36024&amp;favoriteType=Cookbook">
-        <div class="icon">
-          <svg>
-            <use xlink:href="#bookmarks-min" />
-          </svg>
-        </div>
-      </div>
-    </div>
-    </div>
-
-  </div>
-
-
-</div>
-
-
-
-
-<div class="tile-list__horizontal-tile horizontal-tile js-portions-count-parent js-bookmark__obj">
-  <div class="clearfix">
-    <div class="horizontal-tile__preview " data-label-image=''>
-
-
-      <div class='horizontal-tile__item-link js-click-link '
-           data-href="/recepty/supy/soljanka-mjasnaja-16313">
-
-        <div class='horizontal-tile__cover'>
-        </div>
-          <div class="lazy-load-container js-lazy-loading" data-title="Солянка мясная" data-alt="Солянка мясная" data-src="https://eda.ru/img/eda/c285x285i/s1.eda.ru/StaticContent/Photos/120131084941/171018124548/p_O.jpg">
-            <svg xmlns="http://www.w3.org/2000/svg" class="horizontal-tile__preview-image js-lazy-loading-svg"
-                 xmlns:xlink="http://www.w3.org/1999/xlink"
-                 width="180" height="180"
-                 viewBox="0 0 180 180">
-              <filter id="blur" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                <feGaussianBlur stdDeviation="10 10" edgeMode="duplicate" />
-                <feComponentTransfer>
-                  <feFuncA type="discrete" tableValues="1 1" />
-                </feComponentTransfer>
-              </filter>
-              <image filter="url(#blur)"
-                     xlink:href="https://eda.ru/img/eda/c20x20i/s1.eda.ru/StaticContent/Photos/120131084941/171018124548/p_O.jpg"
-                     x="0" y="0"
-                     height="100%" width="100%"/>
-            </svg>
-          </div>
-
-      </div>
-    </div>
-    <div class="horizontal-tile__content">
-
-      <ul class="breadcrumbs">
-          <li><a href="https://eda.ru/recepty/supy"><span>Супы</span></a></li>
-          <li><a href="https://eda.ru/recepty/russkaya-kuhnya"><span>Русская кухня</span></a></li>
-      </ul>
-
-      <h3 class="horizontal-tile__item-title item-title">
-        <a href="/recepty/supy/soljanka-mjasnaja-16313">
-          <span>
-            Солянка мясная
-          </span>
-        </a>
-              </h3>
-
-      <div class="horizontal-tile__author">
-        Автор: <span class="horizontal-tile__author-link js-click-link" data-href="https://eda.ru/avtory/602532" content="Георгий Федоров">Георгий Федоров</span>
-      </div>
-
-
-
-      <div class="horizontal-tile__item-specifications random-class-abf6119a-e638-4034-90c7-9ef79af1cdbc">
-        <div class="inline-dropdown js-toggle-class"
-             data-toggle-class-options='{
-                "toggleClass": "inline-dropdown_active",
-                "toggleObj": "random-class-abf6119a-e638-4034-90c7-9ef79af1cdbc"
-              }'>
-          9 ингредиентов
-          <svg class="inline-dropdown__icon">
-            <use xlink:href="#sv" />
-          </svg>
-        </div>
-        <span class="portions-counter">
-          <svg>
-            <use xlink:href="#portion" />
-          </svg>
-          <span class="js-portions-count-print">
-            4 порции
-          </span>
-        </span>
-          <span class="prep-time">
-            <svg>
-              <use xlink:href="#timer" />
-            </svg>
-            1 час 30 минут
-
-          </span>
-
-        <div class="inline-dropdown__dropdown">
-          <div class="inline-dropdown__dropdown-pad">
-
-            <div class="ingredients-list ingredients-list_mini">
-
-
-<div class="ingredients-list__header">
-  <p class="ingredients-list__title g-h6">Ингредиенты</p>
-  <div class="ingredients-list__portions-control portions-control print-invisible">
-    <span class="portions-control__hint">порции</span>
-    <span class="portions-control__minus js-minus">
-      <svg>
-        <use xlink:href="#minus"/>
-      </svg>
-    </span>
-    <input class="portions-control__count g-h6 js-portions-count js-tooltip" data-recipe-id="16313" type="number" inputmode="numeric" value=4 title="Количество порций может быть в пределах от 1 до 12">
-    <span class="portions-control__plus js-plus">
-      <svg>
-        <use xlink:href="#plus"/>
-      </svg>
-    </span>
-  </div>
-</div>
-<div class="ingredients-list__content" cellpadding="0" cellspacing="0">
-  <p class="ingredients-list__content-item content-item js-cart-ingredients" data-ingredient-object='{"id": 13469, "name": "Говядина", "amount": "400 г"}'>
-    <span class="content-item__name tooltip">
-      <span class="js-tooltip js-tooltip-ingredient"
-            data-url="/Ingredient/RecipePreview"
-            data-id="13469">
-        Говядина
-      </span>
-    </span>
-    <span class="content-item__measure js-ingredient-measure-amount" data-id="13469">400 г</span>
-  </p>
-  <p class="ingredients-list__content-item content-item js-cart-ingredients" data-ingredient-object='{"id": 13754, "name": "Сосиски", "amount": "4 штуки"}'>
-    <span class="content-item__name tooltip">
-      <span class="js-tooltip js-tooltip-ingredient"
-            data-url="/Ingredient/RecipePreview"
-            data-id="13754">
-        Сосиски
-      </span>
-    </span>
-    <span class="content-item__measure js-ingredient-measure-amount" data-id="13754">4 штуки</span>
-  </p>
-  <p class="ingredients-list__content-item content-item js-cart-ingredients" data-ingredient-object='{"id": 13885, "name": "Вареная колбаса", "amount": "200 г"}'>
-    <span class="content-item__name tooltip">
-      <span class="js-tooltip js-tooltip-ingredient"
-            data-url="/Ingredient/RecipePreview"
-            data-id="13885">
-        Вареная колбаса
-      </span>
-    </span>
-    <span class="content-item__measure js-ingredient-measure-amount" data-id="13885">200 г</span>
-  </p>
-  <p class="ingredients-list__content-item content-item js-cart-ingredients" data-ingredient-object='{"id": 13443, "name": "Соленые огурцы", "amount": "3 штуки"}'>
-    <span class="content-item__name tooltip">
-      <span class="js-tooltip js-tooltip-ingredient"
-            data-url="/Ingredient/RecipePreview"
-            data-id="13443">
-        Соленые огурцы
-      </span>
-    </span>
-    <span class="content-item__measure js-ingredient-measure-amount" data-id="13443">3 штуки</span>
-  </p>
-  <p class="ingredients-list__content-item content-item js-cart-ingredients" data-ingredient-object='{"id": 13452, "name": "Ветчина", "amount": "200 г"}'>
-    <span class="content-item__name tooltip">
-      <span class="js-tooltip js-tooltip-ingredient"
-            data-url="/Ingredient/RecipePreview"
-            data-id="13452">
-        Ветчина
-      </span>
-    </span>
-    <span class="content-item__measure js-ingredient-measure-amount" data-id="13452">200 г</span>
-  </p>
-  <p class="ingredients-list__content-item content-item js-cart-ingredients" data-ingredient-object='{"id": 13413, "name": "Репчатый лук", "amount": "1 штука"}'>
-    <span class="content-item__name tooltip">
-      <span class="js-tooltip js-tooltip-ingredient"
-            data-url="/Ingredient/RecipePreview"
-            data-id="13413">
-        Репчатый лук
-      </span>
-    </span>
-    <span class="content-item__measure js-ingredient-measure-amount" data-id="13413">1 штука</span>
-  </p>
-  <p class="ingredients-list__content-item content-item js-cart-ingredients" data-ingredient-object='{"id": 13424, "name": "Петрушка", "amount": "1 пучок"}'>
-    <span class="content-item__name tooltip">
-      <span class="js-tooltip js-tooltip-ingredient"
-            data-url="/Ingredient/RecipePreview"
-            data-id="13424">
-        Петрушка
-      </span>
-    </span>
-    <span class="content-item__measure js-ingredient-measure-amount" data-id="13424">1 пучок</span>
-  </p>
-  <p class="ingredients-list__content-item content-item js-cart-ingredients" data-ingredient-object='{"id": 13442, "name": "Маслины", "amount": "1 банка"}'>
-    <span class="content-item__name tooltip">
-      <span class="js-tooltip js-tooltip-ingredient"
-            data-url="/Ingredient/RecipePreview"
-            data-id="13442">
-        Маслины
-      </span>
-    </span>
-    <span class="content-item__measure js-ingredient-measure-amount" data-id="13442">1 банка</span>
-  </p>
-  <p class="ingredients-list__content-item content-item js-cart-ingredients" data-ingredient-object='{"id": 13520, "name": "Томатная паста ", "amount": "2 столовые ложки"}'>
-    <span class="content-item__name tooltip">
-      <span class="js-tooltip js-tooltip-ingredient"
-            data-url="/Ingredient/RecipePreview"
-            data-id="13520">
-        Томатная паста 
-      </span>
-    </span>
-    <span class="content-item__measure js-ingredient-measure-amount" data-id="13520">2 столовые ложки</span>
-  </p>
-</div>
-
-
-
-
-
-              <a class="ingredients-list__link" href="/recepty/supy/soljanka-mjasnaja-16313">перейти на страницу рецепта</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-  <div class="horizontal-tile__bottom-content">
-    <div class="horizontal-tile__bottom-content-item horizontal-tile__bottom-content-item_right">
-      <div class="widget-list__totals">
-        <span class="widget-list__favorite-count tooltip js-tooltip" title="Добавили в избранное">
-            <svg>
-              <use xlink:href="#bookmarks-min"/>
-            </svg>
-            <span class="js-bookmark__counter">8056</span>
-          </span>
-        <span class="widget-list__like-count">
-          <svg>
-            <use xlink:href="#like-min"/>
-          </svg>
-          <span>648</span>
-        </span>
-        <span class="widget-list__like-count widget-list__like-count_dislike">
-          <svg>
-            <use xlink:href="#like-min"/>
-          </svg>
-          <span>62</span>
-        </span>
-      </div>
-    </div>
-    <div class="horizontal-tile__bottom-content-item">
-      <div class="select-dropdown select-dropdown_inline js-bookmark js-select-dropdown">
-      <input class="select-dropdown__toggle-trigger js-bookmark__menus-trigger js-tigger-checkbox js-tooltip" type="checkbox" data-qtip-title="Добавить в книгу рецептов" />
-      <div class="select-dropdown__toggle-box">
-        <div class="icon">
-          <svg>
-            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#sv"></use>
-          </svg>
-        </div>
-      </div>
-      <div class="select-dropdown__trigger">
-        <span class="default-value bookmark__text-add">Добавить в книгу рецептов</span>
-        <span class="default-value bookmark__text-remove">Добавлен в книгу рецептов</span>
-      </div>
-      <div class="select-dropdown__preloader-wrap">
-        <div class="preloader">
-          <svg>
-            <use xlink:href="#preloader" />
-          </svg>
-        </div>
-      </div>
-      <div class='bookmark js-tooltip js-bookmark__label '
-           data-qtip-title="В избранном у <span class='js-bookmark__counter'>8056</span> пользователей"
-           data-href="recepty/supy/soljanka-mjasnaja-16313"
-           data-id="16313"
-           data-in='False'
-           data-add-url="https://eda.ru/Favorite/AddToFavorite?classID=1&amp;objectID=16313&amp;favoriteType=Cookbook"
-           data-remove-url="https://eda.ru/Favorite/RemoveFromFavorite?classID=1&amp;objectID=16313&amp;favoriteType=Cookbook">
         <div class="icon">
           <svg>
             <use xlink:href="#bookmarks-min" />
@@ -6537,7 +6508,7 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
         </ul>
         <ul class="seo-footer__list">
           <li class='seo-footer__list-title '>
-            <a href="https://eda.ru/recepty/zakuski">Закуски&nbsp;&nbsp;6142</a>
+            <a href="https://eda.ru/recepty/zakuski">Закуски&nbsp;&nbsp;6145</a>
           </li>
             <li class="seo-footer__list-item">
               <a href="/recepty/gorjachie-zakuski">Горячие закуски&nbsp;&nbsp;5471</a>
@@ -6716,7 +6687,7 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
               <a href="/recepty/keksi">Кексы&nbsp;&nbsp;654</a>
             </li>
             <li class="seo-footer__list-item">
-              <a href="/recepty/bliny">Блины&nbsp;&nbsp;536</a>
+              <a href="/recepty/bliny">Блины&nbsp;&nbsp;537</a>
             </li>
             <li class="seo-footer__list-item">
               <a href="/recepty/hleb">Хлеб&nbsp;&nbsp;534</a>
@@ -7130,7 +7101,7 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
         </ul>
         <ul class="seo-footer__list">
           <li class='seo-footer__list-title '>
-            <a href="https://eda.ru/recepty/supy">Супы&nbsp;&nbsp;3545</a>
+            <a href="https://eda.ru/recepty/supy">Супы&nbsp;&nbsp;3547</a>
           </li>
             <li class="seo-footer__list-item">
               <a href="/recepty/sup-pjure">Суп-пюре&nbsp;&nbsp;393</a>
@@ -7225,7 +7196,7 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
         </ul>
         <ul class="seo-footer__list">
           <li class='seo-footer__list-title '>
-            <a href="https://eda.ru/recepty/sendvichi">Сэндвичи&nbsp;&nbsp;663</a>
+            <a href="https://eda.ru/recepty/sendvichi">Сэндвичи&nbsp;&nbsp;664</a>
           </li>
             <li class="seo-footer__list-item">
               <a href="/recepty/tosty">Тосты&nbsp;&nbsp;145</a>
@@ -7562,7 +7533,7 @@ _tmr.push({id: "3126124", type: "pageView", start: (new Date()).getTime()});
   
 
     <script type="application/ld+json">
-      {"@type":"ItemList","itemListElement":[{"@type":"ListItem","url":"https://eda.ru/recepty/zavtraki/sirniki-iz-tvoroga-18506","position":1},{"@type":"ListItem","url":"https://eda.ru/recepty/supy/sirnij-sup-po-francuzski-s-kuricej-32614","position":2},{"@type":"ListItem","url":"https://eda.ru/recepty/pasta-picca/spagetti-karbonara-s-krasnym-lukom-17614","position":3},{"@type":"ListItem","url":"https://eda.ru/recepty/vypechka-deserty/klassicheskaja-sharlotka-21916","position":4},{"@type":"ListItem","url":"https://eda.ru/recepty/vypechka-deserty/tonkie-blini-na-moloke-16014","position":5},{"@type":"ListItem","url":"https://eda.ru/recepty/pasta-picca/lazanja-klassicheskaja-s-mjasom-31799","position":6},{"@type":"ListItem","url":"https://eda.ru/recepty/vypechka-deserty/amerikanskij-tikvennij-pirog-s-koricej-18811","position":7},{"@type":"ListItem","url":"https://eda.ru/recepty/osnovnye-blyuda/azu-po-tatarski-21751","position":8},{"@type":"ListItem","url":"https://eda.ru/recepty/vypechka-deserty/brauni-s-temnim-shokoladom-28338","position":9},{"@type":"ListItem","url":"https://eda.ru/recepty/vypechka-deserty/sharlotka-tradicionnaja-21158","position":10},{"@type":"ListItem","url":"https://eda.ru/recepty/salaty/klassicheskij-grecheskij-salat-horiatiki-21993","position":11},{"@type":"ListItem","url":"https://eda.ru/recepty/supy/krem-sup-iz-tikvi-16754","position":12},{"@type":"ListItem","url":"https://eda.ru/recepty/vypechka-deserty/shokoladnie-maffini-s-kusochkami-shokolada-36024","position":13},{"@type":"ListItem","url":"https://eda.ru/recepty/supy/soljanka-mjasnaja-16313","position":14}],"@context":"http://schema.org"}
+      {"@type":"ItemList","itemListElement":[{"@type":"ListItem","url":"https://eda.ru/recepty/vypechka-deserty/brauni-brownie-20955","position":1},{"@type":"ListItem","url":"https://eda.ru/recepty/zavtraki/sirniki-iz-tvoroga-18506","position":2},{"@type":"ListItem","url":"https://eda.ru/recepty/supy/sirnij-sup-po-francuzski-s-kuricej-32614","position":3},{"@type":"ListItem","url":"https://eda.ru/recepty/pasta-picca/spagetti-karbonara-s-krasnym-lukom-17614","position":4},{"@type":"ListItem","url":"https://eda.ru/recepty/vypechka-deserty/klassicheskaja-sharlotka-21916","position":5},{"@type":"ListItem","url":"https://eda.ru/recepty/vypechka-deserty/tonkie-blini-na-moloke-16014","position":6},{"@type":"ListItem","url":"https://eda.ru/recepty/pasta-picca/lazanja-klassicheskaja-s-mjasom-31799","position":7},{"@type":"ListItem","url":"https://eda.ru/recepty/vypechka-deserty/amerikanskij-tikvennij-pirog-s-koricej-18811","position":8},{"@type":"ListItem","url":"https://eda.ru/recepty/osnovnye-blyuda/azu-po-tatarski-21751","position":9},{"@type":"ListItem","url":"https://eda.ru/recepty/zavtraki/ojakodon-japonskij-omlet-s-risom-kuricej-28425","position":10},{"@type":"ListItem","url":"https://eda.ru/recepty/vypechka-deserty/brauni-s-temnim-shokoladom-28338","position":11},{"@type":"ListItem","url":"https://eda.ru/recepty/vypechka-deserty/sharlotka-tradicionnaja-21158","position":12},{"@type":"ListItem","url":"https://eda.ru/recepty/supy/tomatnij-sup-iz-moreproduktov-25076","position":13},{"@type":"ListItem","url":"https://eda.ru/recepty/salaty/klassicheskij-grecheskij-salat-horiatiki-21993","position":14}],"@context":"http://schema.org"}
     </script>
 
     <script type="application/ld+json">
