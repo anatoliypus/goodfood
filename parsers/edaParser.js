@@ -49,7 +49,6 @@ async function processAllProducts(data) {
     return await new Promise((resolve) => {
         python.stdout.on('data', (res) => {
             resolve(res.toString());
-            console.log(1);
         })
     });
 }
