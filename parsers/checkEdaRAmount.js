@@ -12,13 +12,13 @@ export default async function checkEdaRAmount() {
     const response = await axios.get(url);
     const data = response.data;
     fs.writeFile(path.join(__dirname, tempFile), data, (e) => {
-        if (e) throw new Error;
+        if (e) throw e;
     });
     const python = spawn('python', [amountParserFileName, tempFile]);
     return await new Promise((resolve) => {
         python.stdout.on('data', (res) => {
             fs.unlink(path.join(__dirname, tempFile), (e) => {
-                if (e) throw new Error
+                if (e) throw e
             });
             const amount = res.toString();
             resolve(String(parseInt(amount)));

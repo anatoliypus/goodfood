@@ -50,7 +50,7 @@ export default async function getEdaRuRecepies() {
 // создает процесс с питоном, парсит страницу с продуктами
 async function processAllProducts(data) {
     fs.writeFile(path.join(__dirname, tempFile), data, (e) => {
-        if (e) throw new Error;
+        if (e) throw e;
     });
     const python = spawn('python', [parseProductsFileName, tempFile]);
     return await new Promise((resolve) => {
@@ -63,7 +63,7 @@ async function processAllProducts(data) {
 // создает процесс с питоном, парсит карточку продукта
 async function processProductCard(data) {
     fs.writeFile(path.join(__dirname, tempFile), data, (e) => {
-        if (e) throw new Error;
+        if (e) throw e;
     });
     const python = spawn('python', [parseProductCardFileName, tempFile]);
     return await new Promise((resolve) => {
