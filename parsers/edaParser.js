@@ -5,7 +5,7 @@ import path from 'path';
 import chalk from 'chalk';
 
 const url = 'https://eda.ru/recepty';
-const pagesAmount = 1; // кол-во страниц для парсинга
+const pagesAmount = 15; // кол-во страниц для парсинга
 const tempFile = 'parsers/temp.txt';
 const __dirname = path.resolve();
 const parseProductsFileName = 'parsers/parseEdaProducts.py';

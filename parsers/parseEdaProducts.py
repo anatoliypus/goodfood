@@ -6,6 +6,7 @@ f = open(sys.argv[1], 'r')
 data = f.read()
 soup = BeautifulSoup(data, 'html.parser')
 collection = []
+urlFirstpart = 'https://eda.ru/'
 
 for el in soup.find_all('div', class_='horizontal-tile__content'):
     title = el.h3.a.span.string.strip()
@@ -15,7 +16,7 @@ for el in soup.find_all('div', class_='horizontal-tile__content'):
     ingredientsAmount = specs.find('div', class_='inline-dropdown').contents[0].strip()
     if timeTag:
         time = timeTag.contents[2].strip()
-        productDict = {'title': title, 'url': url, 'time': time, 'ingredientsAmount': ingredientsAmount}
+        productDict = {'title': title, 'url': urlFirstpart + url, 'time': time, 'ingredientsAmount': ingredientsAmount}
         collection.append(productDict)
 
 print(json.JSONEncoder(ensure_ascii=False).encode(collection))
