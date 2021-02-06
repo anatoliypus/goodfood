@@ -32,7 +32,6 @@ export default async function getEdaRuRecepies() {
         const response = await axios.get(el.url);
         const data = response.data;
         const result = await processProductCard(data);
-        console.log(result);
         collection[i] = {
             ...el, 
             ...JSON.parse(result)
