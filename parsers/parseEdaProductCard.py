@@ -15,8 +15,8 @@ for ing in soup.find_all('p', class_='ingredients-list__content-item'):
     ingName = ing.find('span', class_='content-item__name').find('span').string.strip()
     ingAmount = ing.find('span', class_='content-item__measure').string.strip()
     ing = {
-        'name': ingName,
-        'amount': ingAmount
+        'nm': ingName,
+        'am': ingAmount
     }
     ingredients.append(ing)
 
@@ -37,9 +37,9 @@ if len(steps) == 0:
             
 res = {
     'steps': steps,
-    'ingredients': ingredients,
-    'images': imgs,
-    'categories': categories
+    'ings': ingredients,
+    'imgs': imgs,
+    'ctgrs': categories
 }
 
 print(json.JSONEncoder(ensure_ascii=False).encode(res))

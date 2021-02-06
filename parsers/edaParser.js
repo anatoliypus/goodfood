@@ -5,7 +5,7 @@ import path from 'path';
 import chalk from 'chalk';
 
 const url = 'https://eda.ru/recepty';
-const pagesAmount = 15; // кол-во страниц для парсинга
+const pagesAmount = 2; // кол-во страниц для парсинга
 const tempFile = 'parsers/temp.txt';
 const __dirname = path.resolve();
 const parseProductsFileName = 'parsers/parseEdaProducts.py';
@@ -29,9 +29,10 @@ export default async function getEdaRuRecepies() {
         const el = {
             ...collection[i]
         };
-        const response = await axios.get('https://eda.ru'+ el.url);
+        const response = await axios.get(el.url);
         const data = response.data;
         const result = await processProductCard(data);
+        console.log(result);
         collection[i] = {
             ...el, 
             ...JSON.parse(result)
