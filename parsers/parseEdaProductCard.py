@@ -8,15 +8,28 @@ soup = BeautifulSoup(data, 'html.parser')
 
 steps = []
 ingredients = []
+imgs = []
+categories = []
 
-ingBlock = soup.find('div', class_='ingredients-list__content')
-for ing in ingBlock.find_all('span', class_='js-tooltip-ingredient'):
-    ingredients.append(ing.string.strip())
+for ing in soup.find_all('p', class_='ingredients-list__content-item'):
+    ingName = ing.find('span', class_='content-item__name').find('span').string.strip()
+    ingAmount = ing.find('span', class_='content-item__measure').string.strip()
+    ing = {
+        'name': ingName,
+        'amount': ingAmount
+    }
+    ingredients.append(ing)
 
 for el in soup.find_all('span', class_='instruction__description'):
     for span in el.find_all('span'):
         if span.has_attr('itemprop') and span['itemprop'] == 'text':
             steps.append(span.string)
+
+for el in soup.find_all('div', class_='photo-list-preview'):
+    imgs.append(el.img['src'])
+
+for el in soup.find('ul', class_='breadcrumbs').find_all('a'):
+    categories.append(el.string)
 
 if len(steps) == 0:
     for el in soup.find_all('span', class_='instruction__description'):
@@ -24,7 +37,9 @@ if len(steps) == 0:
             
 res = {
     'steps': steps,
-    'ingredients': ingredients
+    'ingredients': ingredients,
+    'images': imgs,
+    'categories': categories
 }
 
 print(json.JSONEncoder(ensure_ascii=False).encode(res))

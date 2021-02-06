@@ -20,20 +20,22 @@ app.get('/api/parse', async (req, res) => {
     });
     connection.query(`DELETE FROM ${tableName}`);
     for (let el of data) {
-        connection.query(`INSERT INTO ${tableName} (title, url, cook_time, ingredients_amount, steps_arr_json, ingredients_arr_json)
-                            VALUES ('${el.title}', '${el.url}', '${el.time}', '${el.ingredientsAmount}', '${JSON.stringify(el.steps)}', '${JSON.stringify(el.ingredients)}')`, (e) => {
+        connection.query(`INSERT INTO ${tableName} (title, url, cook_time, ingredients_amount, steps_arr_json, ingredients_arr_json, images_arr_json, categories_arr_json)
+                            VALUES ('${el.title}', '${el.url}', '${el.time}', '${el.ingredientsAmount}', '${JSON.stringify(el.steps)}', '${JSON.stringify(el.ingredients)}', '${JSON.stringify(el.images)}', '${JSON.stringify(el.categories)}')`, (e) => {
             if (e) throw e;
         });
     }
 });
 
 app.get('/api/get', (req, res) => {
-    res.send('In deevlopment');
     const connection = mysql.createConnection(process.env.JAWSDB_MARIA_URL);
     connection.connect((e) => {
         if (e) throw e
     });
-    //make query, create collection and send data
+    connection.query('SELECT * FROM recipes', (e, data) => {
+        if (e) throw e;
+        res.send(data);
+    });
 });
 
 app.get('/api/check', async (req, res) => {
