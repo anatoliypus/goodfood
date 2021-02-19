@@ -1,61 +1,69 @@
-import express from "express";
-import getEdaRuRecepies from "./parsers/edaParser.js";
-import chalk from "chalk";
-import checkEdaRAmount from "./parsers/checkEdaRAmount.js";
-import mysql from "mysql";
+import express from 'express'
+import chalk from 'chalk'
+import { processAllProducts, processProductCard } from './parsers/edaParser.js'
+import checkEdaRAmount from './parsers/checkEdaRAmount.js'
+import mysql from 'mysql'
+import axios from 'axios'
+import sendIngredient from './database/sendIngredient.js'
+import clearIngredients from './database/clearIngredients.js'
 
-const PORT = process.env.PORT || 5000;
-const app = express();
-const tableName = "recipes";
+const PORT = process.env.PORT || 5000
+const app = express()
 
-app.set("views", "public");
-app.set("view engine", "ejs");
+app.set('views', 'public')
+app.set('view engine', 'ejs')
 
-app.get("/api/parse", async (req, res) => {
-  res.send("Parsing started");
-  const data = await getEdaRuRecepies();
-  const connection = mysql.createConnection(process.env.JAWSDB_MARIA_URL);
-  connection.connect((e) => {
-    if (e) throw e;
-  });
-  connection.query(`DELETE FROM ${tableName}`);
-  for (let el of data) {
-    connection.query(
-      `INSERT INTO ${tableName} (title, url, cook_time, ingredients_amount, steps_arr_json, ingredients_arr_json, images_arr_json, categories_arr_json)
-                            VALUES ('${el.title}', '${el.url}', '${
-        el.time
-      }', '${el.ingredientsAmount}', '${JSON.stringify(
-        el.steps
-      )}', '${JSON.stringify(el.ings)}', '${JSON.stringify(
-        el.imgs
-      )}', '${JSON.stringify(el.ctgrs)}')`,
-      (e) => {
-        if (e) throw e;
-      }
-    );
-  }
-});
+app.get('/api/parse', async (req, res) => {
+    res.send('Parsing started')
 
-app.get("/api/get", (req, res) => {
-  const connection = mysql.createConnection(process.env.JAWSDB_MARIA_URL);
-  connection.connect((e) => {
-    if (e) throw e;
-  });
-  connection.query("SELECT * FROM recipes", (e, data) => {
-    if (e) throw e;
-    res.send(data);
-  });
-});
+    const pagesAmount = 2 // кол-во страниц для парсинга
+    const tempFile = 'parsers/temp.txt'
+    const url = 'https://eda.ru/recepty'
 
-app.get("/api/check", async (req, res) => {
-  const data = await checkEdaRAmount();
-  res.send(data);
-});
+    const connection = mysql.createConnection(process.env.JAWSDB_MARIA_URL)
+    connection.connect((e) => {
+        if (e) throw e
+    })
 
-app.get("/test", (req, res) => {
-  res.send(JSON.stringify(req.query));
-});
+    clearIngredients(connection)
+
+    for (let i = 1; i <= pagesAmount; i++) {
+        const response = await axios.get(url + '?page=' + i)
+        const data = response.data
+        const result = await processAllProducts(data, tempFile)
+        const productsFromPage = JSON.parse(result)
+        for (let product of productsFromPage) {
+            const productCardQuery = await axios.get(product.url)
+            const html = productCardQuery.data
+            const productCardJSON = await processProductCard(html, tempFile)
+            const productCard = JSON.parse(productCardJSON)
+            sendIngredient(connection, product, productCard)
+        }
+    }
+
+    console.log(chalk.green('Parsing done'))
+})
+
+app.get('/api/get', (req, res) => {
+    const connection = mysql.createConnection(process.env.JAWSDB_MARIA_URL)
+    connection.connect((e) => {
+        if (e) throw e
+    })
+    connection.query('SELECT * FROM recipes', (e, data) => {
+        if (e) throw e
+        res.send(data)
+    })
+})
+
+app.get('/api/check', async (req, res) => {
+    const data = await checkEdaRAmount()
+    res.send(data)
+})
+
+app.get('/test', (req, res) => {
+    res.send(JSON.stringify(req.query))
+})
 
 app.listen(PORT, () => {
-  console.log(chalk.yellow("Server has been started..."));
-});
+    console.log(chalk.yellow('Server has been started...'))
+})
