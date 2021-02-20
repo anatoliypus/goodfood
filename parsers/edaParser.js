@@ -12,8 +12,8 @@ const pagesAmount = 1 // кол-во страниц для парсинга
 const tempFile = 'parsers/temp.txt'
 const url = 'https://eda.ru/recepty'
 
+// главная функция для парса с Eda.ru
 async function parseEda(connection) {
-    // главная функция для парса с Eda.ru
     // чистит таблицу в базе
     clearIngredients(connection)
 
@@ -36,8 +36,8 @@ async function parseEda(connection) {
     })
 }
 
+// получает объект с рецептом
 async function getProductCard(url) {
-    // получает объект с рецептом
     const productCardQuery = await axios.get(url)
     const html = productCardQuery.data
     const productCardJSON = await processProductCard(html, tempFile)
@@ -45,8 +45,8 @@ async function getProductCard(url) {
     return productCard
 }
 
+// возвращает коллекцию с рецептами на странице
 async function getProducts(url) {
-    // возвращает коллекцию с рецептами на странице
     const response = await axios.get(url)
     const data = response.data
     const result = await processAllProducts(data, tempFile)
