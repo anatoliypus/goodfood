@@ -13,6 +13,7 @@ const tempFile = 'parsers/temp.txt'
 const url = 'https://eda.ru/recepty'
 
 async function parseEda(connection) {
+    // главная функция для парса с Eda.ru
     // чистит таблицу в базе
     clearIngredients(connection)
 
