@@ -4,6 +4,7 @@ import parseEda from './parsers/edaParser.js'
 import checkEdaRAmount from './parsers/checkEdaRAmount.js'
 import connect from './database/connect.js'
 import getIngredients from './database/getIngredients.js'
+import axios from 'axios'
 
 const PORT = process.env.PORT || 5000
 const app = express()

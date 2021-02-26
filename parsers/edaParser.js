@@ -8,26 +8,31 @@ import clearIngredients from '../database/clearIngredients.js'
 const __dirname = path.resolve()
 const parseProductsFileName = 'parsers/parseEdaProducts.py'
 const parseProductCardFileName = 'parsers/parseEdaProductCard.py'
-const pagesAmount = 1 // кол-во страниц для парсинга
 const tempFile = 'parsers/temp.txt'
 const url = 'https://eda.ru/recepty'
+const pageLimit = 2
 
 // главная функция для парса с Eda.ru
 async function parseEda(connection) {
     // чистит таблицу в базе
     clearIngredients(connection)
 
+    let i = 1
     // цикл по страницам с рецептами
-    for (let i = 1; i <= pagesAmount; i++) {
+    while (true) {
         const pageUrl = url + '?page=' + i // шаблон для получения ссылки на запрос с query параметром
+        if (pageLimit && i > pageLimit) break
+        ++i
 
         const productsFromPage = await getProducts(pageUrl) // возвращает коллекцию с рецептами на странице
+        if (!productsFromPage) break
 
         // цикл по рецептам в полученной коллекции
         for (let product of productsFromPage) {
             const productCard = await getProductCard(product.url) // получает объект с рецептом
             sendIngredient(connection, product, productCard) // отправляет полученный рецепт в базу
         }
+        console.log('parsed page')
     }
 
     // удаляет временный файл
@@ -47,11 +52,15 @@ async function getProductCard(url) {
 
 // возвращает коллекцию с рецептами на странице
 async function getProducts(url) {
-    const response = await axios.get(url)
-    const data = response.data
-    const result = await processAllProducts(data, tempFile)
-    const productsFromPage = JSON.parse(result)
-    return productsFromPage
+    try {
+        const response = await axios.get(url)
+        const data = response.data
+        const result = await processAllProducts(data, tempFile)
+        const productsFromPage = JSON.parse(result)
+        return productsFromPage
+    } catch (e) {
+        return null
+    }
 }
 
 // создает процесс с питоном, парсит страницу с продуктами
