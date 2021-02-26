@@ -1,10 +1,10 @@
 import express from 'express'
 import chalk from 'chalk'
-import parseEda from './parsers/edaParser.js'
-import checkEdaRAmount from './parsers/checkEdaRAmount.js'
+import parseEda from './parsers/eda/edaParser.js'
+import checkEdaRAmount from './parsers/eda/checkEdaRAmount.js'
 import connect from './database/connect.js'
 import getIngredients from './database/getIngredients.js'
-import axios from 'axios'
+import { parseGastronom } from './parsers/gastronom/gastronomParser.js'
 
 const PORT = process.env.PORT || 5000
 const app = express()
@@ -15,10 +15,12 @@ app.set('view engine', 'ejs')
 // api method to parse data
 app.get('/api/parse', async (req, res) => {
     res.end('Parsing started')
-    console.log(chalk.yellow('\nParsing started'))
-    const connection = connect()
-    await parseEda(connection)
-    console.log(chalk.green('Parsing done\n'))
+    // console.log(chalk.yellow('\nParsing started'))
+    // const connection = connect()
+    // await parseEda(connection)
+    // console.log(chalk.green('Parsing done\n'))
+    const result = await parseGastronom(1)
+    console.log(result)
 })
 
 // api method to get recipes json string

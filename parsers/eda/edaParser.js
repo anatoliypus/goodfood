@@ -2,15 +2,15 @@ import { spawn } from 'child_process'
 import fs from 'fs'
 import path from 'path'
 import axios from 'axios'
-import sendIngredient from '../database/sendIngredient.js'
-import clearIngredients from '../database/clearIngredients.js'
+import sendIngredient from '../../database/sendIngredient.js'
+import clearIngredients from '../../database/clearIngredients.js'
 
 const __dirname = path.resolve()
-const parseProductsFileName = 'parsers/parseEdaProducts.py'
-const parseProductCardFileName = 'parsers/parseEdaProductCard.py'
-const tempFile = 'parsers/temp.txt'
+const parseProductsFileName = 'parsers/eda/parseEdaProducts.py'
+const parseProductCardFileName = 'parsers/eda/parseEdaProductCard.py'
+const tempFile = 'parsers/eda/temp.txt'
 const url = 'https://eda.ru/recepty'
-const pageLimit = 2
+const pageLimit = 1
 
 // главная функция для парса с Eda.ru
 async function parseEda(connection) {
@@ -32,7 +32,6 @@ async function parseEda(connection) {
             const productCard = await getProductCard(product.url) // получает объект с рецептом
             sendIngredient(connection, product, productCard) // отправляет полученный рецепт в базу
         }
-        console.log('parsed page')
     }
 
     // удаляет временный файл
@@ -64,12 +63,12 @@ async function getProducts(url) {
 }
 
 // создает процесс с питоном, парсит страницу с продуктами
-async function processAllProducts(data, tempFileName) {
+function processAllProducts(data, tempFileName) {
     fs.writeFile(path.join(__dirname, tempFileName), data, (e) => {
         if (e) throw e
     })
     const python = spawn('python', [parseProductsFileName, tempFileName])
-    return await new Promise((resolve) => {
+    return new Promise((resolve) => {
         python.stdout.on('data', (res) => {
             resolve(res.toString())
         })
@@ -77,12 +76,12 @@ async function processAllProducts(data, tempFileName) {
 }
 
 // создает процесс с питоном, парсит карточку продукта
-async function processProductCard(data, tempFileName) {
+function processProductCard(data, tempFileName) {
     fs.writeFile(path.join(__dirname, tempFileName), data, (e) => {
         if (e) throw e
     })
     const python = spawn('python', [parseProductCardFileName, tempFileName])
-    return await new Promise((resolve) => {
+    return new Promise((resolve) => {
         python.stdout.on('data', (res) => {
             resolve(res.toString())
         })
