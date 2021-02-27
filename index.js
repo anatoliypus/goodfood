@@ -5,6 +5,7 @@ import checkEdaRAmount from './parsers/eda/checkEdaRAmount.js'
 import connect from './database/connect.js'
 import getIngredients from './database/getIngredients.js'
 import { parseGastronom } from './parsers/gastronom/gastronomParser.js'
+import clearIngredients from './database/clearIngredients.js'
 
 const PORT = process.env.PORT || 5000
 const app = express()
@@ -17,6 +18,8 @@ app.get('/api/parse', async (req, res) => {
     res.end('Parsing started')
     // console.log(chalk.yellow('\nParsing started'))
     // const connection = connect()
+    // чистит таблицу в базе
+    // clearIngredients(connection)
     // await parseEda(connection)
     // console.log(chalk.green('Parsing done\n'))
     const result = await parseGastronom(1)

@@ -3,7 +3,6 @@ import fs from 'fs'
 import path from 'path'
 import axios from 'axios'
 import sendIngredient from '../../database/sendIngredient.js'
-import clearIngredients from '../../database/clearIngredients.js'
 
 const __dirname = path.resolve()
 const parseProductsFileName = 'parsers/eda/parseEdaProducts.py'
@@ -14,9 +13,6 @@ const pageLimit = 1
 
 // главная функция для парса с Eda.ru
 async function parseEda(connection) {
-    // чистит таблицу в базе
-    clearIngredients(connection)
-
     let i = 1
     // цикл по страницам с рецептами
     while (true) {

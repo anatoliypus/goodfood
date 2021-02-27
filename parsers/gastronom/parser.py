@@ -89,6 +89,7 @@ def bakeryParse(pageNumber, url): # Парсит список выпечки
 def categoryParse(pageNumber, url): # Парсит список категорий
     r = requests.get(url)
     soup = BeautifulSoup(r.text, 'html.parser')
+    counter = 0
     for productCategory in soup.find_all(class_ = 'col-catalog__title'):
         if not productCategory.find('span'):
             # print('>>>>>', productCategory.text) # Выводит категорию
@@ -96,6 +97,9 @@ def categoryParse(pageNumber, url): # Парсит список категори
                 bakeryParse(pageNumber, 'https://www.gastronom.ru/recipe/group/1142/vypechka-recepty')
             else:
                 productListParse(pageNumber, 'https://www.gastronom.ru' + productCategory.a['href'])
+        if counter > 2: 
+            break
+        counter += 1
 
 def globalParse(pageNumber):
     categoryParse(pageNumber, 'https://www.gastronom.ru/catalog')
