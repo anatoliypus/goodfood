@@ -11,8 +11,5 @@ export default function findIngredients(connection, title) {
                 resolve(data)
             }
         )
-        console.log(
-            `SELECT * FROM ${config.tableName} WHERE ${recipeTitle} LIKE '%${title}%'`
-        )
     })
 }

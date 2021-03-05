@@ -14,6 +14,7 @@ def beautyString(str):
 def productCardParse(url, soup, category): # Парсит рецепт
     ing = []
     steps = []
+    images = []
 
     if soup.find(class_ = 'recipe__title'):
         title = soup.find(class_ = 'recipe__title').text
@@ -28,15 +29,22 @@ def productCardParse(url, soup, category): # Парсит рецепт
         steps[len(steps) - 1] = beautyString(steps[len(steps) - 1])
     for recipeListPart in soup.find_all(class_= 'recipe__ingredient'):
         ing.append(recipeListPart.text)
+    for imgBox in soup.find_all(class_ = 'main-slider__image-box'):
+        images.append('https://www.gastronom.ru' + imgBox.find('img')['src'])
+    portionAmount = 'none';
+    if soup.find(itemprop = 'recipeYield'):
+        portionAmount = soup.find(itemprop = 'recipeYield').text;
 
     res = {
-        "ctgrs": category,
+        "ctgrs": [category],
         "title": title,
         "url": url,
         "ingredientsAmount": str(len(ing)),
         "time": time,
         "steps": steps,
-        "ings": ing
+        "ings": ing,
+        "imgs": images,
+        "portionsAmount": portionAmount
         }
     return res
 
