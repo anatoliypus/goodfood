@@ -4,6 +4,7 @@ import parseEda from './parsers/eda/edaParser.js'
 import checkEdaRAmount from './parsers/eda/checkEdaRAmount.js'
 import connect from './database/connect.js'
 import getIngredients from './database/getIngredients.js'
+import findIngredients from './database/findIngredients.js'
 import { parseGastronom } from './parsers/gastronom/gastronomParser.js'
 import clearIngredients from './database/clearIngredients.js'
 
@@ -29,7 +30,13 @@ app.get('/api/parse', async (req, res) => {
 // api method to get recipes json string
 app.get('/api/get', async (req, res) => {
     const connection = connect()
-    const data = await getIngredients(connection)
+    let data
+    const findTitle = req.query.findTitle
+    if (findTitle) {
+        data = await findIngredients(connection, findTitle)
+    } else {
+        data = await getIngredients(connection)
+    }
     const stringified = JSON.stringify(data)
     res.writeHead(200, {
         'Content-Type': 'text/plain; charset=utf-8',
