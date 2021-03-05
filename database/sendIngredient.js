@@ -1,6 +1,6 @@
 import config from './config.js'
 
-export default function sendIngredient(connection, ingredient, card) {
+export default function sendIngredient(connection, ingredient) {
     connection.query(
         `INSERT INTO ${
             config.tableName
@@ -8,10 +8,10 @@ export default function sendIngredient(connection, ingredient, card) {
          VALUES ('${ingredient.title}', '${ingredient.url}', '${
             ingredient.time
         }', '${ingredient.ingredientsAmount}', '${JSON.stringify(
-            card.steps
-        )}', '${JSON.stringify(card.ings)}', '${JSON.stringify(
-            card.imgs
-        )}', '${JSON.stringify(card.ctgrs)}')`,
+            ingredient.steps
+        )}', '${JSON.stringify(ingredient.ings)}', '${JSON.stringify(
+            ingredient.imgs
+        )}', '${JSON.stringify(ingredient.ctgrs)}')`,
         (e) => {
             if (e) throw e
         }

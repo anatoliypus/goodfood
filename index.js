@@ -16,14 +16,14 @@ app.set('view engine', 'ejs')
 // api method to parse data
 app.get('/api/parse', async (req, res) => {
     res.end('Parsing started')
-    // console.log(chalk.yellow('\nParsing started'))
-    // const connection = connect()
+    console.log(chalk.yellow('\nParsing started'))
+    const connection = connect()
     // чистит таблицу в базе
-    // clearIngredients(connection)
-    // await parseEda(connection)
-    // console.log(chalk.green('Parsing done\n'))
-    const result = await parseGastronom(1)
-    console.log(result)
+    clearIngredients(connection)
+    await parseEda(connection)
+    await parseGastronom(connection, 1)
+    connection.end()
+    console.log(chalk.green('Parsing done\n'))
 })
 
 // api method to get recipes json string

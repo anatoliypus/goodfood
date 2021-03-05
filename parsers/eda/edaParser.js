@@ -26,7 +26,7 @@ async function parseEda(connection) {
         // цикл по рецептам в полученной коллекции
         for (let product of productsFromPage) {
             const productCard = await getProductCard(product.url) // получает объект с рецептом
-            sendIngredient(connection, product, productCard) // отправляет полученный рецепт в базу
+            sendIngredient(connection, { ...product, ...productCard }) // отправляет полученный рецепт в базу
         }
     }
 

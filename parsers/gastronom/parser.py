@@ -30,13 +30,13 @@ def productCardParse(url, soup, category): # Парсит рецепт
         ing.append(recipeListPart.text)
 
     res = {
-        "category": category,
+        "ctgrs": category,
         "title": title,
         "url": url,
         "ingredientsAmount": str(len(ing)),
         "time": time,
         "steps": steps,
-        "ingredients": ing
+        "ings": ing
         }
     return res
 
@@ -60,7 +60,7 @@ def productListParse(pageNumber, url): # Парсит список рецепт�
                 if not pSoup.find(class_ = '-title -title_no-border'):
                     productCard = productCardParse('https://www.gastronom.ru' + productCardPage.a['href'], pSoup, category)
                     сollection.append(productCard)
-                    # print(productCardPage.a['href']) # Выводит ссылку на рецепт
+                    print(productCardPage.a['href']) # Выводит ссылку на рецепт
             currPageNum += 1
             r = requests.get('https://www.gastronom.ru' + soup.find(class_ = 'pagination__arrow-next')['href'])
             soup = BeautifulSoup(r.text, 'html.parser')
@@ -74,7 +74,7 @@ def productListParse(pageNumber, url): # Парсит список рецепт�
                     if not pSoup.find(class_ = '-title -title_no-border'):
                         productCard = productCardParse('https://www.gastronom.ru' + productCardPage.a['href'], pSoup, category)
                         сollection.append(productCard)
-                        # print(productCardPage.a['href']) # Выводит ссылку на рецепт
+                        print(productCardPage.a['href']) # Выводит ссылку на рецепт
 
     # print('End of list')
 
@@ -83,7 +83,7 @@ def bakeryParse(pageNumber, url): # Парсит список выпечки
     soup = BeautifulSoup(r.text, 'html.parser')
     for productCategory in soup.find(class_ = 'archive col-md-12 col-sm-12').find_all(class_ = 'material-anons__title'):
         if not productCategory.find('span'):
-            # print('>>>>>', productCategory.text) # Выводит категорию (выпечка)
+            print('>>>>>', productCategory.text) # Выводит категорию (выпечка)
             productListParse(pageNumber, 'https://www.gastronom.ru' + productCategory['href'])
 
 def categoryParse(pageNumber, url): # Парсит список категорий
@@ -92,18 +92,18 @@ def categoryParse(pageNumber, url): # Парсит список категори
     counter = 0
     for productCategory in soup.find_all(class_ = 'col-catalog__title'):
         if not productCategory.find('span'):
-            # print('>>>>>', productCategory.text) # Выводит категорию
+            print('>>>>>', productCategory.text) # Выводит категорию
             if productCategory.a['href'] == '/recipe/group/1142/vypechka':
                 bakeryParse(pageNumber, 'https://www.gastronom.ru/recipe/group/1142/vypechka-recepty')
             else:
                 productListParse(pageNumber, 'https://www.gastronom.ru' + productCategory.a['href'])
-        if counter > 2: 
-            break
-        counter += 1
 
+        if counter > 2:
+          break
+        counter += 1
 def globalParse(pageNumber):
     categoryParse(pageNumber, 'https://www.gastronom.ru/catalog')
-    with open(sys.argv[2], 'a', encoding='utf-8') as output_file:
+    with open(sys.argv[2], 'w', encoding='utf-8') as output_file:
         output_file.write(json.dumps({"list": сollection}, sort_keys = True, indent = 4, ensure_ascii = False)) # Вместо этого нужно вставить сувалку в базу данных
 
 def main():
