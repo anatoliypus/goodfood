@@ -22,8 +22,7 @@ for el in soup.find_all('span', class_='instruction__description'):
         if span.has_attr('itemprop') and span['itemprop'] == 'text':
             steps.append(span.string)
 
-for el in soup.find_all('div', class_='photo-list-preview'):
-    imgs.append(el.img['src'])
+imgs.append(soup.find('div', class_='js-recipe-cover-img').img['src'])
 
 for el in soup.find('ul', class_='breadcrumbs').find_all('a'):
     categories.append(el.string)

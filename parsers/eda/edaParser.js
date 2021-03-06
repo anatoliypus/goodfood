@@ -3,6 +3,7 @@ import fs from 'fs'
 import path from 'path'
 import axios from 'axios'
 import sendIngredient from '../../database/sendIngredient.js'
+import { rejects } from 'assert'
 
 const __dirname = path.resolve()
 const parseProductsFileName = 'parsers/eda/parseEdaProducts.py'
@@ -26,14 +27,16 @@ async function parseEda(connection) {
         // цикл по рецептам в полученной коллекции
         for (let product of productsFromPage) {
             const productCard = await getProductCard(product.url) // получает объект с рецептом
-            sendIngredient(connection, { ...product, ...productCard }) // отправляет полученный рецепт в базу
+            if (productCard) {
+                sendIngredient(connection, { ...product, ...productCard }) // отправляет полученный рецепт в базу
+            }
         }
     }
 
     // удаляет временный файл
-    fs.unlink(path.join(__dirname, tempFile), (e) => {
-        if (e) throw e
-    })
+    // fs.unlink(path.join(__dirname, tempFile), (e) => {
+    //     if (e) throw e
+    // })
 }
 
 // получает объект с рецептом
@@ -41,6 +44,7 @@ async function getProductCard(url) {
     const productCardQuery = await axios.get(url)
     const html = productCardQuery.data
     const productCardJSON = await processProductCard(html, tempFile)
+    if (!productCardJSON) return null
     const productCard = JSON.parse(productCardJSON)
     return productCard
 }
@@ -77,10 +81,11 @@ function processProductCard(data, tempFileName) {
         if (e) throw e
     })
     const python = spawn('python', [parseProductCardFileName, tempFileName])
-    return new Promise((resolve) => {
+    return new Promise((resolve, reject) => {
         python.stdout.on('data', (res) => {
             resolve(res.toString())
         })
+        python.stderr.on('data', () => resolve(null))
     })
 }
 

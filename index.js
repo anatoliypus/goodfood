@@ -7,12 +7,14 @@ import getIngredients from './database/getIngredients.js'
 import findIngredients from './database/findIngredients.js'
 import { parseGastronom } from './parsers/gastronom/gastronomParser.js'
 import clearIngredients from './database/clearIngredients.js'
+import path from 'path'
 
 const PORT = process.env.PORT || 5000
 const app = express()
+const __dirname = path.resolve()
 
-app.set('views', 'public')
-app.set('view engine', 'ejs')
+// process requests to static
+app.use(express.static(__dirname + '/public'))
 
 // api method to parse data
 app.get('/api/parse', async (req, res) => {
