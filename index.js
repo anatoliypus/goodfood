@@ -46,6 +46,7 @@ app.get('/api/get', async (req, res) => {
     }
     const stringified = JSON.stringify(data)
     res.end(stringified)
+    connection.end()
 })
 
 // api method to get current recipes amount on resources
