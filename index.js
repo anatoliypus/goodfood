@@ -30,6 +30,11 @@ app.get('/api/parse', async (req, res) => {
 // api method to get recipes json string
 app.get('/api/get', async (req, res) => {
     const connection = connect()
+    res.writeHead(200, {
+        'Content-Type': 'application/json',
+        'Access-Control-Allow-Origin': '*',
+        'Access-Control-Allow-Headers': 'Content-Type',
+    })
     let data
     const findTitle = req.query.findTitle
     if (findTitle) {
@@ -38,9 +43,6 @@ app.get('/api/get', async (req, res) => {
         data = await getIngredients(connection)
     }
     const stringified = JSON.stringify(data)
-    res.writeHead(200, {
-        'Content-Type': 'text/plain; charset=utf-8',
-    })
     res.end(stringified)
 })
 

@@ -14,10 +14,7 @@ categories = []
 for ing in soup.find_all('p', class_='ingredients-list__content-item'):
     ingName = ing.find('span', class_='content-item__name').find('span').string.strip()
     ingAmount = ing.find('span', class_='content-item__measure').string.strip()
-    ing = {
-        'nm': ingName,
-        'am': ingAmount
-    }
+    ing = ingName + ' ' + ingAmount
     ingredients.append(ing)
 
 for el in soup.find_all('span', class_='instruction__description'):
