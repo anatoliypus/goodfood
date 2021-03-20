@@ -9,7 +9,7 @@
   <!-- Facebook instant articles -->
   <meta property="fb:pages" content="107974313907" />
   <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i|PT+Serif:400,400i,700,700i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Yeseva+One&amp;subset=cyrillic" rel="stylesheet">
-  <link rel="stylesheet" href="//s1.eda.ru/StaticContent/All/w/31947085/assets/build/css/application.3f9895bb32f0986541dc.css">
+  <link rel="stylesheet" href="//s1.eda.ru/StaticContent/All/w/32043784/assets/build/css/application.dd4a8a69e348193042de.css">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <link rel="apple-touch-icon" size="167x167" href="/apple-touch-icon-precomposed.png">
   <link rel="apple-touch-icon" size="152x152" href="/apple-touch-icon-152x152-precomposed.png">
@@ -2473,7 +2473,7 @@
         <div class="select-dropdown__trigger">
           <span class="default-value bookmark__text-add">Добавить в книгу рецептов</span>
           <span class="default-value bookmark__text-remove">Добавлен в книгу рецептов</span>
-          <span class='counter js-bookmark__counter'>8214</span>
+          <span class='counter js-bookmark__counter'>8226</span>
         </div>
         <div class="select-dropdown__preloader-wrap">
           <div class="preloader">
@@ -2943,11 +2943,11 @@
   <div class="advertizing__aside-info-widget">
     <ul class="breadcrumbs">
       <li><a href="https://eda.ru/media">Идеи</a></li>
-      <li><a href="https://eda.ru/media/recepty">Рецепты</a></li>
+      <li><a href="https://eda.ru/media/master-klass">Мастер-класс</a></li>
     </ul>
-    <h3><a class="title" href="https://eda.ru/media/recepty/10-receptov-vkusnyh-postnyh-supov">10 рецептов вкусных постных супов</a></h3>
+    <h3><a class="title" href="https://eda.ru/media/master-klass/plov-s-kabachkami-i-orehami">Плов с кабачками и орехами</a></h3>
     <p class="lead">
-      Щи, борщ, похлебка из гороха с мятой и гаспачо с авокадо
+      Простой рецепт, чтобы скрасить постные будни
     </p>
   </div>
   <div class="js-advertizing__observer">
@@ -2959,11 +2959,11 @@
   </div>
   <div class="advertizing__aside-info-widget _last">
     <ul class="breadcrumbs">
-      <li><a href="https://eda.ru/media/recepty">Рецепты</a></li>
+      <li><a href="https://eda.ru/media/master-klass">Мастер-класс</a></li>
     </ul>
-    <h3><a class="title" href="https://eda.ru/media/recepty/6-interesnyh-nachinok-dlya-blinov-na-maslenicu">6 интересных начинок для блинов на Масленицу</a></h3>
+    <h3><a class="title" href="https://eda.ru/media/master-klass/mini-chebureki-s-yagnenkom">Мини-чебуреки с ягненком </a></h3>
     <p class="lead">
-      Сладкие, сырные, с яблочным конфи и малосольной селедкой
+      Видео-мастер-класс от шефа бара «Котельная» Дмитрия Погорелова
     </p>
   </div>
 
@@ -3065,8 +3065,8 @@
           <h3 class="title"><a href="https://eda.ru/school/pastry?utm_source=site&amp;utm_medium=banner_sp&amp;utm_campaign=kozhanov">Базовый кондитерский курс</a></h3>
         </div>
       </li>
-      <li class="list-item js-click-link" data-href="https://eda.ru/school/modern?utm_source=site&amp;utm_medium=banner_sp&amp;utm_campaign=tikhonov">
-        <div class="lazy-load-container js-lazy-loading cover" data-src="https://eda.ru/img/eda/c322x168i/s2.eda.ru/StaticContent/Photos/130713154821/190722164418/p_O.png">
+      <li class="list-item js-click-link" data-href="https://eda.ru/specialproject/gold_1000?utm_source=site&amp;utm_medium=banner_sp&amp;utm_campaign=gold_1000">
+        <div class="lazy-load-container js-lazy-loading cover" data-src="https://eda.ru/img/eda/c322x168i/s1.eda.ru/StaticContent/Photos/110801145243/170309131447/p_O.jpg">
             <svg xmlns="http://www.w3.org/2000/svg" class="js-lazy-loading-svg"
                 xmlns:xlink="http://www.w3.org/1999/xlink"
                 width="322" height="168"
@@ -3078,20 +3078,20 @@
                 </feComponentTransfer>
               </filter>
               <image filter="url(#blurArticleWidget)"
-                    xlink:href="https://eda.ru/img/eda/c322x168i/s2.eda.ru/StaticContent/Photos/130713154821/190722164418/p_O.png"
+                    xlink:href="https://eda.ru/img/eda/c322x168i/s1.eda.ru/StaticContent/Photos/110801145243/170309131447/p_O.jpg"
                     x="0" y="0"
                     width="100%" height="100%"/>
             </svg>
           </div>
         <div class="item-content">
-          <h3 class="title"><a href="https://eda.ru/school/modern?utm_source=site&amp;utm_medium=banner_sp&amp;utm_campaign=tikhonov">Современная домашняя кухня</a></h3>
+          <h3 class="title"><a href="https://eda.ru/specialproject/gold_1000?utm_source=site&amp;utm_medium=banner_sp&amp;utm_campaign=gold_1000">Лучшие рецепты мира</a></h3>
         </div>
       </li>
       <li class="list-item _advert">
         <div class="js-advertizing__observer b-native _spec-project uuid_nativeFooter"></div>
       </li>
-      <li class="list-item js-click-link" data-href="https://eda.ru/school/zimin?utm_source=site&amp;utm_medium=banner_sp&amp;utm_campaign=zimin">
-        <div class="lazy-load-container js-lazy-loading cover" data-src="https://eda.ru/img/eda/c322x168i/s2.eda.ru/StaticContent/Photos/170227165112/200921201034/p_O.jpg">
+      <li class="list-item js-click-link" data-href="https://eda.ru/media/revizija/pomidory-cherri-horoshie-i-plohie?utm_source=site&amp;utm_medium=banner_sp&amp;utm_campaign=cherrytomato">
+        <div class="lazy-load-container js-lazy-loading cover" data-src="https://eda.ru/img/eda/c322x168i/s2.eda.ru/StaticContent/Photos/140219152153/210205181056/p_O.jpg">
             <svg xmlns="http://www.w3.org/2000/svg" class="js-lazy-loading-svg"
                 xmlns:xlink="http://www.w3.org/1999/xlink"
                 width="322" height="168"
@@ -3103,13 +3103,13 @@
                 </feComponentTransfer>
               </filter>
               <image filter="url(#blurArticleWidget)"
-                    xlink:href="https://eda.ru/img/eda/c322x168i/s2.eda.ru/StaticContent/Photos/170227165112/200921201034/p_O.jpg"
+                    xlink:href="https://eda.ru/img/eda/c322x168i/s2.eda.ru/StaticContent/Photos/140219152153/210205181056/p_O.jpg"
                     x="0" y="0"
                     width="100%" height="100%"/>
             </svg>
           </div>
         <div class="item-content">
-          <h3 class="title"><a href="https://eda.ru/school/zimin?utm_source=site&amp;utm_medium=banner_sp&amp;utm_campaign=zimin">Прокачай поварские навыки</a></h3>
+          <h3 class="title"><a href="https://eda.ru/media/revizija/pomidory-cherri-horoshie-i-plohie?utm_source=site&amp;utm_medium=banner_sp&amp;utm_campaign=cherrytomato">Помидоры черри: хорошие и плохие</a></h3>
         </div>
       </li>
   </ul>
@@ -3190,11 +3190,11 @@
 
 
 
-      <div class="horizontal-tile__item-specifications random-class-9a975eb6-1124-458c-ac71-8ab0128dc385">
+      <div class="horizontal-tile__item-specifications random-class-24137ceb-e8be-4d6b-b4d1-b960ab669e91">
         <div class="inline-dropdown js-toggle-class"
              data-toggle-class-options='{
                 "toggleClass": "inline-dropdown_active",
-                "toggleObj": "random-class-9a975eb6-1124-458c-ac71-8ab0128dc385"
+                "toggleObj": "random-class-24137ceb-e8be-4d6b-b4d1-b960ab669e91"
               }'>
           6 ингредиентов
           <svg class="inline-dropdown__icon">
@@ -3322,7 +3322,7 @@
             <svg>
               <use xlink:href="#bookmarks-min"/>
             </svg>
-            <span class="js-bookmark__counter">15921</span>
+            <span class="js-bookmark__counter">15954</span>
           </span>
         <span class="widget-list__like-count">
           <svg>
@@ -3360,7 +3360,7 @@
         </div>
       </div>
       <div class='bookmark js-tooltip js-bookmark__label '
-           data-qtip-title="В избранном у <span class='js-bookmark__counter'>15921</span> пользователей"
+           data-qtip-title="В избранном у <span class='js-bookmark__counter'>15954</span> пользователей"
            data-href="recepty/vypechka-deserty/tonkie-blini-na-moloke-16014"
            data-id="16014"
            data-in='False'
@@ -3433,11 +3433,11 @@
 
 
 
-      <div class="horizontal-tile__item-specifications random-class-545768dd-0daa-40cd-be35-14f47b3a1b89">
+      <div class="horizontal-tile__item-specifications random-class-a05ddc32-1957-420c-97c0-8ee0ca030528">
         <div class="inline-dropdown js-toggle-class"
              data-toggle-class-options='{
                 "toggleClass": "inline-dropdown_active",
-                "toggleObj": "random-class-545768dd-0daa-40cd-be35-14f47b3a1b89"
+                "toggleObj": "random-class-a05ddc32-1957-420c-97c0-8ee0ca030528"
               }'>
           6 ингредиентов
           <svg class="inline-dropdown__icon">
@@ -3670,11 +3670,11 @@
 
 
 
-      <div class="horizontal-tile__item-specifications random-class-aa7e74ea-3206-4dc8-9e36-728a80ca24c3">
+      <div class="horizontal-tile__item-specifications random-class-d40e50eb-6b09-4637-b80b-33c9bede6b43">
         <div class="inline-dropdown js-toggle-class"
              data-toggle-class-options='{
                 "toggleClass": "inline-dropdown_active",
-                "toggleObj": "random-class-aa7e74ea-3206-4dc8-9e36-728a80ca24c3"
+                "toggleObj": "random-class-d40e50eb-6b09-4637-b80b-33c9bede6b43"
               }'>
           7 ингредиентов
           <svg class="inline-dropdown__icon">
@@ -3924,11 +3924,11 @@
 
 
 
-      <div class="horizontal-tile__item-specifications random-class-aca4e4f1-e927-4988-b65d-fea9166f2125">
+      <div class="horizontal-tile__item-specifications random-class-3536e53d-5bb7-4fd5-b686-29bda42ba1b3">
         <div class="inline-dropdown js-toggle-class"
              data-toggle-class-options='{
                 "toggleClass": "inline-dropdown_active",
-                "toggleObj": "random-class-aca4e4f1-e927-4988-b65d-fea9166f2125"
+                "toggleObj": "random-class-3536e53d-5bb7-4fd5-b686-29bda42ba1b3"
               }'>
           6 ингредиентов
           <svg class="inline-dropdown__icon">
@@ -4161,11 +4161,11 @@
 
 
 
-      <div class="horizontal-tile__item-specifications random-class-beb45d63-443f-49b0-a72d-7cb43bc6c5f9">
+      <div class="horizontal-tile__item-specifications random-class-a906d767-d569-431b-8df2-032f13b436b7">
         <div class="inline-dropdown js-toggle-class"
              data-toggle-class-options='{
                 "toggleClass": "inline-dropdown_active",
-                "toggleObj": "random-class-beb45d63-443f-49b0-a72d-7cb43bc6c5f9"
+                "toggleObj": "random-class-a906d767-d569-431b-8df2-032f13b436b7"
               }'>
           5 ингредиентов
           <svg class="inline-dropdown__icon">
@@ -4394,11 +4394,11 @@
 
 
 
-      <div class="horizontal-tile__item-specifications random-class-e0ba27e0-966a-4770-a477-ae6affbe5179">
+      <div class="horizontal-tile__item-specifications random-class-e70cdacc-5ad8-407a-9e5c-a0440a91c224">
         <div class="inline-dropdown js-toggle-class"
              data-toggle-class-options='{
                 "toggleClass": "inline-dropdown_active",
-                "toggleObj": "random-class-e0ba27e0-966a-4770-a477-ae6affbe5179"
+                "toggleObj": "random-class-e70cdacc-5ad8-407a-9e5c-a0440a91c224"
               }'>
           7 ингредиентов
           <svg class="inline-dropdown__icon">
@@ -4815,8 +4815,8 @@
 
   </script>
   
-  <script type="text/javascript" src="//s2.eda.ru/StaticContent/All/w/31947085/assets/build/vendors.bundle.3f9895bb32f0986541dc.js"></script>
-  <script type="text/javascript" src="//s1.eda.ru/StaticContent/All/w/31947085/assets/build/recipe.bundle.d50f0f708117676c2189.js"></script>
+  <script type="text/javascript" src="//s2.eda.ru/StaticContent/All/w/32043784/assets/build/vendors.bundle.dd4a8a69e348193042de.js"></script>
+  <script type="text/javascript" src="//s2.eda.ru/StaticContent/All/w/32043784/assets/build/recipe.bundle.594b5a285b484e2f5de6.js"></script>
 
   <script async defer type="text/javascript" src="https://id.rambler.ru/rambler-id-helper/auth_events.js"></script>
 

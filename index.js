@@ -4,7 +4,6 @@ import parseEda from './parsers/eda/edaParser.js'
 import checkEdaRAmount from './parsers/eda/checkEdaRAmount.js'
 import connect from './database/connect.js'
 import getIngredients from './database/getIngredients.js'
-import findIngredients from './database/findIngredients.js'
 import { parseGastronom } from './parsers/gastronom/gastronomParser.js'
 import clearIngredients from './database/clearIngredients.js'
 import path from 'path'
@@ -38,12 +37,10 @@ app.get('/api/get', async (req, res) => {
         'Access-Control-Allow-Headers': 'Content-Type',
     })
     let data
+    const from = req.query.from
+    const to = req.query.to
     const findTitle = req.query.findTitle
-    if (findTitle) {
-        data = await findIngredients(connection, findTitle)
-    } else {
-        data = await getIngredients(connection)
-    }
+    data = await getIngredients(connection, findTitle, from, to)
     const stringified = JSON.stringify(data)
     res.end(stringified)
     connection.end()

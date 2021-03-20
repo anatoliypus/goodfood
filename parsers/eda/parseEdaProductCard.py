@@ -11,7 +11,7 @@ ingredients = []
 imgs = []
 categories = []
 
-for ing in soup.find_all('p', class_='ingredients-list__content-item'):
+for ing in soup.find('div', class_="ingredients-list__content").find_all('p', class_='ingredients-list__content-item'):
     ingName = ing.find('span', class_='content-item__name').find('span').string.strip()
     ingAmount = ing.find('span', class_='content-item__measure').string.strip()
     ing = ingName + ' ' + ingAmount
