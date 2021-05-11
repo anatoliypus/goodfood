@@ -120,9 +120,11 @@ async function getProducts(url: string): Promise<Product[] | null> {
   try {
     const response = await axios.get(url);
     const data = response.data as string;
+    console.log(data);
     const result = await processAllProducts(data);
     if (!result) return null;
     const productsFromPage = JSON.parse(result) as Product[];
+    console.log(productsFromPage);
     return productsFromPage;
   } catch (e) {
     console.log(e);
