@@ -23,12 +23,13 @@ export default async function createFastify(): Promise<FastifyInstance> {
   await instance.register(getAuthApi, {prefix: "/auth"});
   await instance.register(getDataAPI, {prefix: "/data"});
 
-  const host = getenv.string("HOST");
+  // const host = getenv.string("HOST");
   const port = getenv.int("PORT");
 
-  await instance.listen({host, port});
+  await instance.listen({port});
 
-  console.log(`Server listening on http://${host}:${port}/`);
+  // console.log(`Server listening on http://${host}:${port}/`);
+  console.log(`Server listening on port ${port}`);
 
   return instance;
 }
