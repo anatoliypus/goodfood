@@ -1,0 +1,69 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "changeUserDataSchema",
+  "type": "object",
+  "title": "ChangeUserDataRequest",
+  "description": "The root schema comprises the entire JSON document.",
+  "default": {},
+  "examples": [
+      {
+          "tags": [
+              "string"
+          ],
+          "shotTypes": [
+              "Landing"
+          ]
+      }
+  ],
+  "required": [
+      "tags",
+      "shotTypes"
+  ],
+  "properties": {
+      "tags": {
+          "$id": "#/properties/tags",
+          "type": "array",
+          "title": "TagsSchema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": [],
+          "examples": [
+              [
+                  "string"
+              ]
+          ],
+          "additionalItems": false,
+          "items": {
+              "$id": "#/properties/tags/items",
+              "anyOf": [
+                  {
+                      "$id": "#/properties/tags/items/anyOf/0",
+                      "type": "string",
+                      "title": "The first anyOf schema",
+                      "description": "An explanation about the purpose of this instance.",
+                      "default": "",
+                      "examples": [
+                          "string"
+                      ]
+                  }
+              ]
+          }
+      },
+      "shotTypes": {
+          "$id": "#/properties/shotTypes",
+          "type": "array",
+          "title": "ShotTypesSchema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": [],
+          "examples": [
+              [
+                  "Landing"
+              ]
+          ],
+          "additionalItems": false,
+          "items": {
+              "enum": ["Landing", "Web Application", "Website", "Mobile"]
+          }
+      }
+  },
+  "additionalProperties": false
+}
