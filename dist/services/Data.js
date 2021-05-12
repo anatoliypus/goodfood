@@ -61,14 +61,19 @@ class DataService {
         });
         console.log("Parsing completed");
     }
-    async getData(search) {
+    async getData(amount, offset, search) {
         try {
             let data;
             if (search) {
-                data = await this.repository.find({ title: typeorm_1.Like(`%${search}%`) });
+                data = await this.repository
+                    .createQueryBuilder("recipes")
+                    .where("recipes.title LIKE :search", { search: `%${search}%` })
+                    .skip(offset)
+                    .take(amount)
+                    .getMany();
             }
             else {
-                data = await this.repository.createQueryBuilder("recipes").getMany();
+                data = await this.repository.createQueryBuilder("recipes").skip(offset).take(amount).getMany();
             }
             return data;
         }

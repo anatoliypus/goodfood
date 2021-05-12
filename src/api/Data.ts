@@ -13,8 +13,8 @@ export default async function getDataAPI(fastify: FastifyInstance): Promise<void
     "/get",
     {schema: {querystring: GetDataQuerySchema}},
     async (request: FastifyRequest<{Querystring: GetDataQuery}>, reply: FastifyReply) => {
-      const search = request.query.key;
-      const data = await dataService.getData(search);
+      const {key, amount, offset} = request.query;
+      const data = await dataService.getData(amount, offset, key);
       if (data) {
         await reply
           .status(200)

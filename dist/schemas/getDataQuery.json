@@ -1,14 +1,20 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema",
-    "$id": "getDataQuery",
+    "$id": "GetDataQuery",
     "type": "object",
     "title": "GetDataQuery",
     "description": "The root schema comprises the entire JSON document.",
     "default": {},
     "examples": [
         {
-            "key": "cake"
+            "key": "cake",
+            "offset": 20,
+            "amount": 20
         }
+    ],
+    "required": [
+        "offset",
+        "amount"
     ],
     "properties": {
         "key": {
@@ -17,7 +23,29 @@
             "title": "The key schema",
             "description": "An explanation about the purpose of this instance.",
             "default": "",
-            "examples": ["cake"]
+            "examples": [
+                "cake"
+            ]
+        },
+        "offset": {
+            "$id": "#/properties/offset",
+            "type": "integer",
+            "title": "The offset schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                20
+            ]
+        },
+        "amount": {
+            "$id": "#/properties/amount",
+            "type": "integer",
+            "title": "The amount schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                20
+            ]
         }
     },
     "additionalProperties": false

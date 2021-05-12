@@ -12,10 +12,17 @@ async function getDataAPI(fastify) {
         await dataService.parseEda();
     });
     fastify.get("/get", { schema: { querystring: getDataQuery_json_1.default } }, async (request, reply) => {
-        const search = request.query.key;
-        const data = await dataService.getData(search);
+        const { key, amount, offset } = request.query;
+        const data = await dataService.getData(amount, offset, key);
         if (data) {
-            await reply.status(200).send(data);
+            await reply
+                .status(200)
+                .headers({
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Headers": "Content-Type",
+            })
+                .send(data);
             return;
         }
         await reply.status(500).send();

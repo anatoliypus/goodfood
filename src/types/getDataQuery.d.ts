@@ -9,10 +9,20 @@
  * An explanation about the purpose of this instance.
  */
 export type TheKeySchema = string;
+/**
+ * An explanation about the purpose of this instance.
+ */
+export type TheOffsetSchema = number;
+/**
+ * An explanation about the purpose of this instance.
+ */
+export type TheAmountSchema = number;
 
 /**
  * The root schema comprises the entire JSON document.
  */
 export interface GetDataQuery {
   key?: TheKeySchema;
+  offset: TheOffsetSchema;
+  amount: TheAmountSchema;
 }

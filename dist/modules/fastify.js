@@ -24,10 +24,9 @@ async function createFastify() {
     await instance.register(User_1.default, { prefix: "/user" });
     await instance.register(Auth_1.default, { prefix: "/auth" });
     await instance.register(Data_1.default, { prefix: "/data" });
-    const host = getenv_1.default.string("HOST");
     const port = getenv_1.default.int("PORT");
-    await instance.listen({ host, port });
-    console.log(`Server listening on http://${host}:${port}/`);
+    await instance.listen({ port });
+    console.log(`Server listening on port ${port}`);
     return instance;
 }
 exports.default = createFastify;

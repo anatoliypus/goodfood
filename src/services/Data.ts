@@ -1,4 +1,4 @@
-import {getRepository, Like, Repository} from "typeorm";
+import {getRepository, Repository} from "typeorm";
 import {Recipes} from "../models/Recipes";
 import {spawn} from "child_process";
 import fs from "fs";
@@ -73,13 +73,18 @@ export default class DataService {
     });
     console.log("Parsing completed");
   }
-  async getData(search?: string | undefined): Promise<Recipes[] | null> {
+  async getData(amount: number, offset: number, search?: string | undefined): Promise<Recipes[] | null> {
     try {
       let data;
       if (search) {
-        data = await this.repository.find({title: Like(`%${search}%`)});
+        data = await this.repository
+          .createQueryBuilder("recipes")
+          .where("recipes.title LIKE :search", {search: `%${search}%`})
+          .skip(offset)
+          .take(amount)
+          .getMany();
       } else {
-        data = await this.repository.createQueryBuilder("recipes").getMany();
+        data = await this.repository.createQueryBuilder("recipes").skip(offset).take(amount).getMany();
       }
       return data;
     } catch (e) {

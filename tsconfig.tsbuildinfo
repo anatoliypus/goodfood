@@ -2227,27 +2227,27 @@
         "affectsGlobalScope": false
       },
       "./src/services/data.ts": {
-        "version": "50c4ea4fdab8f414cbd805235ea99a67e40b1eaedc4609461daa33d6ae51da18",
-        "signature": "0112b9324c1f86e801f4056d6e5d8ec165ddecc8c902112e2864c497eb36e49c",
+        "version": "d5d838dcedbf32b0945f2f9b4a10990e22a45b4ca572ae4cb98510486b3d5dba",
+        "signature": "9b120a648bd2ad5d2958ae3827dcac4c7287ae68fb6e4657e883e4d09c78c56f",
         "affectsGlobalScope": false
       },
       "./src/schemas/getdataquery.json": {
-        "version": "f08f8445d1dca77cc36a02ef6bfe8f64bc3359ece9725e6acc47ed1b70b0ffbf",
-        "signature": "953366b40af25800c2b9b6cbcc5b9eb61bd02b56f2dc6fd40e1af347776acd97",
+        "version": "36683fe9b4f33c66b716e5ad84a52e655fc8d51ee9d7557c5d25da916763bcf2",
+        "signature": "2ac87016aa18e84f22348d89de5e71d57c02f112ce9147a75b674c040fe7fb2b",
         "affectsGlobalScope": true
       },
       "./src/types/getdataquery.d.ts": {
-        "version": "d8b3608383ebbd8be3703e2750d8228ddf52c010192dab64ae044f1db0879f1a",
-        "signature": "d8b3608383ebbd8be3703e2750d8228ddf52c010192dab64ae044f1db0879f1a",
+        "version": "5d51f7f8ebeb776f6cad81beadea4f05a9d8467955e393e8eb8f6e67652eaba5",
+        "signature": "5d51f7f8ebeb776f6cad81beadea4f05a9d8467955e393e8eb8f6e67652eaba5",
         "affectsGlobalScope": false
       },
       "./src/api/data.ts": {
-        "version": "cb8b95e79b5538abd8e31be88c6cad16b6d5939f47f06ddcfe0353ca38de3eee",
+        "version": "fb3959771e3a6024d06f1d51736fbfa0684e0a8c8a814be80de9b521f2e1a051",
         "signature": "ed90e133e9c5c443258331a04e5fcdf3b67c94312d5c633695dbce22e2fb8539",
         "affectsGlobalScope": false
       },
       "./src/modules/fastify.ts": {
-        "version": "72eabadcdb161fc5cafac806f85d4eea30526e99b022ba8af860a1de21215503",
+        "version": "91526ea8ec923de725923c64bf758f2b377ce29989f0ebb007d1bbf238a06f58",
         "signature": "0b2f5da998ca10bb5c5e8a82d821d727e37aeb4fb4db46fd32c74bd5789a4e9c",
         "affectsGlobalScope": false
       },
