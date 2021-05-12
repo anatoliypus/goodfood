@@ -7,7 +7,7 @@ data = f.read()
 f.close()
 soup = BeautifulSoup(data, 'html.parser')
 collection = []
-urlFirstpart = 'https://eda.ru/'
+urlFirstpart = 'https://eda.ru'
 
 for el in soup.find_all('div', class_='horizontal-tile__content'):
     title = el.h3.a.span.string.strip()

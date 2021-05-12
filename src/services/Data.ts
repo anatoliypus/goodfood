@@ -3,7 +3,7 @@ import {Recipes} from "../models/Recipes";
 import {spawn} from "child_process";
 import fs from "fs";
 import path from "path";
-import axios from "axios";
+import got from "got";
 
 interface ProductCard {
   steps: string[];
@@ -22,8 +22,8 @@ interface Product {
 const parseProductsFileName = path.resolve(process.cwd(), "parsers", "parseEdaProducts.py");
 const parseProductCardFileName = path.resolve(process.cwd(), "parsers", "parseEdaProductCard.py");
 const tempFile = path.resolve(__dirname, "temp.txt");
-const url = "http://eda.ru/recepty";
-const pageLimit = 3;
+const url = "https://eda.ru/recepty";
+const pageLimit = 5;
 
 export default class DataService {
   private readonly repository: Repository<Recipes>;
@@ -105,8 +105,8 @@ export default class DataService {
 
 // получает объект с рецептом
 async function getProductCard(url: string): Promise<ProductCard | null> {
-  const productCardQuery = await axios.get(url, {timeout: 2500});
-  const html = productCardQuery.data as string;
+  const productCardQuery = await got(url, {timeout: 1000});
+  const html = productCardQuery.body;
   const productCardJSON = await processProductCard(html);
   if (!productCardJSON) {
     return null;
@@ -123,8 +123,8 @@ async function getProductCard(url: string): Promise<ProductCard | null> {
 // возвращает коллекцию с рецептами на странице
 async function getProducts(url: string): Promise<Product[] | null> {
   try {
-    const response = await axios.get(url);
-    const data = response.data as string;
+    const response = await got(url);
+    const data = response.body;
     const result = await processAllProducts(data);
     if (!result) return null;
     const productsFromPage = JSON.parse(result) as Product[];

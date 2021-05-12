@@ -8,12 +8,12 @@ const Recipes_1 = require("../models/Recipes");
 const child_process_1 = require("child_process");
 const fs_1 = __importDefault(require("fs"));
 const path_1 = __importDefault(require("path"));
-const axios_1 = __importDefault(require("axios"));
+const got_1 = __importDefault(require("got"));
 const parseProductsFileName = path_1.default.resolve(process.cwd(), "parsers", "parseEdaProducts.py");
 const parseProductCardFileName = path_1.default.resolve(process.cwd(), "parsers", "parseEdaProductCard.py");
 const tempFile = path_1.default.resolve(__dirname, "temp.txt");
-const url = "http://eda.ru/recepty";
-const pageLimit = 3;
+const url = "https://eda.ru/recepty";
+const pageLimit = 5;
 class DataService {
     constructor() {
         this.repository = typeorm_1.getRepository(Recipes_1.Recipes);
@@ -96,8 +96,8 @@ class DataService {
 exports.default = DataService;
 // получает объект с рецептом
 async function getProductCard(url) {
-    const productCardQuery = await axios_1.default.get(url, { timeout: 2500 });
-    const html = productCardQuery.data;
+    const productCardQuery = await got_1.default(url, { timeout: 1000 });
+    const html = productCardQuery.body;
     const productCardJSON = await processProductCard(html);
     if (!productCardJSON) {
         return null;
@@ -114,8 +114,8 @@ async function getProductCard(url) {
 // возвращает коллекцию с рецептами на странице
 async function getProducts(url) {
     try {
-        const response = await axios_1.default.get(url);
-        const data = response.data;
+        const response = await got_1.default(url);
+        const data = response.body;
         const result = await processAllProducts(data);
         if (!result)
             return null;
