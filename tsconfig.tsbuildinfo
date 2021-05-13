@@ -2306,33 +2306,38 @@
         "signature": "ac3459d91154275b1cd916f265d0151fc4a4a3b3701b1c58cb7c32ea48a7aaec",
         "affectsGlobalScope": false
       },
+      "./src/models/categories.ts": {
+        "version": "0dea44e3a102f7d33bfcbe7612d0e3c8c4433b654c8966490d538ce54fb61cf5",
+        "signature": "80ab8ae8ded32df774355d7e5fe0d70aad20bdfc942cd3cee46e6e52c122d74c",
+        "affectsGlobalScope": false
+      },
       "./src/services/data.ts": {
-        "version": "ed951af8974198c7854e9ac657e58d865f615b51ef6a28c3dd682b3c4fa072be",
-        "signature": "9b120a648bd2ad5d2958ae3827dcac4c7287ae68fb6e4657e883e4d09c78c56f",
+        "version": "52b150233518e9cba77c31fd90a9cef2129596ec68e0f263c2716e8a7cafd4a3",
+        "signature": "6f863641b1f6e62113615560ff5ff321c79f55899ce8d9a48d96db0b4584d765",
         "affectsGlobalScope": false
       },
       "./src/schemas/getdataquery.json": {
-        "version": "36683fe9b4f33c66b716e5ad84a52e655fc8d51ee9d7557c5d25da916763bcf2",
-        "signature": "2ac87016aa18e84f22348d89de5e71d57c02f112ce9147a75b674c040fe7fb2b",
+        "version": "f6fcc997de5728f21126aa5431aaaf59ad84558908b1634d411b190d6da86d6c",
+        "signature": "8042554e85b161b291d1b8bdf7752c478ff0db0b6801c5319baad90165dbc1ca",
         "affectsGlobalScope": true
       },
       "./src/types/getdataquery.d.ts": {
-        "version": "5d51f7f8ebeb776f6cad81beadea4f05a9d8467955e393e8eb8f6e67652eaba5",
-        "signature": "5d51f7f8ebeb776f6cad81beadea4f05a9d8467955e393e8eb8f6e67652eaba5",
+        "version": "95952538a5f508a3743aeea72976972a620081afb46f9b775182832e627bfa51",
+        "signature": "95952538a5f508a3743aeea72976972a620081afb46f9b775182832e627bfa51",
         "affectsGlobalScope": false
       },
       "./src/api/data.ts": {
-        "version": "fb3959771e3a6024d06f1d51736fbfa0684e0a8c8a814be80de9b521f2e1a051",
+        "version": "3c09e00661e6c3eec0ad46283e071f5397d65ab304a9e6024a5b62e74d345654",
         "signature": "ed90e133e9c5c443258331a04e5fcdf3b67c94312d5c633695dbce22e2fb8539",
         "affectsGlobalScope": false
       },
       "./src/modules/fastify.ts": {
-        "version": "91526ea8ec923de725923c64bf758f2b377ce29989f0ebb007d1bbf238a06f58",
+        "version": "78f865cee198967ba8f8b77e5e3eae4dfac19501de02b25f03fb8b565289073b",
         "signature": "0b2f5da998ca10bb5c5e8a82d821d727e37aeb4fb4db46fd32c74bd5789a4e9c",
         "affectsGlobalScope": false
       },
       "./src/modules/typeorm.ts": {
-        "version": "b1cf5e84e7a9a6d9c6e48785d3d22e3f537c5aa9b0c9c72f17c0abb14a88acb9",
+        "version": "af9156ecc12505a0e5033a73bf9c4b42a45b20336978819c9286f2f15e243847",
         "signature": "7e4c685cd7e0b30d18e38cea66709dea9e119f68dc8e39b7176249fdbe671531",
         "affectsGlobalScope": false
       },
@@ -4354,6 +4359,9 @@
         "./src/modules/fastify.ts",
         "./src/modules/typeorm.ts"
       ],
+      "./src/models/categories.ts": [
+        "./node_modules/typeorm/index.d.ts"
+      ],
       "./src/models/recipes.ts": [
         "./node_modules/typeorm/index.d.ts"
       ],
@@ -4372,6 +4380,7 @@
       "./src/modules/typeorm.ts": [
         "./node_modules/@types/getenv/index.d.ts",
         "./node_modules/typeorm/index.d.ts",
+        "./src/models/categories.ts",
         "./src/models/recipes.ts",
         "./src/models/user.ts"
       ],
@@ -4390,6 +4399,7 @@
         "./node_modules/@types/node/path.d.ts",
         "./node_modules/got/dist/source/index.d.ts",
         "./node_modules/typeorm/index.d.ts",
+        "./src/models/categories.ts",
         "./src/models/recipes.ts"
       ],
       "./src/services/user.ts": [
@@ -6752,6 +6762,7 @@
       "./src/api/data.ts",
       "./src/api/user.ts",
       "./src/index.ts",
+      "./src/models/categories.ts",
       "./src/models/recipes.ts",
       "./src/models/user.ts",
       "./src/modules/fastify.ts",

@@ -12,17 +12,22 @@ export type TheKeySchema = string;
 /**
  * An explanation about the purpose of this instance.
  */
+export type TheAmountSchema = number;
+/**
+ * An explanation about the purpose of this instance.
+ */
 export type TheOffsetSchema = number;
 /**
  * An explanation about the purpose of this instance.
  */
-export type TheAmountSchema = number;
+export type TheCategorySchema = string;
 
 /**
  * The root schema comprises the entire JSON document.
  */
 export interface GetDataQuery {
   key?: TheKeySchema;
-  offset: TheOffsetSchema;
   amount: TheAmountSchema;
+  offset: TheOffsetSchema;
+  category?: TheCategorySchema;
 }

@@ -21,6 +21,9 @@ async function createFastify() {
     instance.get("/", async (request, response) => {
         await response.sendFile(indexFile);
     });
+    instance.get("/api", async (request, reply) => {
+        await reply.redirect("https://documenter.getpostman.com/view/15042692/TzRVe5pz");
+    });
     await instance.register(User_1.default, { prefix: "/user" });
     await instance.register(Auth_1.default, { prefix: "/auth" });
     await instance.register(Data_1.default, { prefix: "/data" });

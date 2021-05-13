@@ -8,13 +8,17 @@
     "examples": [
         {
             "key": "cake",
-            "offset": 20,
-            "amount": 20
+            "amount": 5,
+            "offset": 0,
+            "categories": [
+                "Супы",
+                "Салаты"
+            ]
         }
     ],
     "required": [
-        "offset",
-        "amount"
+        "amount",
+        "offset"
     ],
     "properties": {
         "key": {
@@ -27,16 +31,6 @@
                 "cake"
             ]
         },
-        "offset": {
-            "$id": "#/properties/offset",
-            "type": "integer",
-            "title": "The offset schema",
-            "description": "An explanation about the purpose of this instance.",
-            "default": 0,
-            "examples": [
-                20
-            ]
-        },
         "amount": {
             "$id": "#/properties/amount",
             "type": "integer",
@@ -44,7 +38,27 @@
             "description": "An explanation about the purpose of this instance.",
             "default": 0,
             "examples": [
-                20
+                5
+            ]
+        },
+        "offset": {
+            "$id": "#/properties/offset",
+            "type": "integer",
+            "title": "The offset schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "category": {
+            "$id": "#/properties/category",
+            "type": "string",
+            "title": "The category schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "супы"
             ]
         }
     },

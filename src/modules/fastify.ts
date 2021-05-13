@@ -19,6 +19,10 @@ export default async function createFastify(): Promise<FastifyInstance> {
     await response.sendFile(indexFile);
   });
 
+  instance.get("/api", async (request: FastifyRequest, reply: FastifyReply) => {
+    await reply.redirect("https://documenter.getpostman.com/view/15042692/TzRVe5pz");
+  });
+
   await instance.register(getUserAPI, {prefix: "/user"});
   await instance.register(getAuthApi, {prefix: "/auth"});
   await instance.register(getDataAPI, {prefix: "/data"});

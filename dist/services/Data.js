@@ -9,20 +9,22 @@ const child_process_1 = require("child_process");
 const fs_1 = __importDefault(require("fs"));
 const path_1 = __importDefault(require("path"));
 const got_1 = __importDefault(require("got"));
+const Categories_1 = require("../models/Categories");
 const parseProductsFileName = path_1.default.resolve(process.cwd(), "parsers", "parseEdaProducts.py");
 const parseProductCardFileName = path_1.default.resolve(process.cwd(), "parsers", "parseEdaProductCard.py");
 const tempFile = path_1.default.resolve(__dirname, "temp.txt");
 const url = "https://eda.ru/recepty";
-const pageLimit = 5;
+const pageLimit = 30;
 class DataService {
     constructor() {
         this.repository = typeorm_1.getRepository(Recipes_1.Recipes);
+        this.categories = typeorm_1.getRepository(Categories_1.Categories);
     }
     // главная функция для парса с Eda.ru
     async parseEda() {
         await this.repository.createQueryBuilder().delete().execute();
         let i = 1;
-        let j = 1;
+        const categoriesCollection = [];
         // цикл по страницам с рецептами
         // eslint-disable-next-line no-constant-condition
         while (true) {
@@ -37,9 +39,13 @@ class DataService {
             for (const product of productsFromPage) {
                 const productCard = await getProductCard(product.url); // получает объект с рецептом
                 if (productCard) {
+                    for (const el of productCard.ctgrs) {
+                        if (!categoriesCollection.includes(el)) {
+                            categoriesCollection.push(el);
+                        }
+                    }
                     // отправляет полученный рецепт в базу
                     const insertObj = {
-                        id: j,
                         title: product.title,
                         url: product.url,
                         cook_time: product.time,
@@ -49,10 +55,14 @@ class DataService {
                         images: productCard.imgs,
                         categories: productCard.ctgrs,
                     };
-                    j++;
                     await this.repository.insert(insertObj);
                 }
             }
+        }
+        for (const el of categoriesCollection) {
+            await this.categories.insert({
+                category: el,
+            });
         }
         // удаляет временный файл
         fs_1.default.unlink(tempFile, (e) => {
@@ -61,21 +71,22 @@ class DataService {
         });
         console.log("Parsing completed");
     }
-    async getData(amount, offset, search) {
+    async getData(amount, offset, search, category) {
         try {
-            let data;
+            const data = this.repository.createQueryBuilder("recipes");
             if (search) {
-                data = await this.repository
-                    .createQueryBuilder("recipes")
-                    .where("recipes.title LIKE :search", { search: `%${search}%` })
-                    .skip(offset)
-                    .take(amount)
-                    .getMany();
+                data.where("recipes.title LIKE :search", { search: `%${search}%` });
             }
-            else {
-                data = await this.repository.createQueryBuilder("recipes").skip(offset).take(amount).getMany();
+            if (category) {
+                if (search) {
+                    data.andWhere("recipes.categories LIKE :category", { category: `%${category}%` });
+                }
+                else {
+                    data.where("recipes.categories LIKE :category", { category: `%${category}%` });
+                }
             }
-            return data;
+            const result = await data.skip(offset).take(amount).getMany();
+            return result;
         }
         catch (e) {
             console.log(e);
@@ -86,6 +97,20 @@ class DataService {
         try {
             const amount = await this.repository.count();
             return amount;
+        }
+        catch (e) {
+            console.log(e);
+            return null;
+        }
+    }
+    async getCategories() {
+        try {
+            const data = await this.categories.createQueryBuilder("categories").select("categories.category").getMany();
+            const collection = [];
+            for (const el of data) {
+                collection.push(el.category);
+            }
+            return collection;
         }
         catch (e) {
             console.log(e);

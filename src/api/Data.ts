@@ -13,8 +13,8 @@ export default async function getDataAPI(fastify: FastifyInstance): Promise<void
     "/get",
     {schema: {querystring: GetDataQuerySchema}},
     async (request: FastifyRequest<{Querystring: GetDataQuery}>, reply: FastifyReply) => {
-      const {key, amount, offset} = request.query;
-      const data = await dataService.getData(amount, offset, key);
+      const {key, amount, offset, category} = request.query;
+      const data = await dataService.getData(amount, offset, key, category);
       if (data) {
         await reply
           .status(200)
@@ -31,6 +31,14 @@ export default async function getDataAPI(fastify: FastifyInstance): Promise<void
   );
   fastify.get("/count", async (request: FastifyRequest, reply: FastifyReply) => {
     const data = await dataService.getRecipesAmount();
+    if (data) {
+      await reply.status(200).send(data);
+      return;
+    }
+    await reply.status(500).send();
+  });
+  fastify.get("/getCategories", async (request: FastifyRequest, reply: FastifyReply) => {
+    const data = await dataService.getCategories();
     if (data) {
       await reply.status(200).send(data);
       return;

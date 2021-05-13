@@ -12,8 +12,8 @@ async function getDataAPI(fastify) {
         await dataService.parseEda();
     });
     fastify.get("/get", { schema: { querystring: getDataQuery_json_1.default } }, async (request, reply) => {
-        const { key, amount, offset } = request.query;
-        const data = await dataService.getData(amount, offset, key);
+        const { key, amount, offset, category } = request.query;
+        const data = await dataService.getData(amount, offset, key, category);
         if (data) {
             await reply
                 .status(200)
@@ -29,6 +29,14 @@ async function getDataAPI(fastify) {
     });
     fastify.get("/count", async (request, reply) => {
         const data = await dataService.getRecipesAmount();
+        if (data) {
+            await reply.status(200).send(data);
+            return;
+        }
+        await reply.status(500).send();
+    });
+    fastify.get("/getCategories", async (request, reply) => {
+        const data = await dataService.getCategories();
         if (data) {
             await reply.status(200).send(data);
             return;

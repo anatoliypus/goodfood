@@ -4,6 +4,7 @@ import {spawn} from "child_process";
 import fs from "fs";
 import path from "path";
 import got from "got";
+import {Categories} from "../models/Categories";
 
 interface ProductCard {
   steps: string[];
@@ -23,18 +24,20 @@ const parseProductsFileName = path.resolve(process.cwd(), "parsers", "parseEdaPr
 const parseProductCardFileName = path.resolve(process.cwd(), "parsers", "parseEdaProductCard.py");
 const tempFile = path.resolve(__dirname, "temp.txt");
 const url = "https://eda.ru/recepty";
-const pageLimit = 5;
+const pageLimit = 30;
 
 export default class DataService {
   private readonly repository: Repository<Recipes>;
+  private readonly categories: Repository<Categories>;
   constructor() {
     this.repository = getRepository<Recipes>(Recipes);
+    this.categories = getRepository<Categories>(Categories);
   }
   // главная функция для парса с Eda.ru
   async parseEda(): Promise<void> {
     await this.repository.createQueryBuilder().delete().execute();
     let i = 1;
-    let j = 1;
+    const categoriesCollection: string[] = [];
     // цикл по страницам с рецептами
     // eslint-disable-next-line no-constant-condition
     while (true) {
@@ -49,9 +52,13 @@ export default class DataService {
       for (const product of productsFromPage) {
         const productCard = await getProductCard(product.url); // получает объект с рецептом
         if (productCard) {
+          for (const el of productCard.ctgrs) {
+            if (!categoriesCollection.includes(el)) {
+              categoriesCollection.push(el);
+            }
+          }
           // отправляет полученный рецепт в базу
           const insertObj = {
-            id: j,
             title: product.title,
             url: product.url,
             cook_time: product.time,
@@ -61,10 +68,15 @@ export default class DataService {
             images: productCard.imgs,
             categories: productCard.ctgrs,
           };
-          j++;
           await this.repository.insert(insertObj);
         }
       }
+    }
+
+    for (const el of categoriesCollection) {
+      await this.categories.insert({
+        category: el,
+      });
     }
 
     // удаляет временный файл
@@ -73,20 +85,26 @@ export default class DataService {
     });
     console.log("Parsing completed");
   }
-  async getData(amount: number, offset: number, search?: string | undefined): Promise<Recipes[] | null> {
+  async getData(
+    amount: number,
+    offset: number,
+    search?: string | undefined,
+    category?: string | undefined,
+  ): Promise<Recipes[] | null> {
     try {
-      let data;
+      const data = this.repository.createQueryBuilder("recipes");
       if (search) {
-        data = await this.repository
-          .createQueryBuilder("recipes")
-          .where("recipes.title LIKE :search", {search: `%${search}%`})
-          .skip(offset)
-          .take(amount)
-          .getMany();
-      } else {
-        data = await this.repository.createQueryBuilder("recipes").skip(offset).take(amount).getMany();
+        data.where("recipes.title LIKE :search", {search: `%${search}%`});
       }
-      return data;
+      if (category) {
+        if (search) {
+          data.andWhere("recipes.categories LIKE :category", {category: `%${category}%`});
+        } else {
+          data.where("recipes.categories LIKE :category", {category: `%${category}%`});
+        }
+      }
+      const result = await data.skip(offset).take(amount).getMany();
+      return result;
     } catch (e) {
       console.log(e);
       return null;
@@ -96,6 +114,19 @@ export default class DataService {
     try {
       const amount = await this.repository.count();
       return amount;
+    } catch (e) {
+      console.log(e);
+      return null;
+    }
+  }
+  async getCategories(): Promise<string[] | null> {
+    try {
+      const data = await this.categories.createQueryBuilder("categories").select("categories.category").getMany();
+      const collection: string[] = [];
+      for (const el of data) {
+        collection.push(el.category);
+      }
+      return collection;
     } catch (e) {
       console.log(e);
       return null;

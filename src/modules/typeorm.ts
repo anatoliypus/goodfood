@@ -2,6 +2,7 @@ import getenv from "getenv";
 import {Connection, createConnection} from "typeorm";
 import {User} from "../models/User";
 import {Recipes} from "../models/Recipes";
+import {Categories} from "../models/Categories";
 
 export default async function initializeDBConnection(): Promise<Connection> {
   const connection = await createConnection({
@@ -9,7 +10,7 @@ export default async function initializeDBConnection(): Promise<Connection> {
     url: getenv.string("DB_CON_STRING"),
     logging: getenv.string("NODE_ENV", "development") === "production" ? ["error"] : true,
     synchronize: getenv.string("NODE_ENV", "development") !== "production",
-    entities: [User, Recipes],
+    entities: [User, Recipes, Categories],
     charset: "UTF8_GENERAL_CI",
   });
 
