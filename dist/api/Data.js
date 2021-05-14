@@ -38,7 +38,7 @@ async function getDataAPI(fastify) {
     fastify.get("/getCategories", async (request, reply) => {
         const data = await dataService.getCategories();
         if (data) {
-            await reply.status(200).send(data);
+            await reply.status(200).header("Access-Control-Allow-Origin", "*").send(data);
             return;
         }
         await reply.status(500).send();

@@ -16,14 +16,7 @@ export default async function getDataAPI(fastify: FastifyInstance): Promise<void
       const {key, amount, offset, categories, ingredients} = request.query;
       const data = await dataService.getData(amount, offset, key, categories, ingredients);
       if (data) {
-        await reply
-          .status(200)
-          .headers({
-            "Content-Type": "application/json",
-            "Access-Control-Allow-Origin": "*",
-            "Access-Control-Allow-Headers": "Content-Type",
-          })
-          .send(data);
+        await reply.status(200).header("Access-Control-Allow-Origin", "*").send(data);
         return;
       }
       await reply.status(500).send();

@@ -2327,7 +2327,7 @@
         "affectsGlobalScope": false
       },
       "./src/api/data.ts": {
-        "version": "444e1c20f06218ae6e4e364bd84c212b8e628782eba7526fcd4db8b8d52dda72",
+        "version": "772c4914847b028eeccdee3557e5b4491ecd4c3c99e449c5e555a1bb36e66eab",
         "signature": "ed90e133e9c5c443258331a04e5fcdf3b67c94312d5c633695dbce22e2fb8539",
         "affectsGlobalScope": false
       },
@@ -2336,8 +2336,13 @@
         "signature": "0b2f5da998ca10bb5c5e8a82d821d727e37aeb4fb4db46fd32c74bd5789a4e9c",
         "affectsGlobalScope": false
       },
+      "./src/models/ingredients.ts": {
+        "version": "cdac897bd5c4dfbc520ba45d42958e8d68cc2fd17fb51552dde445b8f2b4f32c",
+        "signature": "3990c661148b2cc24887ed3cae06645dd7e915d9b4a2306a39972af75263f1bf",
+        "affectsGlobalScope": false
+      },
       "./src/modules/typeorm.ts": {
-        "version": "af9156ecc12505a0e5033a73bf9c4b42a45b20336978819c9286f2f15e243847",
+        "version": "1faf30ebcf1de5994b0338bf84e6550601c50e4c0ebfb3c13760d59e1850d6b7",
         "signature": "7e4c685cd7e0b30d18e38cea66709dea9e119f68dc8e39b7176249fdbe671531",
         "affectsGlobalScope": false
       },
@@ -4362,6 +4367,9 @@
       "./src/models/categories.ts": [
         "./node_modules/typeorm/index.d.ts"
       ],
+      "./src/models/ingredients.ts": [
+        "./node_modules/typeorm/index.d.ts"
+      ],
       "./src/models/recipes.ts": [
         "./node_modules/typeorm/index.d.ts"
       ],
@@ -4381,6 +4389,7 @@
         "./node_modules/@types/getenv/index.d.ts",
         "./node_modules/typeorm/index.d.ts",
         "./src/models/categories.ts",
+        "./src/models/ingredients.ts",
         "./src/models/recipes.ts",
         "./src/models/user.ts"
       ],
@@ -6763,6 +6772,7 @@
       "./src/api/user.ts",
       "./src/index.ts",
       "./src/models/categories.ts",
+      "./src/models/ingredients.ts",
       "./src/models/recipes.ts",
       "./src/models/user.ts",
       "./src/modules/fastify.ts",
