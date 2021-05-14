@@ -98,6 +98,9 @@ export default class DataService {
         data.where("recipes.title LIKE :search", {search: `%${search}%`});
       }
       if (categories && categories.length) {
+        categories = categories.filter((el) => {
+          return el != "#";
+        });
         const sql = "JSON_CONTAINS(recipes.categories, :categories)";
         const params = {categories: JSON.stringify(categories)};
         if (search) {
