@@ -27,8 +27,8 @@ class UserService {
                 password: await bcrypt_1.default.hash(createProps.password, salt),
                 firstName: createProps.firstName,
                 lastName: createProps.lastName,
-                tags: [],
-                types: [],
+                excluded_ingredients: [],
+                wishlist: [],
             });
             return true;
         }

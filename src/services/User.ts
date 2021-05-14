@@ -28,8 +28,8 @@ export default class UserService {
         password: await bcrypt.hash(createProps.password, salt),
         firstName: createProps.firstName,
         lastName: createProps.lastName,
-        tags: [],
-        types: [],
+        excluded_ingredients: [],
+        wishlist: [],
       });
 
       return true;

@@ -51,15 +51,53 @@
                 0
             ]
         },
-        "category": {
-            "$id": "#/properties/category",
-            "type": "string",
-            "title": "The category schema",
+        "categories": {
+            "$id": "#/properties/categories",
+            "type": "array",
+            "title": "The categories Schema",
             "description": "An explanation about the purpose of this instance.",
-            "default": "",
+            "default": [],
             "examples": [
-                "супы"
-            ]
+                [
+                    "home",
+                    "green"
+                ]
+            ],
+            "items": {
+                "$id": "#/properties/tags/items",
+                "type": "string",
+                "title": "The Items Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                    "home",
+                    "green"
+                ]
+            }
+        },
+        "ingredients": {
+            "$id": "#/properties/ingredients",
+            "type": "array",
+            "title": "The ingredients Schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": [],
+            "examples": [
+                [
+                    "home",
+                    "green"
+                ]
+            ],
+            "items": {
+                "$id": "#/properties/tags/items",
+                "type": "string",
+                "title": "The Items Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                    "home",
+                    "green"
+                ]
+            }
         }
     },
     "additionalProperties": false

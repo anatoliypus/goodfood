@@ -64,14 +64,14 @@ __decorate([
         charset: stringCharset,
     }),
     __metadata("design:type", Array)
-], User.prototype, "tags", void 0);
+], User.prototype, "excluded_ingredients", void 0);
 __decorate([
     typeorm_1.Column({
         type: "simple-array",
         charset: stringCharset,
     }),
     __metadata("design:type", Array)
-], User.prototype, "types", void 0);
+], User.prototype, "wishlist", void 0);
 User = __decorate([
     typeorm_1.Entity({ engine: "InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci" })
 ], User);

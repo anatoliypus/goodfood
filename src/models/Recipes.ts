@@ -44,13 +44,13 @@ export class Recipes {
   ingredients: string[];
 
   @Column({
-    type: "simple-array",
+    type: "simple-json",
     charset: stringCharset,
   })
   images: string[];
 
   @Column({
-    type: "simple-array",
+    type: "simple-json",
     charset: stringCharset,
   })
   categories: string[];

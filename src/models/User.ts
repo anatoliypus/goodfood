@@ -44,11 +44,11 @@ export class User {
     type: "simple-array",
     charset: stringCharset,
   })
-  tags: string[];
+  excluded_ingredients: string[];
 
   @Column({
     type: "simple-array",
     charset: stringCharset,
   })
-  types: string[];
+  wishlist: number[];
 }

@@ -12,8 +12,8 @@ async function getDataAPI(fastify) {
         await dataService.parseEda();
     });
     fastify.get("/get", { schema: { querystring: getDataQuery_json_1.default } }, async (request, reply) => {
-        const { key, amount, offset, category } = request.query;
-        const data = await dataService.getData(amount, offset, key, category);
+        const { key, amount, offset, categories, ingredients } = request.query;
+        const data = await dataService.getData(amount, offset, key, categories, ingredients);
         if (data) {
             await reply
                 .status(200)

@@ -62,14 +62,14 @@ __decorate([
 ], Recipes.prototype, "ingredients", void 0);
 __decorate([
     typeorm_1.Column({
-        type: "simple-array",
+        type: "simple-json",
         charset: stringCharset,
     }),
     __metadata("design:type", Array)
 ], Recipes.prototype, "images", void 0);
 __decorate([
     typeorm_1.Column({
-        type: "simple-array",
+        type: "simple-json",
         charset: stringCharset,
     }),
     __metadata("design:type", Array)

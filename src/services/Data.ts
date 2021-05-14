@@ -24,7 +24,7 @@ const parseProductsFileName = path.resolve(process.cwd(), "parsers", "parseEdaPr
 const parseProductCardFileName = path.resolve(process.cwd(), "parsers", "parseEdaProductCard.py");
 const tempFile = path.resolve(__dirname, "temp.txt");
 const url = "https://eda.ru/recepty";
-const pageLimit = 30;
+const pageLimit = 2;
 
 export default class DataService {
   private readonly repository: Repository<Recipes>;
@@ -89,18 +89,30 @@ export default class DataService {
     amount: number,
     offset: number,
     search?: string | undefined,
-    category?: string | undefined,
+    categories?: string[] | undefined,
+    ingredients?: string[] | undefined,
   ): Promise<Recipes[] | null> {
     try {
       const data = this.repository.createQueryBuilder("recipes");
       if (search) {
         data.where("recipes.title LIKE :search", {search: `%${search}%`});
       }
-      if (category) {
+      if (categories && categories.length) {
+        const sql = "JSON_CONTAINS(recipes.categories, :categories)";
+        const params = {categories: JSON.stringify(categories)};
         if (search) {
-          data.andWhere("recipes.categories LIKE :category", {category: `%${category}%`});
+          data.andWhere(sql, params);
         } else {
-          data.where("recipes.categories LIKE :category", {category: `%${category}%`});
+          data.where(sql, params);
+        }
+      }
+      if (ingredients && ingredients.length) {
+        if (!search && !categories) {
+          data.where(`recipes.ingredients LIKE '%${ingredients[0]}%'`);
+          ingredients.splice(0, 1);
+        }
+        for (const el of ingredients) {
+          data.andWhere(`recipes.ingredients LIKE '%${el}%'`);
         }
       }
       const result = await data.skip(offset).take(amount).getMany();
