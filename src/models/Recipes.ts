@@ -38,7 +38,7 @@ export class Recipes {
   steps: string[];
 
   @Column({
-    type: "simple-array",
+    type: "simple-json",
     charset: stringCharset,
   })
   ingredients: string[];

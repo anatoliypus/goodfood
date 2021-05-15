@@ -2222,7 +2222,7 @@
         "affectsGlobalScope": false
       },
       "./src/models/recipes.ts": {
-        "version": "dff1aec8373bf3d0f47dd25c12b19b67f9f859c38279d104d6775c88b2ce85dd",
+        "version": "ece8a1a828266439f6adad9ef094437ee01066abe9247696fcfb80aa0ebcf528",
         "signature": "cbba86251c6f24e448af475906d2ffd1163229587b2edf7598fc05ecb7262b78",
         "affectsGlobalScope": false
       },
@@ -2312,7 +2312,7 @@
         "affectsGlobalScope": false
       },
       "./src/services/data.ts": {
-        "version": "2243ccd949249474d1c20fa54860d031db556f21efae10490151bcf736d544fc",
+        "version": "75824d413844835c8350a1845b8d9273ab3000538bc617260a473bc6fc332f33",
         "signature": "e012332e4d97c09de870393cb0e93fb873ad00837d5c74cc86ffd6ff32cb1c8a",
         "affectsGlobalScope": false
       },
@@ -2327,7 +2327,7 @@
         "affectsGlobalScope": false
       },
       "./src/api/data.ts": {
-        "version": "772c4914847b028eeccdee3557e5b4491ecd4c3c99e449c5e555a1bb36e66eab",
+        "version": "a0fdece284240e2f8105821838015de7c76044834ffc2fdf6a19981bc11b24f8",
         "signature": "ed90e133e9c5c443258331a04e5fcdf3b67c94312d5c633695dbce22e2fb8539",
         "affectsGlobalScope": false
       },

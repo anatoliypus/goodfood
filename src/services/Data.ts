@@ -24,7 +24,7 @@ const parseProductsFileName = path.resolve(process.cwd(), "parsers", "parseEdaPr
 const parseProductCardFileName = path.resolve(process.cwd(), "parsers", "parseEdaProductCard.py");
 const tempFile = path.resolve(__dirname, "temp.txt");
 const url = "https://eda.ru/recepty";
-const pageLimit = 2;
+const pageLimit = 25;
 
 export default class DataService {
   private readonly repository: Repository<Recipes>;

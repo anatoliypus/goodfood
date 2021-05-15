@@ -14,7 +14,7 @@ const parseProductsFileName = path_1.default.resolve(process.cwd(), "parsers", "
 const parseProductCardFileName = path_1.default.resolve(process.cwd(), "parsers", "parseEdaProductCard.py");
 const tempFile = path_1.default.resolve(__dirname, "temp.txt");
 const url = "https://eda.ru/recepty";
-const pageLimit = 2;
+const pageLimit = 25;
 class DataService {
     constructor() {
         this.repository = typeorm_1.getRepository(Recipes_1.Recipes);
@@ -78,6 +78,9 @@ class DataService {
                 data.where("recipes.title LIKE :search", { search: `%${search}%` });
             }
             if (categories && categories.length) {
+                categories = categories.filter((el) => {
+                    return el != "#";
+                });
                 const sql = "JSON_CONTAINS(recipes.categories, :categories)";
                 const params = { categories: JSON.stringify(categories) };
                 if (search) {

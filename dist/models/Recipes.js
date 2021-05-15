@@ -55,7 +55,7 @@ __decorate([
 ], Recipes.prototype, "steps", void 0);
 __decorate([
     typeorm_1.Column({
-        type: "simple-array",
+        type: "simple-json",
         charset: stringCharset,
     }),
     __metadata("design:type", Array)
